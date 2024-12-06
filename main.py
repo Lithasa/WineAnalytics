@@ -2,6 +2,7 @@ import pandas as pd
 import dash
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
+import plotly.graph_objects as go
 
 app = Dash(__name__)
 
@@ -31,9 +32,19 @@ def plotCharts(selected_column):
         y='Price',
         title='Variation of price respective to manufactured Year',
         nbins=80,
-        color_discrete_sequence=['#a86b20'],
+        color_discrete_sequence=['#11ad74'],
         labels={'Year': 'Manufactured Year', 'Price': 'Wine Price'},
+        
     )
+
+    fig1.add_trace(go.Scatter(
+        x=avg_price_by_year['Year'], 
+        y=avg_price_by_year['Price'], 
+        mode='lines', 
+        name='Price Trend', 
+        line=dict(color='#11ad4d', width=2)
+        
+    ))
 
     fig2 = px.histogram(
         avg_price_by_rating,
