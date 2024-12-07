@@ -38,4 +38,16 @@ df_list = [pd.read_csv(
 # 1.3 Concatenate all files into a one 'wine_df' DataFrame
 wine_df = pd.concat(df_list, ignore_index=True)
 
+# 2.1 Remove duplicate records - consider all columns
+wine_df = wine_df.drop_duplicates()
+
+# 2.2 remove records with null names
+wine_df = wine_df[wine_df['Name'].notnull()]
+
+# 4.1 Add a country column
+wine_df['Country'] = wine_df['Region'].str.split('/').str[0]
+
+# 4.2 Add a country_region column
+wine_df['Country_region'] = wine_df['Region'].str.split('/').str[1]
+
 print(wine_df)
