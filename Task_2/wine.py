@@ -74,9 +74,11 @@ wine_df = remove_extreme_outliers_iqr(wine_df, 'Acidic')
 
 # 4.1 Add a country column
 wine_df['Country'] = wine_df['Region'].str.split('/').str[0]
+wine_df['Country'] = wine_df['Country'].str.strip()
 
 # 4.2 Add a country_region column
 wine_df['Country_region'] = wine_df['Region'].str.split('/').str[1]
+wine_df['Country_region'] = wine_df['Country_region'].str.strip()
 
 # 4.3 Separate food pairings to separate columns
 wine_df['Food pairings'] = wine_df['Food pairings'].apply(ast.literal_eval)
