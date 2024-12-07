@@ -1,6 +1,25 @@
 import pandas as pd
 
-# 1.1 Get CVS file paths.
+#3. methods to filter out outliers using the IQR method
+def remove_mild_outliers_iqr(df, column) :
+  Q1 = df[column].quantile(0.25)
+  Q3 = df[column].quantile(0.75)
+  IQR = Q3 - Q1
+  lower_bound = Q1 - 1.5 * IQR
+  upper_bound = Q3 + 1.5 * IQR
+  outlier_removed_df = df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
+  return outlier_removed_df
+
+def remove_extreme_outliers_iqr(df, column) :
+  Q1 = df[column].quantile(0.25)
+  Q3 = df[column].quantile(0.75)
+  IQR = Q3 - Q1
+  lower_bound = Q1 - 3 * IQR
+  upper_bound = Q3 + 3 * IQR
+  outlier_removed_df = df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
+  return outlier_removed_df
+
+# 1.1 Get CSV file paths.
 file_paths = [
   'Wine_Stats/Australia_Wine_Stats.csv',
   'Wine_Stats/Chile_Wine_Stats.csv', 
@@ -43,6 +62,14 @@ wine_df = wine_df.drop_duplicates()
 
 # 2.2 remove records with null names
 wine_df = wine_df[wine_df['Name'].notnull()]
+
+# 3.1 Remove outliers
+# 3.1.2 Remove outliers from Bold column
+wine_df = remove_extreme_outliers_iqr(wine_df, 'Bold')
+# 3.1.3 Remove outliers from Sweet column
+wine_df = remove_extreme_outliers_iqr(wine_df, 'Sweet')
+# 3.1.3 Remove outliers from Acidic column
+wine_df = remove_extreme_outliers_iqr(wine_df, 'Acidic')
 
 # 4.1 Add a country column
 wine_df['Country'] = wine_df['Region'].str.split('/').str[0]
