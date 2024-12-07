@@ -6,6 +6,9 @@ import plotly.graph_objects as go
 
 app = Dash(__name__)
 
+
+
+
 df = pd.read_csv("updated_wine.csv")
 
 unique_years = df["Year"].unique()
