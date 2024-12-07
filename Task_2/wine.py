@@ -1,3 +1,4 @@
+import ast
 import pandas as pd
 
 #3. methods to filter out outliers using the IQR method
@@ -76,5 +77,24 @@ wine_df['Country'] = wine_df['Region'].str.split('/').str[0]
 
 # 4.2 Add a country_region column
 wine_df['Country_region'] = wine_df['Region'].str.split('/').str[1]
+
+# 4.3 Separate food pairings to separate columns
+wine_df['Food pairings'] = wine_df['Food pairings'].apply(ast.literal_eval)
+
+# get all food pairings into a set 
+food_pairings = set()
+for items in wine_df['Food pairings'] : 
+  food_pairings.update(items)
+
+# create columns for each food pairing items and set them FALSE defaultly
+for food_pairing_item in food_pairings :
+  wine_df[food_pairing_item] = False
+
+# iterte over each row and set available food pairing items TRUE in relavant columns
+for index, row in wine_df.iterrows():
+  food_list = row['Food pairings']
+  for food in food_list:
+    wine_df.at[index, food] = True
+
 
 print(wine_df)
