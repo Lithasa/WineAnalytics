@@ -96,5 +96,7 @@ for index, row in wine_df.iterrows():
   for food in food_list:
     wine_df.at[index, food] = True
 
-
+# 5. Remove the 'food pairing' column cuz we added separate columns for all possible food pairing items
+wine_df.drop(columns=['Food pairings', 'Region', 'Grapes'], inplace=True)
 print(wine_df)
+wine_df.to_csv('wine.csv', index=False)
