@@ -1,6 +1,26 @@
+import ast
 import pandas as pd
 
-# 1.1 Get CVS file paths.
+#3. methods to filter out outliers using the IQR method
+def remove_mild_outliers_iqr(df, column) :
+  Q1 = df[column].quantile(0.25)
+  Q3 = df[column].quantile(0.75)
+  IQR = Q3 - Q1
+  lower_bound = Q1 - 1.5 * IQR
+  upper_bound = Q3 + 1.5 * IQR
+  outlier_removed_df = df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
+  return outlier_removed_df
+
+def remove_extreme_outliers_iqr(df, column) :
+  Q1 = df[column].quantile(0.25)
+  Q3 = df[column].quantile(0.75)
+  IQR = Q3 - Q1
+  lower_bound = Q1 - 3 * IQR
+  upper_bound = Q3 + 3 * IQR
+  outlier_removed_df = df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
+  return outlier_removed_df
+
+# 1.1 Get CSV file paths.
 file_paths = [
   'Wine_Stats/Australia_Wine_Stats.csv',
   'Wine_Stats/Chile_Wine_Stats.csv', 
@@ -44,10 +64,39 @@ wine_df = wine_df.drop_duplicates()
 # 2.2 remove records with null names
 wine_df = wine_df[wine_df['Name'].notnull()]
 
+# 3.1 Remove outliers
+# 3.1.2 Remove outliers from Bold column
+wine_df = remove_extreme_outliers_iqr(wine_df, 'Bold')
+# 3.1.3 Remove outliers from Sweet column
+wine_df = remove_extreme_outliers_iqr(wine_df, 'Sweet')
+# 3.1.3 Remove outliers from Acidic column
+wine_df = remove_extreme_outliers_iqr(wine_df, 'Acidic')
+
 # 4.1 Add a country column
 wine_df['Country'] = wine_df['Region'].str.split('/').str[0]
 
 # 4.2 Add a country_region column
 wine_df['Country_region'] = wine_df['Region'].str.split('/').str[1]
 
+# 4.3 Separate food pairings to separate columns
+wine_df['Food pairings'] = wine_df['Food pairings'].apply(ast.literal_eval)
+
+# get all food pairings into a set 
+food_pairings = set()
+for items in wine_df['Food pairings'] : 
+  food_pairings.update(items)
+
+# create columns for each food pairing items and set them FALSE defaultly
+for food_pairing_item in food_pairings :
+  wine_df[food_pairing_item] = False
+
+# iterte over each row and set available food pairing items TRUE in relavant columns
+for index, row in wine_df.iterrows():
+  food_list = row['Food pairings']
+  for food in food_list:
+    wine_df.at[index, food] = True
+
+# 5. Remove the 'food pairing' column cuz we added separate columns for all possible food pairing items
+wine_df.drop(columns=['Food pairings', 'Region', 'Grapes'], inplace=True)
 print(wine_df)
+wine_df.to_csv('wine.csv', index=False)
