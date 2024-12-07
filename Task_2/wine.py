@@ -84,21 +84,21 @@ wine_df['Country_region'] = wine_df['Country_region'].str.strip()
 wine_df['Food pairings'] = wine_df['Food pairings'].apply(ast.literal_eval)
 
 # get all food pairings into a set 
-food_pairings = set()
-for items in wine_df['Food pairings'] : 
-  food_pairings.update(items)
+all_food_pairings = set()
+for food_pairing in wine_df['Food pairings'] : 
+  all_food_pairings.update(food_pairing)
 
 # create columns for each food pairing items and set them FALSE defaultly
-for food_pairing_item in food_pairings :
-  wine_df[food_pairing_item] = False
+for food_pairing in all_food_pairings :
+  wine_df[food_pairing] = False
 
 # iterte over each row and set available food pairing items TRUE in relavant columns
 for index, row in wine_df.iterrows():
-  food_list = row['Food pairings']
-  for food in food_list:
+  matching_foods = row['Food pairings']
+  for food in matching_foods:
     wine_df.at[index, food] = True
 
-# 5. Remove the 'food pairing' column cuz we added separate columns for all possible food pairing items
+# 5. Remove the 'food pairings, Region and Grapes' columns
 wine_df.drop(columns=['Food pairings', 'Region', 'Grapes'], inplace=True)
 print(wine_df)
 wine_df.to_csv('wine.csv', index=False)
