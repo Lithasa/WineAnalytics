@@ -61,5 +61,11 @@ def clean_reviews(text) :
   tokens = lemmatize_text(tokens)
   return tokens
 
+# apply the cleaning method
 df['cleaned_reviews'] = df['review'].apply(clean_reviews)
-print(df.head())
+
+# remove review column
+df = df.drop('review', axis=1)
+
+# save the cleaned reviews to a CSV file
+df.to_csv('cleaned_reviews.csv', index=False)
