@@ -1,0 +1,501 @@
+cleaned_reviews,talks_about
+"['easily', 'best', 'sauvignon', 'blanc', 'ive', 'date', 'beautiful', 'array', 'flavor', 'nose', 'lemon', 'apple', 'honey', 'peach', 'citrus', 'great', 'balance', 'acidity', 'slight', 'buttery', 'flavor', 'mid', 'palate', 'smooth', 'medium', 'finish', 'definitely', 'worth']",talks about taste
+"['excellent', 'mockingbird', 'inn']",talks about taste
+"['absolutely', 'incredible', 'one', 'best', 'sauvignon', 'blanc', 'ive', 'ever', 'pleasure', 'taste']",talks about taste
+"['reported', 'nytimes', 'try']",other
+"['great', 'much', 'different', 'sauv', 'blanc', 'since', 'aged', 'oak', 'day', 'open', 'fridge', 'way', 'better']",other
+"['nice', 'balanced', 'svb', 'enough', 'apple', 'citrus', 'light', 'grass', 'enough', 'flavor', 'enjoy']",talks about taste
+"['oak', 'stone', 'first', 'followed', 'little', 'peach', 'finish', 'apricot', 'green', 'apple', 'good', 'bottle', 'price']",talks about taste
+"['stunning', 'delicious', 'sophisticated', 'incomparable', 'sb', 'welcome', 'addition', 'wonderful', 'world', 'sb']",other
+"['fantastic', 'expression', 'napa', 'sav', 'blanc', 'incredible', 'peach', 'undertone', 'went', 'well', 'grilled', 'peach', 'avo', 'salad']",talks about taste
+"['think', 'first', 'cali', 'sauvignon', 'blanc', 'fruity', 'honeysuckle', 'maybe', 'little', 'oily', 'slightly', 'sweet']",talks about taste
+"['one', 'best', 'sauv', 'blanc', 'made', 'accolade', 'smooth', 'crisp', 'front', 'memorable', 'finish']",talks about taste
+"['another', 'bottle', 'another', 'great', 'dinner', 'soft', 'shell', 'crab', 'drink', 'wine', 'great', 'balance', 'fruit', 'verve']",other
+"['clean', 'pear', 'front', 'beautiful', 'subtle', 'butter', 'spicy', 'finish', 'one', 'better', 'sav', 'blanc']",talks about taste
+"['smooth', 'slightly', 'sweet', 'pear', 'apple', 'mango', 'note', 'medium', 'bodied', 'well', 'balanced', 'pair', 'well', 'cheese']",talks about taste
+"['honey', 'pear', 'grilled', 'pineapple', 'nose', 'earthy', 'palate', 'pear', 'mild', 'grapefruit', 'green', 'apple']",talks about food combinations
+"['one', 'better', 'sauvignon', 'blanc', 'ive', 'tasted', 'pear', 'apple', 'palate', 'good', 'mix', 'minerality', 'butter']",talks about taste
+"['dry', 'high', 'acidity', 'high', 'alcohol', 'medium', 'bodied', 'grass', 'vanilla', 'liquorice', 'palate', 'good', 'quality']",talks about taste
+"['crisp', 'tart', 'flavor', 'upfront', 'nice', 'sweet', 'pear', 'finish', 'aroma', 'wild', 'flower', 'honey', 'suckle', 'exceptional', 'wine']",talks about taste
+"['dry', 'fruit', 'forward', 'bad', 'linger', 'palate', 'bought', 'bottle', 'tasting', 'enjoy', 'much']",talks about taste
+"['love', 'wine', 'medium', 'full', 'bodied', 'low', 'sweetness', 'medium', 'high', 'acidity', 'melon', 'citrus', 'mmmm']",talks about taste
+"['still', 'favorite', 'deep', 'color', 'pleasant', 'tone', 'pear', 'good', 'enough', 'match', 'spicy', 'pork', 'dish', 'melon']",talks about taste
+"['mainly', 'honeydew', 'melon', 'pear', 'overtone', 'enjoyable', 'substantial', 'popular', 'sauv', 'blanc']",talks about food combinations
+"['grapefruit', 'lime', 'mineral', 'note', 'lite', 'residual', 'sugar', 'mild', 'smooth', 'med', 'plus', 'acid', 'med', 'complexity', 'easy', 'drinking', 'good', 'food', 'wine']",talks about taste
+"['gorgeous', 'strong', 'gooseberry', 'nose', 'oh', 'ripeness', 'fruit', 'show', 'peach', 'tropical', 'fruit', 'excellent']",talks about taste
+"['pear', 'melon', 'clean', 'drink', 'almost', 'like', 'german', 'white', 'remember', 'maybe', 'pepper', 'finish', 'id', 'drink']",talks about taste
+"['simply', 'lovely', 'wine', 'thank', 'kelly', 'kyle', 'thoughtfully', 'providing', 'well', 'worth', 'trying']",talks about taste
+"['super', 'sweet', 'kiwi', 'pineapple', 'white', 'peach', 'super', 'easy', 'drinking', 'delish', 'refreshing', 'lovely']",talks about taste
+"['candied', 'apricot', 'give', 'way', 'peach', 'finish', 'absolutely', 'delightfully', 'delicious', 'bacon', 'wrapped', 'sea', 'scallop']",talks about food combinations
+"['amazing', 'fruit', 'note', 'apple', 'nose', 'french', 'oak', 'give', 'little', 'twist', 'texture', 'merry', 'never', 'disappoints']",talks about taste
+"['great', 'sauv', 'blanc', 'price', 'smooth', 'well', 'balanced', 'banana', 'apple', 'hint', 'seems', 'lower', 'acidity']",talks about taste
+"['crisp', 'hint', 'minerality', 'cream', 'flavor', 'citrus', 'peach', 'flower', 'nose', 'nice', 'wine']",talks about taste
+"['wow', 'awesome', 'wine', 'passion', 'fruit', 'vanilla', 'incredibly', 'soft', 'tongue', 'paid', '33', 'well', 'worth']",talks about taste
+"['fruity', 'creamy', 'smooth', 'hint', 'pear', 'sweet', 'apple', 'paired', 'really', 'well', 'japanese', 'food', 'enjoyed', 'much']",talks about food combinations
+"['floral', 'nose', 'sweet', 'peach', 'soft', 'mouth', 'bought', 'vineyard', 'educational', 'tasting']",talks about taste
+"['delicious', 'kind', 'syrupy', 'sweet', 'strong', 'grape', 'flavor', 'unlike', 'new', 'zealand', 'sauvignon', 'blanca']",talks about taste
+"['golden', 'color', 'floral', 'green', 'apple', 'aroma', 'fruity', 'little', 'creamy', 'taste', 'honey', 'hint', 'caramel', 'nice']",talks about taste
+"['delicious', 'complex', 'nice', 'crisp', 'apple', 'long', 'finish', 'obama', 'case', 'maybe', 'inauguration']",talks about taste
+"['love', 'pineapple', 'pear', 'set', 'smooth', 'butter', 'fantastic', 'expression', 'sauvignon', 'blanc', 'welcome', 'departure', 'acid', 'bomb']",talks about taste
+"['great', 'sauvignon', 'blanc', 'one', 'best', 'ive', 'tasted', 'green', 'apple', 'honey', 'flavor', 'palate']",talks about taste
+"['frutier', 'side', 'sb', 'great', 'taste', 'melon', 'fill', 'mouth', 'awesome', 'bottle', 'design', 'well']",talks about taste
+"['pale', 'pale', 'straw', 'pear', 'sweetness', 'nose', 'continues', 'palate', 'almost', 'taste', 'like', 'late', 'harvest']",talks about taste
+"['saw', 'creamy', 'pear', 'comment', 'feel', 'like', 'spot', 'description', 'good', 'first', 'impression', '40']",talks about taste
+"['wine', 'balanced', 'smooth', 'beautiful', 'round', 'melon', 'mineral', 'pear', 'delicious', 'perfect', 'sauvignon', 'blanc']",talks about taste
+"['definitely', 'tropical', 'fruit', 'forward', 'flavorful', 'sb', 'full', 'body', 'concentration', 'stand', 'rich', 'shrimp', 'lobster']",talks about taste
+"['pleasant', 'scent', 'light', 'pear', 'nose', 'pear', 'hint', 'earth', 'finish', 'green', 'apple', 'tongue', 'light', 'mildly', 'bright']",talks about taste
+"['strange', 'sauv', 'blanc', 'creamy', 'rich', 'peppery', 'finish', 'hint', 'sweetness', 'would', 'sworn', 'viognier']",other
+"['good', 'sauvignon', 'blanc', 'american', 'style', 'fuller', 'fruitier', 'european', 'balance', 'good', 'though']",talks about taste
+"['dream', 'almost', 'creamy', 'finish', 'depth', 'one', 'would', 'expect', 'sauv', 'could', 'drink', 'day']",talks about taste
+"['hot', 'vintage', 'light', 'colour', 'golden', 'green', 'fleck', 'nose', 'white', 'pineapple', 'stick', 'nose', 'viscous', 'lemon', 'oil', 'way', 'savoury', 'mixed', 'green', 'herb', 'grilled', 'peach', 'palate', 'equally', 'complex', 'attack', 'melon', 'creamy', 'kiwi', 'finish', 'salty', 'mineral', 'focused', 'slight', 'sweet', 'lift', 'mouth', 'feel', 'particularly', 'nose', 'grow', 'breadth', 'weight', 'open', 'truly', 'sublime', 'pairing', 'grilled', 'asparagus', 'sauce', 'gribiche', 'ham', 'parmesan', 'lemon', 'oil']",talks about taste
+"['house', 'nicely', 'balanced', 'feel', 'like', 'oak', 'perhaps', 'lee', 'honeydew', 'melon', 'honey', 'rosemary', 'papaya', 'complex', 'fruit', 'forward', 'lower', 'acid', 'probably', 'would', 'guessed', 'sauvignon', 'blanc', 'bubblegum', 'refreshing', 'thirstquenching']",talks about taste
+"['scott', 'white', 'recommendation', 'scott', 'steered', 'great', 'wine', 'whispering', 'angel', 'ro', 'honig', 'sb', 'cringed', 'bit', 'price', 'said', 'im', 'worth', 'glad', 'lot', 'tropical', 'citrus', 'flavor', 'touch', 'oak', 'peach', 'finish', '90', 'point', 'wine', 'enthusiast']",talks about taste
+"['bottle', 'seven', 'year', 'old', 'saved', 'wanted', 'see', 'might', 'age', 'still', 'gorgeous', 'one', 'favorite', 'white', 'softer', 'rounder', 'fuller', 'ripe', 'asian', 'pear', 'peach', 'honey', 'bit', 'butter', 'caramel', 'oak', 'well', 'citrus', 'still', 'tangerine', 'grapefruit', 'background']",talks about taste
+"['love', 'spicy', 'note', 'sitting', 'top', 'gooseberry', 'awesome', 'sauvignon', 'blanc', 'californian', 'expect', 'nothing', 'less', 'merry', 'course']",talks about taste
+"['fantastic', 'sonoma', 'sauvignon', 'blanc', 'complex', 'profile', 'flavor', 'white', 'peach', 'tangerine', 'lemon', 'grass', 'guava', 'pineapple', 'coconut', 'vanilla', 'hint', 'minerality', 'oak', 'barrel', 'fermentation', 'give', 'softer', 'acidity', 'add', 'character', 'creamy', 'texture']",talks about taste
+"['found', 'back', 'cellar', 'thought', 'maybe', '4', 'year', 'past', 'prime', 'surprised', 'still', 'lot', 'life', 'left', 'sweet', 'palate', 'note', 'pink', 'grapefruit', 'mon', 'zest', 'mouthfeel', 'creamy', 'bright', 'mellowed', 'acidity']",talks about taste
+"['stop', 'one', 'better', 'lail', 'cuvasion', 'california', 'sav', 'blanc', 'measure', 'near', 'perfect', 'wine', 'pale', 'straw', 'color', 'note', 'tropical', 'fruit', 'lemon', 'zest', 'light', 'bodied', 'crisp', 'fruit', 'expression', 'acidity', 'come', 'wave', 'harmonious', 'blend', 'fruit', 'making', 'finish', 'clean', 'dry', 'palate', 'white', 'peach', 'honey', 'crisp', 'apple', 'hint', 'lime', 'tart', 'kiwi', '95pts']",talks about taste
+"['impress', 'premium', 'sauvignon', 'blanc', 'isnt', 'overly', 'fruity', 'way', 'like', 'lot', 'others', 'mellow', 'cornucopia', 'fruit', 'melon', 'strawberry', 'honey', 'dew', 'blueberry', 'name', 'got', 'little', 'crispy', 'little', 'soft', 'oaky', 'excellent']",other
+"['medium', 'plus', 'body', 'sb', 'round', 'showing', 'oak', 'note', 'lee', 'stone', 'fruit', 'tropical', 'high', 'alcohol', 'concentrated', 'quite', 'long']",other
+"['benchmark', 'cali', 'sauv', 'b', 'balanced', 'wine', 'fruit', 'ripe', 'overly']",talks about taste
+"['awaesome', 'white', 'enjoy', 'friend']",talks about taste
+"['oaked', 'sauvignon', 'blanc', 'really', 'awesome', 'combination']",talks about taste
+"['different', 'sauv', 'blanc', 'crisp', 'richer', 'normal', 'good']",other
+"['even', 'better', 'drinking', 'sonoma']",talks about taste
+"['great', 'sauvignon', 'blanc', 'aroma', 'melon', 'pear', 'mineral', 'high', 'acidityfreshness', 'mouth']",talks about taste
+"['wow', 'impressive', 'robust', 'sauvignon', 'blanc', 'green', 'apple', 'pear', 'cotton', 'mineral', 'lime', 'beautiful']",talks about taste
+['hold'],other
+"['really', 'nice', 'cab', 'sauv']",talks about taste
+"['nice', 'light']",talks about taste
+"['citrus', 'oak', 'pear', 'peach', 'melon', 'cream', 'butter', 'lemon', 'apple', 'honey']",talks about food combinations
+"['served', 'wine', 'wedding', 'really', 'lovely', 'wine', 'ill', 'drinking', 'year', 'come']",talks about taste
+"['citrus', 'oak', 'pear', 'lemon', 'mineral', 'stone', 'grass', 'straw', 'banana']",talks about food combinations
+"['many', 'tropical', 'flavor', 'clear', 'oak', 'usage', 'provide', 'complexity', 'pale', 'lemon', 'color', 'grass', 'pear', 'grapefruit', 'green', 'apple', 'skin', 'pineapple', 'white', 'blossom', 'nectarine', 'nose', 'dry', 'high', 'acidity', 'cream', 'pineapple', 'lychee', 'vanilla', 'lime', 'zest']",talks about taste
+"['light', 'golden', 'color', 'nose', 'pear', 'pineapple', 'cotton', 'candy', 'bit', 'sage', 'mouth', 'pineapple', 'pear', 'modest', 'residual', 'sugar', 'medium', 'acid', 'hint', 'bitterness', 'long', 'pear', 'sage', 'finish', 'abv', '14', 'think', 'maefield', 'estate', 'vineyard', 'varietal', 'sauvignon', 'blanc', 'shenandoah', 'clone', '1', '67', 'sauvignon', 'musque', '33', '5', 'mo', 'french', 'oak', '18', 'new', 'batonnage', '2xwk', 'definitely', 'better', 'least', 'hour', 'slowox', 'wine', 'spectator', '95']",talks about taste
+"['color', 'light', 'yellow', 'viscosity', 'high', 'aroma', 'mango', 'tropical', 'guava', 'honey', 'pineapple', 'mineral', 'melon', 'tannin', 'none', 'acidity', 'medium', 'alcohol', '140', 'grape', 'varietal', '100', 'sauvignon', 'blanc', 'impression', 'much', 'herbaceousness', 'typical', 'sauvignon', 'blanc', 'tropical', 'easy', 'drink']",talks about taste
+"['sauvignon', 'blanc', 'russian', 'river', 'sonoma', 'acknowledge', 'wine', 'good', 'complexity', 'intense', 'oaky', 'aromasflavors', 'overwhelming', 'reminds', 'oaky', 'chardonnay', 'fullbodied', 'acidity']",talks about taste
+"['bare', 'naked', 'lady', '4th', 'vintage', 'today', 'hot', 'midoctober', 'mid', '80sf', '30c', 'sb', 'helped', 'structured', 'complex', 'aromatic', 'vintage', 'ive', 'enjoyed', 'far', 'pale', 'yellow', 'aroma', 'elderflower', 'pineapple', 'melon', 'citrus', 'zest', 'barest', 'hint', 'green', 'herb', 'dry', 'ripe', 'round', 'lush', 'palate', 'medfull', 'body', '14', 'balanced', 'crisp', 'medacidity', 'unctuous', 'palate', 'white', 'peach', 'quince', 'lychee', 'vanilla', 'sprinkle', 'white', 'pepper', 'mid', 'chalky', 'slate', 'finish', 'saline', 'edge']",talks about taste
+"['pale', 'color', 'nose', 'citrus', 'pear', 'peach', 'oak', 'tropical', 'lemon', 'melon', 'pineapple', 'cream', 'butter', 'green', 'apple', 'stone', 'fruit', 'honeyamazing', 'nose', 'mouth', 'pair', 'nose', 'oak', 'citrus', 'cream', 'toasted', 'coconut', 'mediumfull', 'body', 'sauvignon', 'blanc', 'medium', 'acidity', 'mediumlong', 'finish', 'good', 'wine']",talks about taste
+"['sb', 'think', 'chardonnay', 'great', 'matter', 'fact', 'chardonnay', 'least', 'killer', 'white', 'bordeaux', 'blend', 'top', 'notch', 'somms', 'would', 'swear', 'chard', 'leafy', 'vegetable', 'wow', 'yum', 'guy', 'cheap', 'mind', 'goooood', 'love', 'balance', 'balance', 'balance', 'delicious', 'white', 'wine', 'ty']",talks about taste
+"['barrel', 'fermented', 'lee', 'stiring', 'open', 'quite', 'grassy', 'evolves', 'white', 'peach', 'floral', 'frangipani', 'corn', 'touch', 'vanilla', 'palate', 'moderate', 'acidity', 'good', 'concentration', 'firm', 'texture', 'slightly', 'warming', 'alcohol', 'touch', 'bitterness', 'good', 'length', 'really', 'benefit', 'aeration', 'became', 'lot', 'aromatic', 'gained', 'weight', 'drinking', 'well', 'evolve', 'bottle', 'another', '23years']",other
+"['pale', 'lemon', 'color', 'youthful', 'medium', 'plus', 'intensity', 'nose', 'citrus', 'oak', 'peach', 'pear', 'tropical', 'fruit', 'melon', 'cream', 'dry', 'medium', 'plus', 'acid', 'full', 'bodied', 'high', 'alcohol', 'medium', 'plus', 'intensity', 'body', 'long', 'finish', 'oak', 'cream', 'vanilla', 'citrus', 'lemon', 'tropical', 'fruit', 'wine', 'definitely', 'see', 'oak', 'aging', 'nz', 'zippy', 'sauv', 'blanc', 'mineral', 'outstanding', 'quality', 'wine', 'drink', 'suitable', 'aging']",talks about taste
+"['163584282abbey', 'wei', 'blinded', 'appearance', 'pale', 'lemongreen', 'rim', 'variation', 'nose', 'med', 'intensity', 'white', 'blossom', 'honeysuckle', 'green', 'apple', 'yellow', 'apple', 'something', 'metallic', 'white', 'peach', 'bruised', 'apple', 'candied', 'oil', 'tropical', 'palate', 'dry', 'exactly', 'heavy', 'fruit', 'medium', 'acid', 'med', 'body', 'luscious', 'mouthfeel', 'high', 'alcohol', 'med', 'flavor', 'intensity', 'minerality', 'white', 'pepper', 'spice', 'oak', 'peach', 'banana', 'bitter', 'acidity', 'red', 'apple', 'ripe', 'fruit', 'finish', 'med', 'med', 'bitter', 'acidity', 'guessed', 'ny', 'riesling', 'good']",talks about taste
+"['elegant', 'medium', 'intensity', 'aroma', 'flavor', 'apple', 'pineapple', 'apricot', 'white', 'peach', 'nectarine', 'elderflower', 'brioche', 'clove', 'vanilla', 'smoke', 'hint', 'dried', 'apricot', 'honey', 'good', 'quality', 'balancing', 'aromatics', 'hint', 'oak', 'interesting', 'style', 'batonnage', '18', 'new', 'french', 'oak']",talks about taste
+"['41pts', 'merry', 'edward', 'sauvignon', 'blanc', '2022', 'first', 'time', 'taste', 'beautiful', 'sauvignon', 'blanc', 'merry', 'edward', 'winery', 'founded', '1997', 'one', 'california', 'first', 'highly', 'successful', 'female', 'winemaker', 'winery', 'vineyard', 'influenced', 'pacific', 'ocean', 'cooling', 'fog', 'sandy', 'soil', 'attribute', 'lead', 'production', 'rich', 'ageable', 'wine', 'silky', 'smooth', 'bright', 'acidity', 'complex', 'balanced', 'aroma', 'lemon', 'pineapple', 'lime', 'zest', 'acacia', 'melon', 'vanilla', 'mineral']",talks about taste
+"['absolutely', 'amazing', 'sauvignon', 'blanc', 'fruity', 'soft', 'mostly', 'citrus', 'maybe', 'green', 'apple', 'well', 'built', 'quilibrated', 'soft', 'flavorful', 'pair', 'well', 'light', 'seafood', 'like', 'scallop']",talks about taste
+"['wonderful', 'peach', 'full', 'sweet', 'sauv', 'b']",talks about taste
+"['buttery', 'pear', 'good', 'amount', 'sweetness', 'refreshing', 'pair', 'well', 'fish']",talks about taste
+"['time', 'favorite', 'sauvignon', 'blanc', 'beautiful', 'honeysuckle', 'floral', 'note', 'cant', 'describe', 'magic', 'tongue', 'amazing']",talks about taste
+"['got', 'yummy', 'mouth']",talks about taste
+"['light', 'slightly', 'dry', 'mildly', 'acidic', 'note', 'melon', 'peach', 'citrus', 'caramel', 'butter', 'oak']",talks about taste
+"['tropical', 'yet', 'fresh']",talks about taste
+"['2019', 'didnt', 'disappoint', 'pear', 'forward', 'hint', 'melon', 'slightly', 'citrus', 'finish', 'balanced', 'perfectly', 'boiled', 'lobster']",talks about taste
+"['beautiful', 'wine', 'agree', 'ws94', 'note']",talks about taste
+"['big', 'canyon', 'wine', 'tasting']",talks about taste
+"['smokyand', 'smooth', 'sultry', 'enjoy']",talks about taste
+"['fabulous', 'balanced', 'near', 'perfect', 'wine']",talks about taste
+"['omg', 'grape', 'pressed', 'service', 'better', 'dying', 'vine']",talks about taste
+"['sauvignon', 'blanc', 'sophisticated', 'rounded', 'average', 'blanc', 'reaaal', 'good', 'never', 'disappoints', 'bit', 'expensive', 'bottle', 'white', 'wine', 'isnt']",talks about taste
+"['john', 'gails', 'incredibly', 'light', 'yummy']",talks about taste
+"['citrus', 'oak', 'peach', 'pear', 'tropical', 'melon']",talks about food combinations
+"['soft', 'smooth', 'acidic', 'sauvignon', 'blanc', 'chardonnay', 'lover']",talks about taste
+"['pear', 'nose', 'palette', 'floral', 'light', 'honey', 'melon', 'touch', 'butter', 'sweeter', 'side', 'crisp', 'acidity', 'heavier', 'body', 'almost', 'jammy', 'complex', 'refreshing', 'delightful']",talks about taste
+"['wine', 'excellent', 'white', 'thats', 'great', 'sharp', 'dry', 'doesnt', 'emphasize', 'grape', 'sweetness']",talks about taste
+"['2019', '45', 'pt', 'indian', 'barbeque', 'complete', 'without', 'bottle', 'time', 'pared', 'light', 'tomatobased', 'egg', 'curry', 'worked', 'like', 'charm']",talks about food combinations
+"['caramel', 'grass', 'butter', 'citrus', 'nose', 'taste', 'grapefruit', 'lemon', 'pear', 'vanilla', 'good', 'sauvignon', 'blanc']",talks about taste
+"['clean', 'pure', 'balanced', 'wellintegrated', 'fruit', 'calming', 'nose', 'slight', 'pepper', 'finish', 'good', 'youre', 'going', 'get', 'cali', 'white']",talks about taste
+"['nice', 'pleasant', 'wine', 'sweeter', 'initially', 'expected', 'still', 'overbearing', 'right', 'moment', 'pivot', 'crisp', 'finish']",talks about taste
+"['beautiful', 'crisp', 'white', 'similar', 'nice', 'bordeaux', 'white', 'worth', 'extra', 'money', 'like', 'fuller', 'body', 'savignon', 'blanc', 'v', 'thinner', 'less', 'expensive', 'one']",talks about taste
+"['great', 'wine', 'oak', 'show', 'much', 'chardonnay', 'crisp', 'acidic', 'typical', 'sauvignon', 'blanc', 'would', 'definitely', 'buy']",talks about taste
+"['really', 'superior', 'sauvignon', 'blanc', 'rich', 'complex', 'pear', 'apple', 'citrus', 'honeydew', 'honey', 'moderate', 'acidity', 'honey', 'lingers', 'palate', 'real', 'treat']",talks about taste
+"['slightly', 'heavier', 'side', 'sauv', 'blanc', 'little', 'oakiness', 'lot', 'tropical', 'fruit', 'stone', 'fruit', 'pear', 'bit', 'citrus', 'bit', 'spice', 'vanilla', 'smooth', 'finish']",talks about taste
+"['dark', 'straw', 'color', 'medium', 'full', 'body', 'sauvignon', 'blanc', 'well', 'balanced', 'light', 'acidity', 'delicious', 'grapefruit', 'honey', 'apple', 'ripe', 'pineapple', 'long', 'finish', 'light', 'mineral']",talks about taste
+"['one', 'better', 'white', 'ive', 'tasted', 'earthy', 'floral', 'aroma', 'bold', 'fruit', 'upfront', 'settle', 'mince', 'finish', 'sweet', 'sour', 'right']",talks about taste
+"['pale', 'yellow', 'pleasing', 'aroma', 'citrus', 'tropical', 'fruit', 'adding', 'spice', 'biscuit', 'note', 'palate', 'complex', 'palate', 'flavor', 'fresh', 'fruit', 'pineapple', 'lemon', 'grapefruit', 'peach', 'asian', 'pear', 'slight', 'earthiness', 'smooth', 'creamy', 'well', 'balanced', 'finish', 'ending', 'gentle', 'yeasty', 'character', 'nice', 'consistent', 'quality', 'age', 'well']",talks about taste
+"['one', 'time', 'fav', 'wine', 'hugely', 'tropical', 'floral', 'note', 'honey', 'dew', 'melon', 'taste', 'sweet', 'dry', 'medium', 'body', 'elegant']",talks about taste
+"['clear', 'pale', 'lemon', 'clean', 'medium', 'plus', 'intensity', 'aroma', 'pineapple', 'honeysuckle', 'lemon', 'curd', 'dry', 'medium', 'plus', 'acidity', 'medium', 'body', 'long', 'finish']",talks about taste
+"['great', 'sauv', 'blanc', 'rich', 'fruity', 'plenty', 'thick', 'citrus', 'flavor', 'velvety', 'buttery', 'texture', 'pair', 'nice', 'deep', 'pear', 'melon', 'note', 'appear', 'finish', 'probably', 'best', 'sauv', 'blanc', 'ive', 'oak', 'overly', 'perceptible', 'im', 'impressed', 'balance', 'wine', 'doesnt', 'anything', 'funky', 'let', 'settle', 'great', 'summer', 'day', 'afternoon', 'drink']",talks about taste
+"['2017', 'vintage', 'enjoyed', 'august', '2019', 'needed', 'little', 'time', 'open', 'quite', 'enjoyable', 'sauv', 'blanc', 'note', 'similar', 'rocky', 'smooth', 'creamy', 'wonderful', 'hint', 'citrus', 'melon', 'addition', 'pear', 'peach', 'flavor', 'nice', 'oak', 'note', 'understand', 'would', 'sweet', 'fruity', 'find', 'valuable', 'sb', 'memorable', 'wanting', 'go', '45475']",talks about taste
+"['wow', 'real', 'treat', 'beautifully', 'balanced', 'cali', 'sauvignon', 'blanc', 'nose', 'honeyed', 'tropicality', 'partner', 'usual', 'grassy', 'grapefruit', 'palate', 'unfolds', 'taste', 'ethereal', 'body', 'complementing', 'vibrant', 'acidity', 'finish', 'day', 'truly', 'lovely', 'wine', 'thank', 'lovely', 'gift', '13969744carlos', 'v']",talks about taste
+"['may', 'best', 'ca', 'sauvignon', 'blanc', 'ive', 'fantastic', 'structure', 'though', 'overly', 'acidic', 'slightly', 'creamy', 'mouthfeel', 'complex', 'wine', 'lingering', 'finish', 'lemon', 'lemon', 'curd', 'floral', 'note', 'super', 'impressed', 'wine']",talks about taste
+"['great', 'sauvignon', 'blanc', 'one', 'favorite', 'producer', 'sharp', 'acidic', 'bit', 'alcohol', 'typical', 'sauvignon', 'blanc', 'big', 'bold', 'wine', 'melon', 'pear', 'apple', 'tree', 'fruit', 'decadent', 'also', 'crisp', 'great', 'choice', 'warm', 'summer', 'night', 'cant', 'wait', 'next', 'bottle']",talks about taste
+"['consistently', 'excellent', 'sauvignon', 'blanc', 'steroid', 'producer', 'color', 'pale', 'straw', 'nose', 'palate', 'perfectly', 'synchronized', 'lovely', 'note', 'honeydew', 'apple', 'pear', 'pineapple', 'none', 'yucky', 'acidic', 'grapefruit', 'note', 'producer', 'known', 'acidity', 'spot', 'delicious']",talks about taste
+"['dominus', 'palate', 'dominus', 'beyond', 'wine', 'dinner', 'oven', 'roland', 'herman', 'maison', 'marque', 'domaines', 'attended', 'nat', 'ellingsons', '61924', 'merry', 'one', 'california', 'first', 'woman', 'winemaker', 'hated', 'sauv', 'blanc', 'drink', 'like', 'chardonnay', '13', 'highly', 'floral', 'sauvignon', 'musque', 'clone', 'sancerre', '23', 'shenandoah', 'clone', 'classic', 'herbal', 'grassy', 'character', '18', 'new', 'pack', '6mo', 'biweekly', 'lee', 'stirring', 'melon', 'apple', 'hint', 'kiwi', 'paired', 'bhutanese', 'vege', '59']",talks about taste
+"['one', 'time', 'favorite', 'sav', 'blanc', 'beautiful', 'floral', 'aroma', 'mix', 'citrus', 'melon', 'beautifully', 'balanced', 'right', 'crispness', 'exceptional']",talks about taste
+"['wow', 'nightcap', 'watching', 'falcon', 'huge', 'nectarine', 'orange', 'peel', 'soft', 'vanilla', 'infused', 'oak', 'moment', 'aging', 'added', 'subtle', 'enjoyable', 'oxidation', 'wow']",talks about taste
+"['absolutely', 'amazing', 'burst', 'citrus', 'note', 'honey', 'apricot', 'pear', 'would', 'drink', 'paired', 'vegetable', 'orzo', 'caramelized', 'tomato', 'sauce', 'shrimp']",talks about taste
+"['would', 'guessed', 'chard', 'almost', 'really', 'smooth', 'different', 'sav', 'blanc', 'goodcool', 'way']",other
+"['2018', 'vintage', 'light', 'clean', 'color', 'melon', 'note', 'pepper', 'high', 'powered', 'finish', 'would', 'buy']",talks about taste
+"['citrus', 'oak', 'peach', 'pear', 'tropical', 'melon', 'cream', 'grapefruit', 'lemon', 'pineapple', 'mineral', 'apple', 'apricot', 'honeysuckle', 'stone', 'fruit']",talks about food combinations
+"['tropical', 'fruit', 'favorite', 'sauv', 'blanc', 'loses', 'flavor', 'get', 'warm', 'cool', 'flavor', 'come', 'back']",talks about taste
+"['citrus', 'oak', 'peach', 'pear', 'tropical', 'melon', 'cream', 'butter', 'grapefruit', 'lemon', 'pineapple', 'vanilla', 'mineral', 'apple', 'honey', 'stone', 'green', 'apple', 'honeysuckle']",talks about food combinations
+"['brought', 'home', 'winery', 'fresh', 'light', 'crisp', 'still', 'flavorful', 'well', 'balanced', 'would', 'definitely', 'get']",talks about taste
+"['one', 'best', 'sauvignon', 'blanc', 'continent', 'body', 'balance', 'depth', 'spot', 'flavor', 'citrus', 'tropical', 'fruit', 'good', 'minerality', 'acidity']",talks about taste
+"['pale', 'green', 'gold', 'glass', 'pineapple', 'tropical', 'fruit', 'nose', 'bright', 'acidity', 'green', 'apple', 'stone', 'lingering', 'finish', 'absolutely', 'fantastic', 'always']",talks about taste
+"['sept', 'kwons', 'best', 'combination', 'sav', 'blanc', 'chardonnay', 'flavor']",talks about taste
+"['really', 'good']",talks about taste
+"['outstanding', 'white', 'taste', 'citrus', 'peach']",talks about taste
+"['citrus', 'oak', 'pear', 'grapefruit']",talks about food combinations
+"['grapefruit', 'pear', 'cream', 'oak', 'lime', 'guava']",talks about food combinations
+"['good', 'sauvignon', 'blanc', 'get', 'soft', 'crisp', 'full', 'flavor', 'highly', 'recommend']",talks about taste
+"['honeysuckle', 'floral', 'lemon', 'curd', 'big', 'bold', 'flavor', 'light', 'color', 'super', 'cool']",talks about taste
+"['one', 'unusual', 'unique', 'sauvignon', 'blanc', 'ever', 'round', 'less', 'crisp', 'still', 'refreshing', 'loved']",talks about taste
+"['outstanding', 'sav', 'blanc', 'really', 'enjoyed', 'l', 'definitely', 'buying']",talks about value for money
+"['home', 'peach', 'cream', 'yummy']",talks about taste
+"['delicious', 'always', 'crisp', 'green', 'apple', 'melon', 'honey', 'citrus', 'yeast', 'hay']",talks about taste
+"['peach', 'sweet', 'melon', 'vanilla']",talks about food combinations
+"['fruity', 'peach', 'pineapple']",talks about food combinations
+"['nose', 'taste', 'butter', 'orchide', 'peach', 'taste', 'pallet', 'quincy', 'peach', 'pear', 'lychi']",talks about taste
+"['green', 'apple', 'light', 'stone', 'fruit', 'medium', 'body', 'less', 'crisp', 'nz', 'offering']",talks about taste
+"['light', 'fruity', 'pear', 'caramel', 'hint', 'oak', 'cinnamon']",talks about taste
+"['light', 'buttery', 'sauv', 'blanc', 'excellent', 'sea', 'bass', 'kaluuz']",talks about taste
+"['43', 'sharp', 'tarty', 'apple', 'bretty', 'flavor', 'dry', 'viney', 'finish']",talks about taste
+['love'],other
+"['excellent', 'acidity', 'balance', 'fruit', 'alcohol']",talks about taste
+"['smooth', 'fruity', 'great', 'seafood']",talks about taste
+"['good', 'acidity', 'balance', 'rounded', 'body', 'lot', 'fruit', 'lovely', 'minerality', 'citrus', 'stone', 'fruit']",talks about taste
+"['pineapple', 'creamy']",talks about taste
+"['best', 'sb', 'entire', 'new', 'world']",other
+"['beautiful', 'thought', '2018', 'significantly', 'better', '2016', 'brand', 'went', 'long', 'way', 'earning', 'trust', 'back', 'revisit']",talks about taste
+"['chef', 'tre', 'dinner', 'oct2020']",talks about food combinations
+"['nice', 'melon', 'wine', 'look', 'label']",talks about food combinations
+"['creamy', 'smooth', 'low', 'tannin', 'fruit', 'forward', 'lovely']",talks about taste
+"['one', 'time', 'favorite']",talks about taste
+"['one', 'favorite', 'wine']",talks about taste
+"['consistently', 'delicious', 'wine', 'stone', 'fruit', 'round', 'mouthful', 'medium', 'full', 'body', 'long', 'finish']",talks about taste
+"['one', 'favorite', 'white', 'perfect', 'summer']",talks about taste
+"['sauv', 'blanc', 'gothis', 'steller', 'crisp', 'clean', 'sugar', 'brix', 'balanced', 'worth', 'every', 'dime']",talks about taste
+"['interesting', 'unusual', 'sauvignon', 'blanc', 'would', 'rather', 'pair', 'poultry', 'seafood']",talks about food combinations
+"['super', 'clean', 'fruity', 'full', 'bodied', 'ripe', 'still', 'balanced', 'acidity', 'thanks', 'stephen']",talks about taste
+"['smooth', 'pear', 'apple', 'note', 'delightful']",talks about taste
+"['light', 'great', 'flavor']",talks about taste
+"['delightful', 'sauv', 'blanc', 'long', 'complex']",talks about taste
+"['fruit', 'good', 'acidity', 'smooth']",talks about taste
+"['love', 'love', 'love', 'sb', 'long', 'finish', 'complexity']",talks about taste
+"['simply', 'delicious', 'summer', 'fare', 'however', 'similar', 'quality', 'available', 'much', 'less', 'enjoy']",talks about taste
+"['2019', 'pretty', 'solid', 'sauv', 'blanc', 'nice', 'balance', 'reasonable', 'complexity', 'without', 'many', 'vegetal', 'element', 'got', 'note', 'carmelized', 'pear', 'hay', 'lemongrass', 'crisp', 'green', 'apple', 'ml', 'occurred', 'felt', 'palate', 'slight', 'butter', 'flavor', 'however', 'worth', '50']",talks about taste
+"['vega', 'tasted', 'since', 'ordered', 'everyone', 'sweeter', 'floral', 'side', 'good', 'wine', 'newbie', 'overly', 'complex', 'boring', 'though', 'fruity', 'bouquet', 'pleasing', 'mass']",talks about taste
+"['flavor', 'tropical', 'fruit', 'dominant', 'also', 'melon', 'pear', 'lemon', 'floral', 'honeysuckle', 'definitely', 'spent', 'time', 'oak', 'butter', 'sur', 'lie', 'creaminess']",talks about taste
+"['beautiful', 'sauvignon', 'blanc', 'intense', 'ripe', 'fruit', 'citrus', 'mango', 'pineapple', 'balanced']",talks about taste
+"['wonderful', 'fruit', 'forward', 'drinkable', 'wine']",talks about taste
+"['47', 'king', 'ca', 'sb', 'ive', 'loved', '2019', 'vintage', 'high', 'quality', 'producer', 'merry', 'edward', 'doesnt', 'disappoint', 'rich', 'lemon', 'oil', 'apricot', 'honeysuckle', 'smooth', 'like', 'chablis']",talks about taste
+"['mediumbodied', 'offdry', 'aromatic', 'melon', 'peach', 'lemon', 'kumquat', 'vanilla', 'chamomile', 'cotton', 'candy', 'white', 'flower', 'marshmallow', 'butter', 'white', 'pepper', 'cream', 'straw', 'oak']",talks about taste
+"['smooth', 'seems', 'sweet', 'sauv', 'blanc', 'light', 'lemon', 'lower', 'acidity', 'melon', 'butter', 'pineapple', 'easy', 'drink', 'chicken', 'picatta', 'made', 'taste', 'sweet']",talks about taste
+"['merry', 'edward', 'happy', 'kwanza', 'bomb', 'as', 'dank', 'as', 'bada', 'slash', 'palette', 'orange', 'peel', 'lemon', 'pith', 'dont', 'get', 'citrus', 'anatomy', 'twisted']",talks about taste
+"['sweet', 'note', 'though', 'finish', 'dry', 'pinch', 'seems', 'okay', 'favorite']",talks about taste
+"['still', 'luscious', 'delicious', 'great', 'lemon', 'crisp', 'pear']",talks about taste
+"['floral', 'vanilla', 'melon', 'orange', 'clementine', 'pineapple', 'lychee']",talks about food combinations
+"['citrus', 'peach', 'pear', 'tropical', 'melon', 'cream', 'wauv']",talks about food combinations
+"['smooth', 'surprising', 'sb', 'epic', 'french', 'dinner', '2023']",talks about food combinations
+"['interesting', 'sauv', 'blanc', 'drink', 'like', 'chardonnay']",talks about taste
+"['usex2', 'tasting', 'citrus', 'oak', 'peach', 'pear', 'tropical', 'melon', 'cream', 'butter']",talks about taste
+"['good', 'sure', 'sb', 'going', 'rate', '4', 'start', 'citrus', 'tangerine']",talks about taste
+"['apple', 'pear', 'mint', 'easy', 'going', 'white']",talks about food combinations
+"['clean', 'opening', 'slowly', 'creamy', 'aroma', 'honey', 'appears', 'enoteca', 'shopping']",talks about taste
+"['silky', 'smooth', 'beautiful', 'light', 'nose', 'sb', 'isnt', 'grapefruit', 'bomb']",talks about taste
+"['pear', 'green', 'apple', 'zest']",talks about food combinations
+"['red', 'white', 'blue', 'tasting', 'lightly', 'oaked', 'tropical', 'fruit']",talks about taste
+"['floral', 'banana', 'great', 'easy', 'drink']",talks about food combinations
+"['wet', 'grass', 'nose', 'hint', 'lemon', 'honeysuckle', 'cantaloupe', 'nice', 'wine']",talks about taste
+"['well', 'made', 'citrus', 'peach', 'tropical', 'pear', 'mineral', 'excellent', 'quality', 'price', 'ratio']",talks about taste
+"['drank', 'sept', '2023', 'california', 'grill', 'pear', 'tangerine']",talks about food combinations
+"['phenomenal', 'aperitif', 'sour', 'gasoline', 'nose', 'unripe', 'citrus', 'fruit', 'finish', 'medium', 'acidity', 'surprisingly', 'subtle', 'creamy', 'finish']",talks about taste
+"['incredible', 'sauvignon', 'blanc', 'honeydew', 'melon', 'nectarine', 'hint', 'lime', 'kind', 'hazelnut', 'note', 'really', 'enjoyable']",talks about taste
+"['wow', 'green', 'apple', 'citrus', 'mineral', 'undertone', 'nice', 'balance', 'smoothness', 'tart', 'definitely', 'stock', 'summer']",talks about taste
+"['ca', 'sb', 'probably', 'get', 'better', 'medium', 'bodied', 'elegant', 'lemon', 'tart', 'nectarine', 'tropical', 'fruit', 'pricy', 'sb', 'worth']",talks about taste
+"['wine', '2', 'first', 'rr', 'sb', 'experience', 'oak', 'sb', 'interesting', 'complex', 'buttery', 'lemony', 'straight', 'delicious']",talks about taste
+"['always', 'top', 'quality', 'sauvignon', 'premium', 'citrus', 'nose', 'lead', 'creamy', 'pear', 'honeydew', 'grapefruit', 'intoxicating']",talks about taste
+"['amazing', 'sb', 'finish', 'strong', 'minerality', 'melon', 'ball', 'get', 'juicy', 'stone', 'fruit', 'green', 'applebut', 'citrus']",talks about taste
+"['citrus', 'zest', 'nose', 'medium', 'body', 'dry', 'acidic', 'complex', 'palate', 'outstanding', 'sauvignon', 'blanc', 'good', 'price', 'merry', 'edward', 'rock', '93100']",talks about taste
+"['exquisite', 'wine', 'much', 'floral', 'fruit', 'aroma', 'usual', 'grassy', 'nose', 'common', 'varietal', 'classy', 'elegant', 'wine']",talks about taste
+"['beautiful', 'always', 'perfect', 'many', 'food', 'especially', 'valentine', 'wine', 'never', 'fails', 'impress', 'merrys', 'version', 'sb', 'sublime']",talks about taste
+"['golden', 'color', 'nose', 'fruity', 'trying', 'small', 'sip', 'smooth', 'crisp', 'beautiful', 'note', 'various', 'apple', 'absolutely', 'delicious']",talks about taste
+"['crisp', 'green', 'apple', 'pear', 'picked', 'oak', 'note', 'reminiscent', 'chardonnay', 'delightful', 'well', 'balanced', 'wine', 'leaf', 'wanting']",talks about taste
+"['never', 'thought', 'sauvignon', 'blanc', 'could', 'sophisticated', 'eye', 'opening', 'experience', 'reminder', 'humbled']",talks about taste
+"['bright', 'citrus', 'scent', 'lemon', 'maybe', 'grapefruit', 'lemon', 'tropical', 'fruitsgrapefruit', 'dragon', 'fruit', 'crisp', 'brightly', 'acidic']",talks about taste
+"['best', 'california', 'sauvignon', 'blanc', 'medium', 'gold', 'color', 'balanced', 'melon', 'citrus', 'hint', 'grass', 'reminds', 'favorite', 'french', 'sancerre']",talks about taste
+"['cant', 'praise', 'one', 'enough', 'great', 'citrus', 'flowery', 'nose', 'similar', 'palate', 'grassiness', 'went', 'well', 'scallop', 'crudo']",talks about taste
+"['pale', 'yellow', 'color', 'lemon', 'honeydew', 'nose', 'fruity', 'peach', 'mineral', 'lovely', 'brightness', 'roundness', 'finish', 'well', 'balanced', 'medium', 'body', 'white']",talks about taste
+"['perfect', 'sauvignon', 'blanc', 'bit', 'sweeter', 'traditional', 'sb', 'offset', 'mediumplus', 'acidity', 'dry', 'tart', 'fan', 'fukn', 'tastic']",talks about taste
+"['mayfair', 'la', 'vega']",talks about food combinations
+"['bright', 'meyer', 'lemon', 'infused', 'smooth', 'finish']",talks about taste
+"['vanilla', 'oak', 'lemon', 'grass', 'mineral', 'peach', 'stonefruit', 'pineapple']",talks about food combinations
+"['fresh', 'expressing', 'cheer']",talks about taste
+"['crisp', 'delightful', 'would', 'recommend', 'anyone']",talks about taste
+"['fruta', 'floral', 'nose', 'balanced', 'complex', 'nice', 'lasting', 'loved']",talks about taste
+"['great', 'intensive', 'sb']",talks about taste
+"['nice', 'fairly', 'bold', 'body', 'tropical', 'fruit', 'definitely', 'butter', 'note', 'mineral', 'finish', 'nice', 'complex']",talks about taste
+"['soft', 'finish', 'strong', 'direction', 'term', 'flavor', 'profile']",talks about taste
+"['smooth', 'low', 'pleasant', 'acidity', 'nice', 'yellow', 'color', 'note', 'citrus', 'mineral', 'apple', 'stone', 'little', 'oak', 'nicely', 'balanced', 'enjoyable']",talks about taste
+"['subtle', 'refined', 'papaya', 'brled', 'grapefruit', 'touch', 'honeysuckle', 'delicious']",talks about taste
+"['apple', 'nose', 'citrus', 'green', 'apple', 'sherry', 'palate']",talks about taste
+"['wow', 'best', 'sauvignon', 'blanc', 'remember', 'really', 'fresh', 'melon', 'lychee', 'ill', 'look', 'buy']",talks about taste
+"['toasty', 'delicious', 'similar', 'good', 'chardonnay']",talks about taste
+"['enjoyed', '2020', 'much', '2018', 'lovely', 'fruit', 'beautiful', 'creamy', 'oily', 'palate', 'long', 'finish']",talks about taste
+"['smooth', 'melon', 'pear', 'citrus', 'vanilla', 'grapefruit', 'two', 'vote', '44', '43', 'dinner', 'la', 'gare', 'santa', 'rosa']",talks about food combinations
+"['consistently', 'great', 'mazzeos', 'house', 'poker', 'night', '42823', 'janice', 'great', 'night']",talks about food combinations
+"['top', 'notch', 'apple', 'pear', 'lemon', 'note', 'nose', 'ripe', 'pear', 'flavor', 'slight', 'citrus', 'front', 'buttery', 'smooth', 'mineral', 'floral', 'middle', 'end', 'right', 'paired', 'beautifully', 'woodfired', 'pizza', 'arugula', 'cauliflower', 'highly', 'recommend']",talks about taste
+"['pale', 'straw', 'colored', 'showing', 'nice', 'viscosity', 'glass', 'waft', 'aroma', 'lemon', 'chiffon', 'nuanced', 'yellow', 'apple', 'starfruit', 'bell', 'pepper', 'honeysuckle', 'white', 'pepper', 'flavor', 'palate', 'show', 'lean', 'lightly', 'salted', 'mineral', 'excellent', 'balance', 'medium', 'bodied', 'wine', 'set', 'medium', 'acidity', 'finishing', 'tiny', 'glint', 'hazelnut', 'bx92', 'ws95']",talks about taste
+"['ripe', 'rich', 'enticing', 'plenty', 'tropical', 'aroma', 'uniquely', 'nutty', 'twist', 'extra', 'heavy', 'mouthfeel', 'new', 'oak', 'fermentation', 'lee', 'aging', 'weight', 'wine', 'reflected', 'weight', 'bottle', 'thick', 'glass', 'extra', 'effect', 'bring', 'wine', 'dinner', 'party', 'guest', 'impressed']",talks about taste
+"['pale', 'lemon', 'appearance', 'nose', 'pronounced', 'aroma', 'grapefruit', 'gooseberry', 'grass', 'papaya', 'apricot', 'honeysuckle', 'vanilla', 'yogurt', 'palate', 'offdry', 'touch', 'r', 'medium', 'acidity', 'medium', 'alcohol', 'medium', 'body', 'creamy', 'mouthfeel', 'pronounced', 'intensity', 'flavor', 'confirm', 'nose', 'long', 'finish', 'outstanding', 'wine', 'drink', 'less', '2', '50', 'get', 'lot', 'great', 'wine', 'outside', 'sauvignon', 'blanc']",talks about taste
+"['aroma', 'compelling', 'virtually', 'reaching', 'grabbing', 'attention', 'yellow', 'peach', 'melon', 'guava', 'crisp', 'fuji', 'apple', 'accented', 'hint', 'tropical', 'mango', 'pineapple', 'lime', 'minneola', 'tangelo', 'orange', 'blossom', 'lend', 'citrus', 'note', 'accent', 'dry', 'summer', 'grass', 'vanillatoned', 'panna', 'cotta', 'toasted', 'crme', 'brle', 'create', 'complexity']",talks about taste
+"['straw', 'yellow', 'lovely', 'aromatic', 'peach', 'pear', 'apricot', 'cinnamon', 'nose', 'sweet', 'stone', 'fruit', 'palate', 'medium', 'plus', 'body', 'firm', 'acidity', 'smooth', 'finish', 'common', 'sauvignon', 'blanc', 'clone', 'blended', '30', 'sauvignon', 'musque', 'giving', 'higher', 'residual', 'sugar', 'support', 'sweet', 'experience']",talks about taste
+"['straw', 'color', 'note', 'pineapple', 'tropical', 'fruit', 'lemon', 'zest', 'hint', 'oak', 'extremely', 'well', 'balanced', 'slight', 'acidity', 'note', 'citrus', 'tropical', 'fruit', 'pineapple', 'hint', 'vanilla', 'oak', 'amazing', 'california', 'sauvignon', 'blanc']",talks about taste
+"['best', 'sauv', 'ive', 'ever', 'tasted', 'holy', 'schmoly', 'knockout', 'wine', 'oaky', 'buttery', 'beautifully', 'seductive', 'caramel', 'toasty', 'notesbut', 'also', 'passion', 'fruit', 'rose', 'hint', 'honeysuckle', 'showstopper', 'oooh', 'mind', 'blowing']",talks about taste
+"['clear', 'lt', 'lemon', 'yellow', 'clean', 'delicate', 'juicy', 'apricot', 'mineral', 'lt', 'body', 'medacid', 'lt', 'alcohol', 'fresh', 'bright', 'mid', 'long', 'mineral', 'lemon', 'finish', '100', 'neural', 'french', 'oak', '68', 'month', 'surlee', 'tasty', 'delicate', 'unique', 'fume', 'blanc']",talks about taste
+"['floral', 'nose', 'palate', 'pale', 'straw', 'hue', 'prominent', 'lily', 'valley', 'perfume', 'baby', 'breath', 'moderately', 'acidic', 'cantaloupe', 'melon', 'peach', 'coming', 'well', 'rounded', 'body', 'mouthfeel']",talks about taste
+"['one', 'buttery', 'sauvignons', 'ive', 'plenty', 'lime', 'green', 'apple', 'passion', 'fruit', 'peach', 'coming', 'front', 'palate', 'summer', 'cut', 'grass', 'herbaceous', 'note', 'green', 'bell', 'pepper', 'frugal', 'buy', 'special', 'one', 'absolutely', 'love']",talks about taste
+"['fantastic', 'undertone', 'oak', 'still', 'classic', 'sb', 'flavor', 'really', 'well', 'balanced', 'smooth', 'truly', 'unique', 'sauvignon', 'blanc']",talks about taste
+"['amazing', 'wine', 'easy', 'drinking', 'full', 'flavor', 'refreshing', 'tangy', 'hint', 'butter', 'peach', 'crisp', 'apple', 'like', 'crunchy', 'kind', 'spiced', 'vanilla', 'really', 'good']",talks about taste
+"['absolutely', 'insane', 'glass', 'think', 'say', 'sb', 'completely', 'liquid', 'gold', 'melted', 'mouth', 'note', 'citrus', 'fruit', 'oak', 'cream', 'honey']",talks about taste
+"['beautiful', 'sav', 'blanc', 'crisp', 'hint', 'sweetness', 'probably', 'white', 'peach', 'hint', 'learned', 'winery', 'make', '10k', 'case', 'wine', 'loved']",talks about taste
+"['citrus', 'oak', 'pear', 'peach', 'tropical', 'melon', 'lemon']",talks about food combinations
+"['truly', 'delicious', 'made', 'classic', 'old', 'world', 'style', 'beautiful', 'balance', 'fruit', 'acidity', 'real', 'treasure', 'russian', 'river']",talks about taste
+"['dry', 'white', 'honey', 'apple', 'minerality', 'good']",talks about taste
+"['bully', 'boy', 'oyster', 'tuna', 'wrap', 'amazing']",talks about food combinations
+"['butter', 'butter', 'citrus', 'oak']",talks about food combinations
+['great'],talks about taste
+"['top', 'notch', 'sauv', 'blanc', 'stone', 'fruit', 'citrus', 'note', 'balanced', 'sweetness', 'contributed', 'higher', 'expected', 'abv', '14', 'note', 'honeysuckle']",talks about taste
+"['21324', 'leigh', 'ann', 'b', 'brought', 'book', 'club', 'night', 'house', 'e', 'enjoyed', 'w', 'caviar', 'vday']",other
+"['round', 'soft', 'mouthfeel', 'much', 'smoother', 'average', 'sauvignon', 'blanc', 'smooth', 'note', 'pear', 'lemon', 'maybe', 'apricot', 'lovely', 'wine']",talks about taste
+"['absolutely', 'loved', 'husband', 'splurged', 'anniversary', 'wine', 'delicious', 'dont', 'expect', 'nz', 'cali', 'bear', 'resemblance', 'bright', 'smooth', 'well', 'balanced', 'try']",talks about taste
+"['straw', 'color', 'glass', 'floral', 'spice', 'vanilla', 'stone', 'fruit', 'honey', 'nose', 'peach', 'pear', 'ripe', 'honey', 'dew', 'melon', 'palate', 'lime', 'peel', 'orange', 'peel', 'peppery', 'spice', 'creamy', 'long', 'finish', 'favorite', 'sb', 'california']",talks about taste
+"['fuller', 'bodied', 'sauvignon', 'blanc', 'explodes', 'flavor', 'retaining', 'crispness', 'levity', 'youd', 'hope', 'experience', 'top', 'quality', 'sb', 'apricot', 'peach', 'pear', 'lemon', 'curd', 'note', 'prominent']",talks about taste
+"['sauvignon', 'blanc', 'spectrum', 'fall', 'stone', 'fruit', 'driven', 'tart', 'tropical', 'fruit', 'driven', 'type', 'like', 'white', 'bordeaux', 'well', 'balanced', 'degree', 'minerality', 'rather', 'high', 'abv', 'evident', 'palate', 'pricey', 'p246']",talks about taste
+"['delivers', 'year', 'year', 'staple', 'ripe', 'plump', 'juicy', 'sb', 'big', 'complex', 'flavor', 'fragrant', 'aroma', 'ripe', 'peach', 'pear', 'lemon', 'pineapple', 'honey', 'vanilla', 'honeysuckle', 'palate', 'lush', 'creamy', 'melon', 'peach', 'guava', 'lemon', 'grass', 'butter', 'mango', 'citrus', 'curd', 'finish', 'long', 'soft', 'minerality', 'honey', 'light', 'spice', 'huge', 'flavor', 'unique', 'sb', 'creamy', 'texture', 'paired', 'perfectly', 'thai', 'chicken', 'noodle', 'soup', 'dry', 'med', 'body', 'med', 'acidity', 'pale', 'yellow', 'color', 'excellent', 'quality']",talks about taste
+"['2021', 'merry', 'edward', 'sauvignon', 'blanc', 'russian', 'river', 'valley', 'made', 'pair', 'cold', 'asparagus', 'soup', 'everything', 'pale', 'straw', 'color', 'crisp', 'acidity', 'slight', 'creaminess', '4', 'month', 'sur', 'lie', '18', 'new', 'french', 'oak', 'importantly', 'complex', 'bouquet', 'bouquet', 'tropical', 'fruit', 'like', 'mango', 'pineapple', 'initially', 'also', 'citrus', 'honeydew', 'end', 'lovely', 'way', 'celebrate', 'spring', 'dca', 'restaurant', 'student', 'banquet']",talks about food combinations
+"['lemon', 'tropical', 'fruit', 'touch', 'vanilla', 'nose', 'easy', 'drinker', 'right', 'amount', 'acidity', 'ripe', 'mellon', 'pineapple', 'pink', 'grapefruit', 'nice', 'touch', 'minerality', 'classic', 'sauv', 'blanc', 'delicious', 'none', 'less']",talks about taste
+"['astounding', 'one', 'top', 'sauv', 'blanc', 'stuff', 'damn', 'treat', 'whenever', 'open', 'call', 'secret', 'weapon', 'queen', 'california', 'pinot', 'paired', 'scallop', 'lemon', 'parmesan', 'risotto', 'broccoli', 'always', 'amazing', 'dont', 'get', 'distracted', 'bull', 'rodeo', 'dont', 'check', 'pony', 'like', 'one', 'creamiest', 'mouthfeel', 'paint', 'palate', 'flavor', 'grapefruit', 'tangerine', 'honeysuckle', 'lemon', 'pulp', 'insane', 'integration', '93', 'pt']",talks about taste
+"['43', 'love', 'wine', 'although', 'last', 'vintage', 'sourced', 'fruit', 'non', 'estate', 'vineyard', 'give', 'much', 'fruit', 'characteristic', 'estate', 'vineyard', '2019', 'mineral', 'driven', 'prefer', 'fruit', 'one', 'buy', '2018s', 'see', 'french', 'oak', 'fermentation', '18', 'new', '6', 'month', 'lee', 'fresh', 'acidity', 'med', 'body', 'sumptuous', 'mouthfeel', 'guava', 'peach', 'spicy', 'pear', 'lemon', 'zest', 'chalk', 'delicious']",talks about taste
+"['peach', 'tropical', 'fruit', 'oak', 'butter', 'like', 'chardonnay', 'reason', 'otherwise', 'concentrated', 'decent', 'body']",other
+"['43', 'good', '2018', 'still', 'best', 'sauvignon', 'blanc', 'usa', 'tropical', 'fruit', 'caramelized', 'apple', 'grass', 'well', 'done']",talks about taste
+"['fruit', 'intense', 'honey', 'initially', 'buttery', 'citrusy', 'fruitnectar', 'emerging', 'middledry', 'crisplight', 'bodiedamazing', 'wine']",talks about taste
+"['yum', 'cantaloupe', 'guava', 'pineapple', 'lavender', 'honey', 'elderflower', 'baking', 'yeast', 'cream', 'medium', 'bodied', 'nice', 'oily', 'texture', 'high', 'acidity', 'long', 'finish', 'little', 'bit', 'heat', '14', 'nice']",talks about taste
+"['aroma', 'flavor', 'guava', 'pineapple', 'candied', 'fruit', 'exotic', 'spice', '100', 'oak', 'extremely', 'well', 'integrated', 'wife', 'took', 'half', 'bottle', 'business', 'trip']",talks about taste
+"['new', 'fish', 'last', 'night', 'monchong', 'keeping', 'fish', 'count', 'shrimp', 'bamboo', 'big', 'merry', 'edward', 'fan', 'menu', 'yes', 'please', 'big', 'style', 'sauvignon', 'blanc', 'barrel', 'fermented', 'richness', 'creaminess', 'lovely', 'coconut', 'rice', 'lot', 'tropical', 'nuance', 'guava', 'mango', 'citrus', 'focus', 'light', 'sprinkling', 'baking', 'spice', 'nice', 'thick', 'white', 'match', 'array', 'food', 'flavour', 'age', 'still', 'treat', 'early', 'mahalo']",talks about food combinations
+"['91pts', '95ws', 'wine', 'spectator', 'smoking', 'fermented', 'barrel', 'bottanage', 'using', 'special', 'clone', 'sb', 'smooth', 'rather', 'intense', 'flavor', 'pineapple', 'marmalade', 'honeysuckle', 'honey', 'melon', 'medium', 'plus', 'acid', 'touch', 'residual', 'sugar', 'good', 'amount', 'oak', 'dairy', 'brioche', 'good', 'finish', 'amazing']",talks about taste
+"['stone', 'fruit', 'melon', 'restrained', 'citrus', 'oak', 'cream', 'note', 'fuller', 'body', 'expression', 'grape', 'interesting', 'drinkable']",talks about taste
+"['one', 'finest', 'sav', 'blanc', 'hv', 'tasted', 'balanced', 'acidity', 'fruity', 'balanced', 'sweetness']",talks about taste
+"['peach', 'butter', 'cream', 'grass', 'herbaceous', 'savy', 'b', 'ive', 'recently', 'oak', 'influence', 'definitely', 'cool', 'spin', 'grape']",talks about food combinations
+"['perfect', 'nose', 'first', 'taste', 'like', 'fairy', 'dust', 'blown', 'facebalanced', 'acid', 'floral', 'note', 'gorgeous', 'color', 'bull', 'bear', 'waglides', 'palate']",talks about taste
+"['outstanding', 'california', 'sb', 'medium', 'body', 'medium', 'plus', 'acidity', 'outstanding', 'flavor', 'pear', 'melon', 'mango', 'tangerine', 'lemon', 'grapefruit', 'cream', 'butter', 'grass', 'saline', 'minerality']",talks about taste
+"['floral', 'scent', 'good', 'fruit', 'flavor', 'balance', 'mineral', 'leave', 'slight', 'pinch', 'cheek', 'swallow']",talks about taste
+"['approaching', 'condrieu', 'level', 'elegance', 'combined', 'approachability', 'super', 'fruity', 'super', 'delicious', 'super', 'super', 'tropical', 'like', 'new', 'zealand', 'touch', 'oak', 'california', 'cant', 'resist', 'almost', 'certainly', 'r', 'still', 'dry', 'refreshing', 'expressive', 'beautiful', 'wine', 'peach', 'citrus', 'honey', 'mineral']",talks about taste
+"['unlike', 'sauvignon', 'blanc', 'ive', 'use', 'specific', 'mix', 'clone', 'twothirds', 'shenandoah', 'clone', '1', 'onethird', 'sauvignon', 'musqu', 'result', 'wine', 'brimming', 'floral', 'tropical', 'fruit', 'aromatics', 'citrusy', 'juicy', 'core', 'barrel', 'fermentation', 'twiceweekly', 'lee', 'stirring', 'help', 'u', 'create', 'characteristic', 'creamy', 'texture', 'rich', 'body', 'dry', 'medium', 'medium', 'acidity', 'medium', 'full', 'body', '14', 'abv', 'complex', 'palate', 'creamy', 'tropical', 'fruit', 'pineapple', 'continued']",other
+"['despite', 'mention', 'pear', 'mostly', 'get', 'melon', 'pear', 'note', 'throughout', 'bit', 'buttery', 'taste', 'smooth', 'finish', 'end', 'fairly', 'long', 'flavor', 'profile', 'really', 'tasty', 'wine', 'would', 'buy', 'worth', 'price']",talks about taste
+"['really', 'good', 'wine', 'worth', 'money', 'oak', 'gooseberry', 'starfruit', 'pear', 'white', 'flower', 'cat', 'pee', 'pineapple', 'butter', 'complex', 'im', 'sauv', 'blanc', 'guy', 'oak', 'malo', 'like', 'aromatic', 'white', 'burgundy']",talks about value for money
+"['pale', 'golden', 'color', 'nice', 'long', 'thin', 'leg', 'aroma', 'peach', 'melon', 'guava', 'pineapple', 'honeysuckle', 'grass', 'nose', 'flavor', 'pear', 'grapefruit', 'apple', 'lime', 'zest', 'cream', 'mineral', 'palate', 'kiss', 'almond', 'offdry', 'medium', 'body', 'moderate', 'acidity', 'medium', 'tangy', 'finish', 'smooth', 'yet', 'complex', 'sb', 'crisp', 'refreshing', 'slightest', 'hint', 'oak', 'amazingly', 'delicious', 'great', 'mouthfeel', 'one', 'best', 'sb', 'ive']",talks about taste
+"['lovely', 'complex', 'expressive', 'californian', 'sauvignon', 'blanc', 'citrus', 'oak', 'pear', 'tropical', 'peach', 'melon', 'cream', 'butter', 'grapefruit', 'lemon', 'pineapple', 'vanilla', 'mineral', 'apple', 'honey', 'stone', 'green', 'apple', 'honeysuckle', 'stone', 'fruit', 'apricot', 'lime', 'grass', 'mango', 'guava', 'tangerine', 'straw', 'white', 'peach', 'toast', 'nectarine', 'passion', 'fruit', 'chard', 'banana', 'caramel', 'honeydew', 'melon', 'orange', 'asian', 'pear', 'cantaloupe', 'papaya', 'hay', 'meyer', 'lemon', 'lemon', 'curd', 'kiwi', 'pepper']",talks about taste
+"['soft', 'elegant', 'low', 'acidity', 'citrus', 'note', 'layered', 'butter', 'oak', 'long', 'delicious', 'finish', 'much', 'enjoyed', 'wine', 'ive', 'sb', 'less', 'half', 'price', 'good']",talks about taste
+"['deserving', 'reputation', 'pale', 'lemon', 'hue', 'medium', 'nose', 'vanilla', 'jasmine', 'apricot', 'heidi', 'von', 'der', 'mehden', 'overseen', 'thing', 'since', 'merry', 'retired', 'decision', 'barrelferment', 'add', 'lush', 'complexity', 'think', 'get', 'overlooked', 'sauv', 'lover', 'acidity', 'mediumhigh', 'softer', 'one', 'might', 'expect', 'creamy', 'tone', 'often', 'fund', 'chardonnay', 'vanilla', 'pallette', 'along', 'crisp', 'mineral', 'tart', 'pear', 'end', 'pricey', 'maybe', 'worth', 'unique', 'wine']",talks about taste
+"['want', 'give', '5', 'star', 'holy', 'cow', 'incredible', 'wine', 'beautiful', 'mouthfeel', 'fruit', 'harmonious', 'come', 'offdry', 'even', 'though', 'plus', 'highly', 'highly', 'recommend', 'go', 'try', 'beauty']",talks about taste
+"['pale', 'straw', 'color', 'tropical', 'fruit', 'nose', 'crisp', 'creamy', 'flavor', 'mango', 'peach', 'pineapple', 'note', 'lemonlime', 'zest', 'medium', 'acidity', 'paired', 'salmon', 'sushi', 'appon', 'point']",talks about taste
+"['pnp', 'intense', 'golden', 'color', 'coconut', 'cream', 'pie', 'lemon', 'rind', 'subtle', 'pear', 'dry', 'creamy', 'palate', 'soft', 'persistent', 'acidity']",talks about taste
+"['fantastic', 'much', 'depth', 'complexity', 'sb', 'around', 'trap', 'still', 'staying', 'fresh', 'bright', 'fruit', 'forward', 'real', 'winner']",talks about taste
+"['dry', 'crisp', 'sauvignon', 'blanc', 'favorite', 'producer', 'baked', 'apple', 'floral', 'hint', 'oak', 'long', 'supple', 'finish', 'enjoyed', 'seafood', 'lunch']",talks about food combinations
+"['favorite', 'sauvignon', 'blanc', 'beautiful', 'tropical', 'beach', 'glass', 'hint', 'pineapple', 'maybe', 'tangerine', 'blossom', 'delicious']",talks about taste
+"['beautiful', 'golden', 'color', 'nose', 'lemon', 'grass', 'pine', 'needle', 'vanilla', 'well', 'balanced', 'body', 'taste', 'consistent', 'nose']",talks about taste
+"['crisp', 'bright', 'acidity', 'limestone', 'cut', 'grass', 'finish', 'stone', 'fruit', 'peach', 'pear', 'go', 'wife', 'favorite', 'sb']",talks about taste
+"['stunning', 'bouquet', 'melon', 'tropical', 'fruit', 'pear', 'fresh', 'spice', 'subtle', 'citrus', 'tongue', 'bright', 'acidic', 'finish', 'instant', 'favorite']",talks about taste
+"['fascinating', 'wine', 'get', 'honeyed', 'peach', 'tropical', 'fruit', 'bit', 'mineral', 'lime', 'lovely', 'rich', 'body', 'top', 'class', 'sb', 'sure']",talks about taste
+"['fresh', 'spicy', 'right', 'front', 'long', 'layered', 'end', 'rich', 'baked', 'apple', 'pineapple', 'peach', 'citrus', 'finishing', 'clean', 'acidic']",talks about taste
+"['unlike', 'sauvignon', 'blanc', 'ive', 'tasted', 'im', 'general', 'fan', 'sav', 'blanc', 'richness', 'bit', 'sweetness', 'standout', 'tasted', 'winery', '2023']",other
+"['amazing', 'wine', 'fruity', 'creamy', 'nature', 'grape', 'take', 'palate', 'first', 'sip', 'gorgeous', 'white']",talks about taste
+"['quaffable', 'oaked', 'sb', 'somewhere', 'btwn', 'sancerre', 'napa', 'chard']",talks about food combinations
+"['delicious', 'sauvignon', 'blanc', 'outstanding', 'oak', 'pear', 'peach', 'melon', 'butter', 'fantastic']",talks about taste
+"['delicious', 'citrus', 'nose', 'flower', 'soft', 'mineral', 'first', 'sip', 'go', 'little', 'flat', 'end', 'overall', 'excellent', 'see', 'highly', 'reviewed']",talks about taste
+"['good', 'remember', 'barrel', 'fermented', 'sav', 'blanc', 'lovely', 'palate', 'banana', 'peach', 'orange', 'blossom', 'lemon', 'vanilla', 'hint', 'honey', 'medium', 'bodied', 'palate', 'add', 'beautiful', 'toasted', 'oak', 'spice', 'note', 'unique', 'complex', 'sb', 'always', 'delivers']",talks about taste
+"['beautiful', 'bright', 'wine', 'light', 'blond', 'almost', 'clear', 'color', 'smeels', 'kettle', 'corn', 'crisp', 'green', 'sweet', 'floral', 'flavor', 'quick', 'finish', 'clean', 'effortless', 'ripe', 'sweet', 'citrus', 'end', 'nice', 'supple', 'ending']",talks about taste
+"['best', 'sauvignon', 'blanc', 'ive', 'ever', 'hint', 'oak', 'lot', 'pear', 'nuttiness', 'fruity', 'complex', 'lot', 'flavor', 'nice', 'heavy', 'sauce', 'buttery', 'fish', 'absolutely', 'get', 'b', 'passed']",talks about taste
+"['love', 'merrys', 'pinot', 'add', 'fabulous', 'sav', 'blanc', 'list', 'summer', 'go', 'wine', 'light', 'oak', 'infusion', 'wonderful', 'touch', 'really', 'take', 'wine', 'new', 'level', 'drank', 'bouchons', 'yountville', 'perfect', 'pairing', 'grilled', 'swordfish', 'dish', 'top', 'mark', 'merry', 'another', 'wonderful', 'masterpiece']",other
+"['lovely', 'somewhat', 'overpriced', 'sauvignon', 'blanc', 'vibrant', 'wine', 'delicate', 'floral', 'fragrance', 'jasmine', 'honeysuckle', 'fruit', 'blossom', 'along', 'orange', 'lime', 'zest', 'palate', 'fruit', 'flavor', 'donate', 'citrus', 'stone', 'fruit', 'including', 'white', 'peach', 'nectarine', 'pink', 'apple', 'pear', 'complexity', 'note', 'fresh', 'sweet', 'bread', 'hazelnut', 'dried', 'flower', 'long', 'finish', 'open', 'note', 'grapefruit', 'nice', 'minerality', 'acidity', 'elegant', 'overall', 'pair', 'salad', 'fresh', 'dish', 'lite', 'fare']",talks about taste
+"['amazing', 'sauv', 'blanc', 'really', 'different', 'tropical', 'feuits', 'nd', 'melon', 'heavy', 'front', 'bit', 'musty', 'barnyard', 'thing', 'lemon', 'grass', 'long', 'lingering', 'finish', 'medium', 'plus', 'acidscott', 'white', 'thanks', 'sharing']",other
+"['usually', 'dont', 'prefer', 'sauvignon', 'blanc', 'wine', 'exceptional', 'pale', 'yellow', 'color', 'light', 'tear', 'nose', 'tropical', 'citrus', 'fruit', 'including', 'pineapple', 'lemon', 'incredible', 'floral', 'element', 'ripe', 'citrus', 'fruit', 'palate', 'alongside', 'pear', 'light', 'mineral', 'wine', 'wellbalanced', 'flavor', 'acidity', 'delectable', 'unison', 'offer', 'medium', 'finish']",talks about taste
+"['amazing', 'sb', 'something', 'nz', 'sauvignon', 'blanc', 'californian', 'nose', 'beautiful', 'herbaceous', 'aroma', 'palate', 'smooth', 'velvety', 'oak', 'butter', 'lovely', 'taste', 'surprising', 'wine']",talks about taste
+"['absolutely', 'excellent', 'sauvignon', 'blanc', 'wine', 'crisp', 'straw', 'color', 'nose', 'extremely', 'effervescent', 'note', 'pineapple', 'citrus', 'tropical', 'fruit', 'moderate', 'acidity', 'present', 'taste', 'quite', 'fresh', 'reminiscent', 'warm', 'summer', 'afternoon', 'beach', 'santa', 'monica', 'see', 'lot', 'citrus', 'fruit', 'peach', 'pineapple', 'note', 'medium', 'bodied', 'wine', 'nice', 'finish', 'definitely', 'recommend']",talks about taste
+"['taste', 'like', 'big', 'napa', 'oaked', 'chardonnay', 'peach', 'yogurt', 'apricot', 'butter', 'saline', 'bright', 'acidity', 'integrates', 'nicely', 'creamy', 'tree', 'fruit', 'dominate', 'palemedium', 'gold', 'reminds', 'zd', 'chardonnay']",talks about taste
+"['straw', 'colored', 'full', 'ripe', 'complex', 'tropical', 'note', 'melon', 'pineapple', 'dominating', 'white', 'citrus', 'rounded', 'floral', 'note', 'honeysuckle', 'pleasant', 'oak', 'influence', 'beautiful', 'wine']",talks about taste
+"['happy', 'international', 'sauvignon', 'blanc', 'dayfruity', 'juicy', 'tropical', 'nose', 'medium', 'bodied', 'medium', 'acidity', '141', 'abv', 'pineapple', 'key', 'line', 'peach', 'vanilla', 'note', 'im', 'big', 'sb', 'fan', 'one', 'could', 'drink', 'night', 'long', 'paired', 'well', 'jumbo', 'lump', 'crab', 'cake', 'roasted', 'yukon', 'gold', 'potato', 'grilled', 'asparagus', 'yum', 'yum']",talks about taste
+"['beautifully', 'unique', 'sauv', 'blanc', 'grapefruit', 'citrus', 'honeysuckle', 'nose', 'accented', 'great', 'acidity', 'rounded', 'feel', 'smoothness', 'nz', 'sauv', 'blanc', 'traditional', 'sancere', 'soft', 'fruit', 'make', 'pleasure', 'drink']",talks about taste
+"['bright', 'delicate', 'aroma', 'green', 'grass', 'grapefruit', 'melon', 'herb', 'palate', 'medium', 'bodied', 'balanced', 'note', 'sweet', 'tropical', 'fruit', 'crisp', 'herbal', 'citrus', 'acidity', 'even', 'three', 'year', 'old', 'white', 'still', 'drinking', 'beautifully', 'cellarfriendly', 'sauvignon', 'blanc', 'sure']",talks about taste
+"['pour', 'liquid', 'gold', 'nose', 'lovely', 'oak', 'smoothed', 'melon', 'whiff', 'freshcut', 'flower', 'opening', 'closing', 'note', 'remarkably', 'smooth', 'size', 'bit', 'butter', 'id', 'go', 'poultry', 'fish', 'accompaniment', 'quality', 'undeniable']",talks about taste
+"['pale', 'straw', 'colored', 'sauvignon', 'blanc', 'merry', 'edward', 'open', 'faint', 'banana', 'delicate', 'cantaloupe', 'bouquet', 'wine', 'full', 'bodied', 'balanced', 'round', 'rich', 'sauvignon', 'blanc', 'flavor', 'mild', 'vanilla', 'cream', 'soda', 'blend', 'hint', 'lime', 'melon', 'honey', 'finish', 'dry', 'fade', 'away', 'nicely', '92', 'pt']",talks about taste
+"['freshly', 'cut', 'grass', 'attenuated', 'pleasant', 'mix', 'kiwi', 'lime', 'tarragon', 'medium', 'bodied', 'expression', 'fruit', 'palate', 'included', 'limestone', 'lemon', 'oil', 'white', 'peach', 'elderflower', 'lovely', 'aperitif', 'sip', 'sunny', 'day', 'sitting', 'patio', 'savour', 'subtle', 'flavor', 'let', 'aroma', 'speak', 'felt', 'transported', 'wine', 'green', 'bean', 'asparagus', 'salad', 'almond', 'wine', 'youd', 'quaff', 'food', 'heavy', 'sauce', '93pts']",talks about taste
+"['drank', 'mother', 'day', 'light', 'yellow', 'straw', 'color', 'nose', 'peach', 'pear', 'green', 'apple', 'mineral', 'note', 'taste', 'green', 'apple', 'pear', 'peach', 'refreshing', 'tartness', 'acidity', 'buttery', 'finish', 'mouthfeel', 'like', 'california', 'chardonnay', 'wine', 'open', 'develops', 'honey', 'note', 'nice', 'wine', 'consistent', 'excellent', 'producer', 'currently', 'favorite', 'sauvignon', 'blanc']",talks about taste
+"['might', 'best', 'sauv', 'blanc', 'ive', 'date', 'instantclassic', 'nectarine', 'apple', 'lemon', 'foundation', 'gripping', 'minerality', 'trace', 'vanilla', 'elegant', 'dare', 'say', 'graceful', 'bring', 'warm', 'weather', 'lobster', 'roll', 'evening', 'firepit']",talks about taste
+"['succulent', 'juicy', 'sweet', 'fresh', 'baby', 'pineapple', 'lime', 'papaya', 'candied', 'pink', 'grapefruit', 'peel', 'flavor', 'sing', 'purity', 'focus', 'set', 'supple', 'frame', 'featuring', 'fresh', 'acidity', 'weave', 'intensity', 'show', 'effortlessness', 'elegance']",talks about taste
+"['ive', 'never', 'winery', 'tasting', 'end', 'sauvignon', 'blanc', 'case', 'work', 'zero', 'citrus', 'ample', 'pear', 'peach', 'make', 'non', 'traditional', 'dessert', 'wine', 'amazing', 'achievement', '6', 'month', 'used', 'oak', 'create', 'unique', 'experience']",other
+"['may', 'best', 'sb', 'ive', 'tasted', 'till', 'date', 'someone', 'dislike', 'sb', 'general', 'wine', 'game', 'changer', 'perfect', 'acidity', 'doesnt', 'excessive', 'grapefruit', 'passion', 'fruit', 'aroma', 'overpowering', 'bit', 'density', 'giving', 'bit', 'chunk', 'finish', 'briny', 'mineral', 'touch', 'poolside', 'sipper', 'pair', 'beautifully', 'greasy', 'food']",talks about taste
+"['aromatic', 'ripe', 'stone', 'fruit', 'dense', 'tropical', 'essence', 'nose', 'dry', 'palate', 'rich', 'fruity', 'dominated', 'nectarine', 'peach', 'mandarines', 'grassiness', 'slightly', 'oaked', 'taste', 'well', 'balanced', 'high', 'acidity', 'ripeness', 'finish', 'dry', 'citric', 'make', 'great', 'complement', 'sea', 'seafood', 'note', 'caution', 'bottle', 'go', 'fast']",talks about taste
+"['fresh', 'fruity', 'flavor', 'pineapple', 'tree', 'fruit', 'golden', 'color', 'featuring', 'amazing', 'aroma', 'compare', 'best', 'new', 'zealand', 'sb', 'appreciate', 'medium', 'bodiedcrisp', 'acidity', 'oaky', 'undertone']",talks about taste
+"['aroma', 'pear', 'melon', 'grapefruit', 'mango', 'vanilla', 'creamy', 'mouthfeel', 'flavor', 'stone', 'fruit', 'lemon', 'pineapple', 'mineral', 'finish', 'beautiful', 'sauvignon', 'blanc', '60', 'sauvignon', 'blanc', '40', 'sauvignon', 'musqu']",talks about taste
+"['white', 'wine', 'fruity', 'pale', 'yellow', 'color', 'easy', 'drink', 'aroma', 'ripe', 'melon', 'mineral', 'peach', 'palate', 'complex', 'fruity', 'punch', 'apricot', 'nectarine', 'peach']",talks about food combinations
+"['2018', 'better', 'another', 'year', 'age', 'bottle', 'best', 'bottle', 'weve', 'always', 'least', '34', 'year', 'old', 'plan', 'cellar', 'bottle', 'try', '45', '6', 'year', 'bottle', 'wouldnt', 'try', 'sb', 'fairly', 'certain', 'merry', 'edward', 'improve', 'year', 'basic', 'sb']",other
+"['fantasic', 'wine', 'ah', 'te', 'pizza', 'ais91', 'paired', 'puros', 'de', 'hostos', 'comendador', 'box', 'pressed', 'toro', '2020', 'harmonious', 'superbly', 'balanced', 'citrus', 'peach', 'grapefruit', 'melon', 'mineral', 'green', 'apple', 'stone', 'wild', 'iris', 'salud', 'enjoy']",talks about food combinations
+"['thank', 'beth', 'generous', 'gift', 'boy', 'wonderful', 'person', 'met', 'vivino', 'one', 'fav', 'grape', 'different', 'style', 'shiny', 'yellow', 'golden', 'hue', 'heavier', 'style', 'used', 'med', 'body', '14', 'vol', 'scent', 'lemon', 'pineapple', 'papaya', 'really', 'juicy', 'mouthfeel', 'exotic', 'touch', 'tangy', 'acidity', 'time', 'nearly', 'creamy', 'texture', 'long', 'limey', 'fresh', 'finish', 'herbal', 'note', 'stunner', 'wine', 'pinot', 'queen']",talks about taste
+"['5', 'vineyard', '6', 'month', 'oak', 'sur', 'lie', 'absolutely', 'killer', 'bright', 'ripe', 'fruit', 'green', 'apple', 'pear', 'grapefruit', 'stone', 'fruit', 'minerality', 'creamy', 'mouthfeel', 'thanks', 'sur', 'lie', 'beautiful', 'long', 'finish', 'best', 'californian', 'sauvignon', 'blanc', 'ive', 'tasted', 'tasting', 'sample']",talks about taste
+"['tied', 'mark', 'david', 'transitus', 'best', 'sauv', 'blanc', 'ive', 'managed', 'take', 'varietal', 'generally', 'regard', 'simple', 'limited', 'variation', 'attempt', 'win', 'crowd', 'sweetness', 'made', 'sleek', 'finessed', 'version', 'tamed', 'fruit', 'made', 'serious', 'wine', 'reminds', 'new', 'serious', 'white', 'zin', 'trend', 'could', 'get', 'used', 'sauv', 'blanc', 'made', 'like']",talks about taste
+"['extremely', 'well', 'composed', 'white', 'californian', 'wine', 'nice', 'fragrance', 'jasmine', 'honeysuckle', 'palate', 'dominated', 'citrus', 'stone', 'fruit', 'minerality', 'exceptional', 'fresh', 'delicate', 'wine', 'introduced', 'wine', 'danish', 'restaurant', 'impossible', 'get', 'brand', 'norway', 'sweden', 'state', 'monopoly', 'country', 'anybody', 'know', 'get', 'hold', 'wine', 'please', 'let', 'know', 'wine', 'got', '93', 'point', 'wine', 'spectator', 'highly', 'recommended', 'cheer', 'vivino', 'friend']",talks about taste
+"['merry', 'edward', 'booth', 'highlight', 'wine', 'show', 'six', 'pinot', 'noirs', 'chardonnay', 'outstanding', 'sauvignon', 'blanc', 'addition', '30', 'sauvignon', 'musqu', 'gave', 'wine', 'completely', 'new', 'dimension', 'note', 'honeysuckle', 'cantaloupe', 'ginger', 'white', 'peach', 'wet', 'gravel', 'minerality', 'gave', 'solid', 'structure', 'balance', 'forward', 'fruit', 'far', 'away', 'unique', 'sb', 'ive', 'ever', 'worth', 'every', 'penny']",talks about taste
+"['last', '2015', 'equally', 'good', 'great', 'sb', 'wonderful', 'balance', 'minerality', 'citrusy', 'fruit', 'forward', 'taste', 'acidity', 'rrv', 'never', 'disappoints', 'drive', 'feel', 'france', 'anything', 'else', 'produced', 'usa']",talks about taste
+"['unusually', 'rich', 'fullbodied', 'sauv', 'blanc', 'russian', 'river', 'valley', 'disappoint', 'high', 'alcohol', '141', 'trace', 'burn', 'moderate', 'oak', 'smooth', 'vanilla', 'caramelized', 'pear', 'good', 'terrific', 'value']",other
+"['one', 'favorite', 'sauvignon', 'blanc', 'nose', 'citrus', 'slight', 'floral', 'aroma', 'hit', 'right', 'away', 'plenty', 'peach', 'apricot', 'pear', 'flavor', 'nice', 'touch', 'lemon', 'im', 'lemon', 'fan', 'nice', 'dry', 'finish', 'definitely', 'touch', 'acidic', 'fruit', 'good', 'sb']",talks about taste
+"['sauvignon', 'blanc', 'dry', 'boring', 'uneventfulnot', 'one', 'first', 'wine', 'grape', 'ive', 'enjoyed']",talks about taste
+"['light', 'golden', 'color', 'nice', 'nose', 'soft', 'smooth', 'fruity', 'palate', 'accenting', 'food', 'flavor', 'recalling', 'sometimes', 'cool', 'sunny', 'slope', 'russian', 'river', 'valley', 'love', 'sauvignon', 'blanc', 'genius', 'wine', 'maker', 'merry', 'edward']",talks about taste
+"['flashy', 'high', 'great', 'sauvignon', 'blanc', 'low', 'reflex', 'almost', 'light', 'yellow', 'clear', 'odor', 'floral', 'discreet', 'perfume', 'start', 'give', 'nice', 'tingle', 'toungue', 'even', 'though', 'acidity', 'isnt', 'high', 'smooth', 'going', 'elegant', 'aftertaste', 'hidden', 'citricity', 'remaining', 'mouthtaste', 'fresh', 'crisp', 'plus', 'also', 'price', 'fair']",talks about taste
+"['pronounced', 'floral', 'bouquet', 'glass', 'open', 'taste', 'sweet', 'cherry', 'followed', 'melon', 'accented', 'lemon', 'finish', 'slightly', 'sweet', 'accented', 'honey', 'strong', 'acidity', 'minerality', 'throughout', 'outstanding', 'sauvignon', 'blanc']",talks about taste
+"['2017', 'sauvignon', 'blanc', 'lively', 'tropical', 'nose', 'pineapple', 'candy', 'ripe', 'nectarine', 'white', 'peach', 'little', 'yeast', 'influence', 'time', 'lee', 'giving', 'little', 'richness', 'rather', 'imparting', 'taste', 'great', 'balance', 'palate', 'soft', 'mango', 'fruit', 'rounded', 'texture', 'excellent', '92pts', 'sure', 'ive', 'ever', 'given', 'new', 'world', 'sauv', 'blanc', 'higher', 'score']",talks about taste
+"['visiting', 'one', 'favorite', 'winery', 'california', 'mary', 'edward', 'sauvignon', 'blanc', '2014', '100', 'sauvignon', 'blanco', 'sonoma', 'county', 'wine', 'scent', 'oak', 'pineapple', 'peach', 'persimmon', 'flavor', 'oak', 'pineapple', 'vanilla', 'persimmon', 'everytime', 'visit', 'winery', 'buy', 'case', 'wine', 'also', 'keep', 'library', '2014', 'present', 'day', 'recommendation', 'buy']",talks about taste
+"['really', 'excellent', 'sb', 'lived', 'hype', 'distinctively', 'plush', 'rounded', 'mouthfeel', 'outstanding', 'doesnt', 'sacrifice', 'typical', 'sb', 'crispness', 'wouldnt', 'go', 'far', 'say', 'taste', 'peach', 'stone', 'fruit', 'beautiful', 'melon', 'aspect', 'tames', 'citrus', 'easily', 'best', 'californian', 'sb', 'ive', 'ever', 'pleases', 'traditional', 'sb', 'enthusiast', 'chardonnay', 'fan', 'prefer', 'body']",talks about taste
+"['big', 'bold', 'almost', 'chardonnay', 'citrusy', 'finish', 'grapefruit', 'possibly', 'pineapple', 'flavor', 'give', 'way', 'brashness', 'dryness', 'scream', 'chard', 'begs', 'drink', 'gone', 'year', 'come', 'plenty', 'ready', 'picked', 'vineyard', 'wish']",talks about taste
+"['nose', 'apple', 'cider', 'honey', 'light', 'vanilla', 'palette', 'balanced', 'perfectly', 'tongue', 'coating', 'lemon', 'honey', 'oak', 'vanilla', 'non', 'sav', 'blanc', 'lover', 'best', 'sav', 'blanc', 'ive', 'ever']",talks about taste
+"['im', 'rookie', 'sauv', 'blanc', 'however', 'like', 'im', 'onboard']",talks about taste
+"['crowd', 'pleaser', 'peach', 'citrus', 'medium', 'body', 'dryer', 'side']",talks about taste
+"['fantastic', 'soon', 'mom', 'favorite', 'wine', 'doesnt', 'know', 'yet']",talks about taste
+"['best', 'sauvignon', 'blanc', 'california', 'ever', 'tasted']",talks about taste
+"['cream', 'peach', 'man']",talks about food combinations
+"['floral', 'slightly', 'sweet', 'go', 'well', 'fish']",talks about taste
+"['great', 'sauvignon', 'blanc', 'nose', 'typical', 'grassy', 'acid', 'afterbite']",talks about taste
+"['great', 'summer', 'wine', 'crisp', 'overly', 'fruity', 'grassy']",talks about taste
+"['unique', 'smooth']",other
+"['yummy', 'floral', 'musque', 'clone', 'sauce', 'blanc', 'unique', 'fun', 'drink', 'cheese']",talks about food combinations
+"['super', 'fruit', 'peach', 'strawberry', 'acidious']",talks about food combinations
+"['beautiful', 'sav', 'blanc', 'distinguished', 'palate']",talks about taste
+"['always', 'fantastic', 'cali', 'sb']",talks about taste
+"['really', 'great', 'fruity', 'clean', 'applet', 'crisp']",talks about taste
+"['clean', 'crisp', 'dry', 'ultimate', 'fish', 'chicken', 'white', 'pasta', 'pour']",talks about food combinations
+"['agree', 'great', 'vine', 'b', 'authentic']",talks about taste
+"['thicker', 'smoked', 'citrus', 'bruised', 'citrus', 'tropical', 'green', 'apple', 'pineapple']",talks about food combinations
+"['nice', 'floral', 'nose', 'light', 'crisp', 'slight', 'pear', 'oak']",talks about taste
+"['great', 'solid', 'sauv', 'super', 'zesty']",talks about taste
+"['pale', 'yellow', 'opaque', 'rim', 'smell', 'grapefruit', 'full', 'body', 'sauvignon', 'blanc', 'taste', 'apricot', 'back', 'nice', 'finish']",talks about taste
+"['43', 'lychee', 'guava', 'tropical', 'fruit', 'smooth', 'vanilla', 'acidic', 'aggressively']",talks about food combinations
+"['aroma', 'stone', 'fruit', 'tangerine', 'smooth', 'drinkable', 'would', 'definitely', 'order']",talks about food combinations
+"['well', 'ballanced', 'right', 'seafood', 'bring', 'magic']",talks about food combinations
+"['amazing', 'gentle', 'sauvignon', 'nothing', 'dislike']",talks about taste
+"['drinking', 'amazing', 'right', 'wow']",talks about taste
+"['doctor', 'ordered', '108', 'degree', 'day', 'outstanding', 'sauv']",talks about taste
+"['crisp', 'layered', 'floral', 'note', 'light', 'fruit', 'multifaceted', 'heavy']",talks about taste
+"['in', 'great', 'quite', 'different']",other
+"['really', 'beautiful', 'wine', 'peach', 'grapefruit', 'nice', 'mineral', 'stone', 'fruit', 'finish']",talks about taste
+"['ive', 'marlborough', 'nz', 'sauv', 'blanc', 'guy', 'still', 'learning', 'good', 'california', 'sauv', 'blanc', 'say', 'one', 'excellent']",talks about taste
+"['tropical', 'fruit', 'oak', 'nose', 'palate', 'lush', 'long', 'finish']",talks about taste
+"['peach', 'pineapple', 'pear', 'floral', 'fantastic', 'spicy', 'food']",talks about food combinations
+"['merry', 'make', 'mean', 'sauv', 'blanc']",talks about taste
+"['stunning', 'full', 'bodied', 'grassy', 'nose', 'palette', 'loaded', 'melon', 'grapefruit', 'lime', 'creamy', 'pear', 'ripe', 'peach', 'long', 'crisp', 'finish']",talks about taste
+"['amazing', 'floral', 'warm', 'citrus', 'mouth', 'v']",talks about taste
+"['orange', 'blossom', 'clean', 'slight', 'minerality', 'finish']",talks about taste
+"['pear', 'melon', 'slight', 'oak', 'finish', 'good', 'mouth', 'feel', 'sav', 'blanc']",talks about taste
+"['beautiful', 'full', 'mouth', 'feel', 'long', 'finish']",talks about taste
+"['rival', 'love', 'marlborough', 'nz', 'sauvignon', 'blanc', 'nose', 'peach', 'honeydew', 'melon', 'peach', 'low', 'acidity', 'excellent', 'late', 'night', 'treat']",talks about taste
+"['peach', 'pear', 'nice', 'minerality', 'great', 'finish']",talks about taste
+"['maybe', 'best', 'sb', 'ive', 'ever', 'pear', 'melon', 'hint', 'apple', 'lemon', 'blend', 'together', 'layer', 'flavor', 'keep', 'coming', 'terrific']",talks about taste
+"['white', 'gold', 'color', 'nose', 'yellow', 'flower', 'palate', 'smooth', 'buttery', 'honeydew', 'melon', 'long', 'finish', 'surprisingly', 'ungrassy']",talks about taste
+"['beautiful', 'roundness', 'buttery', 'slight', 'fruit', 'slight', 'sweetness', 'bring', 'white', 'wine', 'together', 'delicious', 'fruity', 'finish']",talks about taste
+"['love', 'perfect', 'summer', 'day', 'pool', 'nice', 'mouthfeel', 'slight', 'creaminess', 'tropical', 'note', 'beautiful', 'caribbean', 'beach']",talks about taste
+"['big', 'round', 'tropical', 'fruit', 'melon', 'pear', 'super', 'balanced', 'great', 'acidity', 'loved']",talks about food combinations
+"['excellent', 'great', 'example', 'sauvignon', 'blanc', 'fruity', 'elegant', 'crisp', 'consistent', 'top', 'performer', 'marry']",talks about taste
+"['overpowering', 'blanc', 'fan', 'general', 'magnificent']",talks about taste
+"['wow', 'delicious', 'smooth', 'rich', 'brightness', 'savignon', 'blanc']",talks about taste
+"['excellent', 'whiterich', 'overdone', 'fruity', 'balanced', 'mineral', 'distinctive']",talks about taste
+"['omg', 'best', 'sauvignon', 'blanc', 'believe', 'ever', 'quest', 'find']",talks about taste
+"['enjoyed', 'wine', 'fish', 'oriented', 'small', 'plate', 'meal', 'easterly', 'restaurant', 'st', 'thomas', '21922', 'absolutely', 'delicious', 'well', 'balanced', 'overly', 'minerally', 'likely', 'flinty', 'great', 'love']",talks about food combinations
+"['buttery', 'yet', 'silky', 'smooth', 'vanilla', 'spice']",talks about taste
+"['unusual', 'yummy', 'sauvignon', 'blanc', 'incredible', 'oakedaged', 'fruit', 'flavor', 'best', 'fresh', 'bit', 'ambient', 'temperature', 'must', 'try', 'least', 'compare', 'drink', 'regularly', 'afford']",other
+"['interesting', 'delicious', 'sauv', 'blanc', 'brightness', 'acid', 'sauv', 'blanc', 'typical', 'note', 'like', 'melon', 'peach', 'fullness', 'opulence', 'refined', 'chardonnay', 'oak', 'come', 'undertone', 'confection', 'would', 'buy', 'case', 'could', 'find']",talks about taste
+"['blind', 'thought', 'viognier', 'floral', 'ripe', 'creamy', 'round', 'texture', 'rarely', 'see', 'sauvignon', 'blanc', 'also', 'lower', 'acidity', 'would', 'expect', 'sauv', 'blanc', 'enough', 'mostly', 'balance', 'opulent', 'fruit', 'isnt', 'typical', 'mean', 'fun', 'complex', 'drink']",talks about taste
+"['im', 'already', 'back', 'sauvignon', 'blanc', 'im', 'big', 'white', 'generally', 'im', 'enjoying', 'like', 'id', 'normally', 'good', 'red', 'gf', 'like', 'rich', 'flavored', 'must', 'chill', 'tho', 'pricey', 'treat', 'pushing', '5', 'book']",talks about taste
+"['really', 'something', 'favourite', 'california', 'white', 'thus', 'far', 'far', 'crisp', 'sav', 'blanc', 'im', 'used', 'nz', 'wine', 'much', 'richer', 'bit', 'sweet', 'complex', 'flavour', 'go', 'twist', 'turn', 'leaving', 'nice', 'touch', 'sour', 'bitter', 'good', 'way']",talks about taste
+"['light', 'refreshing', 'yes', 'delicious']",talks about taste
+"['lovely', 'french', 'laundry', 'tasting', 'menu']",talks about taste
+"['may', 'perfect', 'sauv', 'blanc', 'nose', 'light', 'lemony', 'medium', 'body', 'palate', 'note', 'citrus', 'upfront', 'finish', 'melon', 'rind', 'wellbalanced', 'acidity', 'dryness']",talks about taste
+"['best', 'sav', 'blanc', 'market']",talks about value for money
+"['unreal', 'always', 'loved', 'well', 'balanced', 'dynamic']",other
+"['cold', 'spring', 'wine', 'store', 'amazing', 'stand', 'alone', 'full', 'bodied', 'alcohol', 'forward', 'saudi', 'gnome', 'blanc', 'go', 'great', 'lemon', 'tarragon', 'chicken', 'yes']",talks about taste
+"['great', 'floral', 'note', 'tropical', 'fruit', 'full', 'bodied', 'sb', 'yet', 'right', 'amount', 'acid', 'balance']",talks about taste
+"['liquid', 'cocaine', 'white', 'cherry', 'orange', 'blossom', 'creamy', 'nectarine', 'wow']",talks about taste
+"['bright', 'creamy', 'smooth', 'note', 'pear', 'slightly', 'crisp', 'delicious']",talks about taste
+"['buttery', 'delicious', 'citrus', 'melon', 'flavor', 'heat', '141', 'alc']",talks about taste
+"['full', 'bodied', 'citrus', 'fruit', 'rich', 'honey', 'oak', 'like', 'chardonnay', 'delicious']",talks about taste
+"['excellent', 'blanc', 'delightfully', 'refreshing', 'wine', 'drank', '2018', 'bottle', '2020']",talks about taste
+"['nose', 'peach', 'apricot', 'cotton', 'candy', 'mouth', 'mineral', 'sea', 'salt', 'pear']",talks about food combinations
+"['amazed', 'well', 'age', 'favorite', 'u', 'sauv', 'blanc']",talks about taste
+"['nice', 'wine', 'tasty', 'calm', 'elegant', 'way']",talks about taste
+"['rich', 'fruit', 'wonderful', 'nose', '93']",talks about taste
+"['one', 'time', 'favorite', 'medium', 'body', 'great', 'mouthfeel', 'citrus', 'wet', 'stone', 'one', 'favs']",talks about taste
+"['crimson', 'wine', 'group', 'dinner']",talks about food combinations
+"['pear', 'mellon', 'good', 'acid', 'great', 'pairing', 'sushi']",talks about taste
+"['great', 'muted', 'due', 'bottle', 'aging', 'suppose']",other
+"['fantastik', 'sauvignon', '93', 'point']",talks about food combinations
+"['lemon', 'stone', 'fruit', 'nose', 'smooth', 'well', 'balanced', 'great', 'acid']",talks about taste
+"['wow', 'wow', 'wow', 'oak', 'sauvignon', 'blanc', 'love']",talks about taste
+"['real', 'treat', 'price', 'citrus', 'tang', 'great', 'next', '15', 'year']",talks about taste
+"['flight', 'home', 'moscow', 'perfect']",talks about food combinations
+"['drinkable', 'elegant']",talks about taste
+"['oaked', 'sav', 'blanc', 'unique', 'enjoyable']",talks about taste
+"['barrel', 'fermented', 'neutral', 'oak', 'weekly', 'battonage', 'creamy', 'floral', 'fruity', 'lime', 'full', 'body', 'good', 'thai', 'food', 'spicy', 'food']",talks about food combinations
+"['great', 'refreshing', 'wine', 'pear', 'melon', 'flavor']",talks about taste
+"['excellent', 'white', 'balanced', 'acidity']",talks about taste
+"['good', 'sauv', 'b', 'get', 'bold', 'ripe', 'fruit']",talks about taste
+"['rich', 'balanced']",talks about value for money
+"['ooohhhh', 'yum', 'dangerously', 'good', 'crisp', 'citrusy']",talks about taste
+"['wine', 'still', 'drinking', 'great', 'paired', 'well', 'northern', 'thai', 'spice']",talks about taste
+"['one', 'yummiest', 'crisp', 'white', 'ive', 'tried', 'thought', 'giving', '45', 'decided', 'naked', 'people', 'label', 'make', 'perfect', '50']",talks about taste
+"['beautifully', 'put', 'together', 'creamy', 'lush', 'cantaloupe', 'green', 'fruit', 'refreshing', 'acidity', 'ebullient', 'tropic', 'meet', 'english', 'garden']",talks about taste
+"['fantastic', 'unique', 'alltime', 'favorite']",other
+"['nice', 'balance', 'yellow', 'aroma']",talks about taste
+"['another', 'excellent', 'vintage', 'benchmark', 'sauvignon', 'blanc']",other
+"['perfectly', 'balanced', 'smooth', 'ripe', 'fruit', 'character', 'acid', 'throughout', 'lemon', 'lime', 'ripe', 'apple']",talks about taste
+"['elegant', 'nose', 'light', 'veggie', 'hue', 'nicely', 'zestypalate']",talks about taste
+"['different', 'sauvignon', 'blanc', 'rich', 'nice', 'oak', 'peach', 'smooth']",other
+"['absolutely', 'amazing', 'smooth', 'almost', 'detectable', 'acidity']",talks about taste
+"['aroma', 'rich', 'peachy', 'fruit', 'floral', 'note', 'creamy', 'texture', 'palate', 'nice', 'acidity', 'exotic', 'style', 'sauvignon', 'blanc', 'russian', 'river']",talks about taste
+"['visiting', 'winery', 'earlier', 'year', 'decided', 'pop', 'bottle', 'lovely', 'juice', 'reminisce', 'ahhhjust', 'pure', 'tasty', 'memory']",talks about taste
+"['undertone', 'oak', 'lemon', 'citrus', 'bit', 'sweetness', 'great', 'wine', 'summer', 'light', 'fresh', 'better', 'enjoy', 'meal', 'lack', 'complexity']",talks about taste
+"['terrific', 'sav', 'blanc', 'nice', 'acidity', 'great', 'mouth', 'feel', 'complex', 'plenty', 'fruit', 'tangerine', 'grapefruit', 'melon', 'floral', 'nose', 'highly', 'recommend']",talks about taste
+"['perfect', 'sauvignon', 'blanc', 'extremely', 'floral', 'nose', 'full', 'peach', 'apricot', 'pineapple', 'right', 'amount', 'citrus', 'nice', 'minerality', 'enjoyed', 'modern']",talks about taste
+"['awhile', 'since', 'sav', 'blanc', 'juice', 'wonderful', 'love', 'light', 'sweet', 'note', 'apple', 'peach', 'well', 'good', 'balance', 'citrusacidity']",talks about taste
+"['sb', 'delicious', 'even', 'though', 'like', 'crisper', 'acidic', 'style', 'one', 'class', 'little', 'creamy', 'smooth', 'oak', 'note', 'mango', 'citrus']",talks about taste
+"['poached', 'pear', 'green', 'apple', 'nose', 'full', 'body', 'long', 'finish', 'great', 'balance', 'smooth', 'delicious', 'wine', 'great', 'bodyyou', 'tell', 'rested', 'lee']",talks about taste
+"['day', 'dive', '250', 'happened', 'best', 'dive', 'first', '15', 'dive', 'dive', '252', 'bought', 'pod', '19', 'wild', 'dolphin', 'u', 'omg', 'glad', 'one', 'bottle', 'wine', 'celebrate', 'saw', '7', 'seahorse', 'trip', 'seahorse', 'prop', 'time', 'time', 'dance', 'aroma', 'lemon', 'melon', 'pineapple', 'mineral', 'palate', 'delicious', 'add', 'white', 'flower', 'salinity', 'happiness', 'dry', 'medium', 'body', 'crisp', 'acidity', '14', 'alcohol', 'im', 'exhausted']",talks about taste
+"['pale', 'lemon', 'color', 'citrus', 'aroma', 'peach', 'medium', 'body', 'tropical', 'fruit', 'slight', 'creaminess', 'palate', 'long', 'finish', 'incredibly', 'smooth', 'delicious', 'wine', 'fairly', 'complex', 'sauvignon', 'blanc']",talks about taste
+"['grassy', 'bit', 'dusty', 'stony', 'lime', 'slightly', 'exotic', 'subtle', 'vanilla', 'touch', 'algae', 'juicy', 'moderate', 'acidity', 'crisp', 'slightly', 'creamy', 'exotic', 'fruit', 'herbaceous', 'green', 'note', 'apple', 'rich', 'structural', 'finish', 'intense', 'juicy', 'concentrated', 'finale', 'length', 'great']",talks about taste
+"['light', 'straw', 'white', 'flower', 'pineapple', 'quince', 'green', 'apple', 'lemon', 'curd', 'shell', 'full', 'bodied', 'dry', 'acidity', 'silky', 'smooth', 'creamy', 'full', 'mlf', '18', 'new', 'oak', '148', 'abv', 'balanced', 'delicious', '10', 'k', 'case', 'made']",talks about food combinations
+"['great', 'sauvignon', 'blanc', 'drunk', 'magnum', 'couple', 'year', 'isnt', 'built', 'age', 'like', 'bdx', 'blanc', 'large', 'format', 'couple', 'year', 'definitely', 'added', 'layer', 'lot', 'tropical', 'note', 'guava', 'pineapple', 'elderflower', 'orange', 'orange', 'peel', 'pineapple', 'key', 'lime', 'little', 'coconut', 'palate', 'stone', 'minerality', 'little', 'nutty', 'cashew', 'note']",talks about taste
+"['merry', 'edward', '2020', 'sauvignon', 'blanc', 'done', 'french', 'oak', 'yeast', 'stir', 'every', 'week', '10', 'week', 'light', 'straw', 'color', 'nose', 'honey', 'honeydew', 'melon', 'casaba', 'melon', 'floral', 'drink', 'feature', 'note', 'honeydew', 'casaba', 'melon', 'mango', 'pear', 'peach', 'tropical', 'pink', 'grapefruit', 'pineapple', 'vanilla', 'french', 'oak', 'finish', 'beautiful', 'sb', 'pair', 'well', 'asian', 'food', 'seafood', 'chicken', 'great', 'standalone', 'well', 'since', 'ive', 'good', 'sb', '45', 'star', 'david', 'bowie', 'alladin', 'sane']",talks about taste
+"['dry', 'mildly', 'acidic', 'wine', 'note', 'citrus', 'tropical', 'fruit', 'light', 'vanilla', 'nose', 'palate', 'note', 'white', 'peach', 'mango', 'wonderful', 'mineral', 'undertone', 'one', 'favorite', 'white', 'wine']",talks about taste
+"['clear', 'pale', 'lemon', 'color', 'medium', 'intensity', 'note', 'grapefruit', 'candied', 'tangerine', 'peel', 'lemon', 'head', 'wine', 'dry', 'medium', 'plus', 'acid', 'medium', 'body', 'medium', 'minus', 'alcohol', 'medium', 'finish', '90100']",talks about taste
+"['solid', 'sav', 'blanc', 'citrus', 'foremost', 'oak', 'influence', 'evident', 'pear', 'peach', 'primarily', 'creamy', 'melon', 'tropical', 'grapefruity', 'zest', 'finish']",talks about taste
+"['little', 'young', 'right', 'delicious', 'high', 'acidity', 'beautiful', 'color', 'taste', 'heavier', 'slight', 'creaminess', 'cant', 'wait', 'revisit', 'one', 'year']",talks about taste
+"['best', 'sauvignon', 'blanc', 'long', 'time', 'feel', 'quite', 'sweet', 'tree', 'fruit', 'note', 'pear', 'apple', 'nice', 'citrusy', 'finish', 'well', 'balanced', 'smooth', 'go', 'really', 'easy']",talks about taste
+"['sauvignon', 'blanc', 'tasting', 'tokyo', 'everyone', 'second', 'favorite', 'softer', 'palate', 'others', 'melon', 'palate', 'nice', 'acidity', 'great', 'somewhat', 'sweet', 'finish']",talks about taste
+"['second', 'favorite', 'sauvignon', 'blanc', 'ever', 'beautiful', 'lemon', 'citrus', 'note', 'along', 'honey', 'perfect', 'amount', 'acidity', 'backbone', 'dry', 'juicy', 'right', 'end']",talks about taste
+"['truly', 'excellent', 'californian', 'sb', 'subtle', 'honey', 'peach', 'lemon', 'nice', 'bit', 'salinity', 'minerality']",talks about taste
+"['light', 'plus', 'bodied', 'pale', 'yellow', 'white', 'flavor', 'citrus', 'peach', 'apple', 'noticeable', 'minerality', 'slight', 'cream', 'malolactic', 'fermentation', 'subtle', 'oak', 'flavor']",talks about taste
+"['hate', 'sauvignon', 'blanc', 'ok', 'good', 'load', 'pineapple', 'something', 'little', 'stinky', 'sour', 'tropical', 'slightly', 'weird', 'like', 'dance', 'teacher', 'gilmore', 'girl']",talks about taste
+"['pure', 'juicy', 'fruit', 'hint', 'creaminess', 'citrus', 'backbone', 'full', 'disclosure', 'consistently', 'favorite', 'sb', 'whenever', 'find', 'menu', 'order', 'never', 'disappointed']",talks about taste
+"['pale', 'green', 'rim', 'mediumlegs', 'strong', 'aroma', 'grapefruit', 'tropical', 'fruit', 'grass', 'strong', 'flavor', 'grapefruit', 'lime', 'mandarin', 'orange', 'earth', 'medium', 'body', 'mediumacid', 'long', 'duration', 'excellent', 'salmon']",talks about taste
+"['best', 'sav', 'blanc', 'ever', 'sb', 'fan', 'amazing', 'spendy', 'amazingnot', 'overly', 'citrus', 'vanilla']",talks about taste
+"['big', 'number', 'fantastic', 'sb', 'consumed', 'chicago', 'going', 'great', 'pinot', 'none', 'left', 'stock', 'tonight', 'anyway', 'beautiful', 'peach', 'pear', 'extended', 'white', 'fruit', 'layer']",talks about taste
+"['smooth', 'minerality', 'peach', 'apricot', 'delicious', 'definitely', 'buy']",talks about taste
+"['95', 'far', 'california', 'sb', 'concerned', 'one', 'try', 'benchmark', 'sb', 'without', 'doubt', 'lightly', 'oaked', 'nicely', 'textured', 'body', 'right', 'acidity', 'put', 'list']",talks about taste
+"['really', 'crisp', 'wonderful', 'peach', 'pear', 'citrus']",talks about taste
+"['forget', 'grass', 'cat', 'urine', 'often', 'fill', 'nose', 'sauvignon', 'blanc', 'something', 'different', 'enterily', 'wonderful']",other
+"['incredible', 'white', 'wine', 'dont', 'drink', 'much', 'white', 'bottle', 'welcoming', 'bright', 'hint', 'green', 'apple', '150229936james', 'beecham', 'think', 'youd', 'love', 'russian', 'river', 'white', 'wine']",talks about taste
+"['unleashed', 'tropical', 'thiol', 'aromatics', 'smell', 'amazing', 'flavor', 'well', 'rounded', 'aroma', 'would', 'suggest', 'smell', 'like', 'acid', 'bomb', 'wine', 'impeccable', 'balance']",talks about taste
+"['great', 'wine', 'citrus', 'oak', 'tropical', 'pear', 'ohh', 'sweet', 'citrus', 'finish', '93pts']",talks about taste
+"['pretty', 'good', 'balanced', 'tropical', 'fruit', 'round', 'oak', 'good', 'length', 'complexity', 'well', 'made', 'cali', 'sauv']",talks about taste
+"['perfect', 'vintage', 'hold', 'florality', 'complexity', 'seek', 'find', 'balance', 'acidity', 'taste', 'pallet', 'easily', 'forgotten']",talks about taste
+"['new', 'vintage', 'light', 'peach', 'butter', 'pear', 'melon', 'vanilla', 'still', 'favourite', 'sauvignon', 'blanc']",talks about taste
+"['merry', 'edward', 'clone', 'sauvignon', 'blanc', 'imparts', 'unique', 'palate', 'wine', 'there', 'considerable', 'mouthfeel', 'tropical', 'fruit', 'florals', 'nose', 'modest', 'acid', 'finish']",talks about taste
+"['grapefruit', 'vanilla', 'tropical', 'fruit', 'citrus', 'smooth', 'oak', 'special', 'unique', 'sauvignon', 'blanc']",talks about taste
+"['pear', 'pineapple', 'lemon', 'apricot', 'white', 'flower', 'stone', 'fruit', 'great', 'minerality', 'creamy', 'texture', 'nice', 'clean', 'finish', 'buttery', 'sauvignon', 'excellent']",talks about taste
+"['great', 'fruit', 'citrus', 'peach', 'pear', 'tropical', 'melon', 'cream']",talks about taste
+"['truly', 'outstanding', 'sb', 'nantucket', 'deep', 'mellon', 'pineapple', 'complex', 'honey', 'flavor', 'medium', 'color', 'medium', 'plus', 'complexity']",talks about taste
+"['perfectly', 'balanced', 'tropical', 'fruit', 'minerality', 'hint', 'sweetness', 'balance', 'acidity', 'almost', 'rieslinglike', 'far', 'body', 'sauv', 'blanc', 'outstanding']",talks about taste
+"['outstanding', 'ca', 'sauvignon', 'blanc', 'fresh', 'nice', 'minerality', 'bright', 'fruit', 'refreshing', 'acidity', 'clean', 'finish']",talks about taste
+"['pretty', 'good', 'sauv', 'blanc', 'crisp', 'acidic', 'would', 'imagined', 'tart', 'palate', 'delicate', 'body']",talks about taste
+"['outstanding', 'sauv', 'blanc', 'rocked', 'u', 'full', 'bodied', 'wonderful', 'nose', 'definite', 'splurge', 'wow', 'treat']",talks about taste
+"['benchmark', 'sauvignon', 'blanc', 'perfect', 'condition', 'drink', 'classic', 'california', 'styled', 'without', 'green', 'bell', 'pepper', 'asparagus', 'note', 'delicious', 'oak', 'touch', 'hint', 'vanilla']",talks about taste
+"['pear', 'lemon', 'flint']",talks about food combinations
+"['told', 'merry', 'edward', 'hated', 'making', 'wine', 'bad', 'clearly', 'genius', 'hate', 'doesnt', 'show', 'might', 'well', 'balanced', 'sauvignon', 'blanc', 'ive', 'ever', 'note', 'ripe', 'peach', 'melon', 'guava', 'lemon', 'peel', 'back', 'yum']",talks about taste
