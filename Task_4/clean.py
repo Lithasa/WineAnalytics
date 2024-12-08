@@ -66,6 +66,6 @@ df['cleaned_reviews'] = df['review'].apply(clean_reviews)
 
 # remove review column
 df = df.drop('review', axis=1)
-
+print(df.hea)
 # save the cleaned reviews to a CSV file
 df.to_csv('cleaned_reviews.csv', index=False)
