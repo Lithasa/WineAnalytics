@@ -20,6 +20,13 @@ def remove_extreme_outliers_iqr(df, column) :
   outlier_removed_df = df[(df[column] >= lower_bound) & (df[column] <= upper_bound)]
   return outlier_removed_df
 
+# a function to convert a list in a string representation into an actual python list
+def convert_to_list(cell):
+    if isinstance(cell, str):
+        cell = cell.strip()
+        return ast.literal_eval(cell)
+    return cell
+
 # 1.1 Get CSV file paths.
 file_paths = [
   'Wine_Stats/Australia_Wine_Stats.csv',
@@ -81,7 +88,7 @@ wine_df['Country_region'] = wine_df['Region'].str.split('/').str[1]
 wine_df['Country_region'] = wine_df['Country_region'].str.strip()
 
 # 4.3 Separate food pairings to separate columns
-wine_df['Food pairings'] = wine_df['Food pairings'].apply(ast.literal_eval)
+wine_df['Food pairings'] = wine_df['Food pairings'].apply(convert_to_list)
 
 # get all food pairings into a set 
 all_food_pairings = set()
@@ -100,5 +107,5 @@ for index, row in wine_df.iterrows():
 
 # 5. Remove the 'food pairings, Region and Grapes' columns
 wine_df.drop(columns=['Food pairings', 'Region', 'Grapes'], inplace=True)
-print(wine_df)
+#print(wine_df)
 wine_df.to_csv('wine.csv', index=False)
