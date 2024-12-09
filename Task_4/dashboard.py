@@ -7,14 +7,23 @@ import numpy as np
 
 app = Dash(__name__, suppress_callback_exceptions=True)
 
+# Load dataset
 df = pd.read_csv("updated_wine.csv")
 
+# Precompute correlation coefficients
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
+correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
-def create_charts():
+# Columns for dropdown
+columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
+
+
+def create_charts(selected_column):
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
+    avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
+    avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
 
-    fig1 = px.bar(
+    fig1 = px.line(
         avg_price_by_year,
         x='Year',
         y='Price',
@@ -44,7 +53,19 @@ def create_charts():
         font=dict(size=12)
     )
 
-    return fig1, fig2
+    fig3 = px.bar(
+        avg_rating_by_flavour,
+        x='Rating',
+        y=selected_column,
+        color_discrete_sequence=['#07e03d'],
+        title=f"Average Wine Rating by {selected_column}",
+        labels={'Rating': 'Wine Rating', selected_column: selected_column}
+    )
+
+    
+
+    return fig1, fig2, fig3
+
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
@@ -52,23 +73,49 @@ app.layout = html.Div([
     dcc.Tabs(id="tabs", value='tab1', children=[
         dcc.Tab(label='Price vs Year', value='tab1'),
         dcc.Tab(label='Price vs Rating', value='tab2'),
+        dcc.Tab(label='Rating vs Flavour', value='tab3'),
+        dcc.Tab(label='Rating vs Alcohol Content', value='tab4')
     ]),
 
     html.Div(id='tabs-content')
 ])
 
+
 @app.callback(
     Output('tabs-content', 'children'),
     [Input('tabs', 'value')]
 )
-
 def update_tab_content(selected_tab):
     if selected_tab == 'tab1':
-        fig1, _ = create_charts()  
+        fig1, _, _, _ = create_charts('Bold')  
         return dcc.Graph(figure=fig1)
     elif selected_tab == 'tab2':
-        _, fig2 = create_charts()  
+        _, fig2, _, _ = create_charts('Bold')  
         return dcc.Graph(figure=fig2)
-    
+    elif selected_tab == 'tab3':
+        return html.Div([
+            html.Label("Select Attribute:", style={'margin-top': '20px'}),
+            dcc.Dropdown(
+                id="attribute-dropdown",
+                options=[{"label": col, "value": col} for col in columns_to_plot],
+                value=columns_to_plot[0],  
+                clearable=False
+            ),
+            html.Div(id='tab3-content')
+        ])
+
+
+
+@app.callback(
+    Output('tab3-content', 'children'),
+    [Input('attribute-dropdown', 'value')]
+)
+def update_column_graph(selected_column):
+    _, _, fig3, _ = create_charts(selected_column)
+    return dcc.Graph(figure=fig3) 
+
+
+
 if __name__ == '__main__':
     app.run_server(debug=True)
+
