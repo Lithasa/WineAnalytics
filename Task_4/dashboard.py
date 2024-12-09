@@ -113,10 +113,13 @@ app.layout = html.Div([
         dcc.Tab(label='Price vs Year', value='tab1'),
         dcc.Tab(label='Price vs Rating', value='tab2'),
         dcc.Tab(label='Rating vs Flavour', value='tab3'),
-        dcc.Tab(label='Rating vs Alcohol Content', value='tab4')
+        dcc.Tab(label='Rating vs Alcohol Content', value='tab4'),
+        dcc.Tab(label='Wine Food pairing analysis',value='tab5'),
+        dcc.Tab(label='Distribution of Ratings',value='tab6')
     ]),
 
     html.Div(id='tabs-content')
+    html.Div(id='dynamic-content')
 ])
 
 
@@ -145,6 +148,22 @@ def update_tab_content(selected_tab):
     elif selected_tab == 'tab4':
         _, _, _, fig4 = create_charts('Bold')  
         return dcc.Graph(figure=fig4)
+    elif selected_tab == 'tab5':
+        return html.Div([
+            html.Label("Select Country:", style={'margin-top': '20px'}),
+            dcc.Dropdown(
+                id="country-dropdown",
+                options=[{"label": country, "value": country} for country in unique_countries],
+                value=default_country,
+                
+            ),
+            dcc.Graph(id="pie-chart")
+
+        ])
+        return dcc.Graph(id="pie-chart", figure=fig5), dropdown
+    elif selected_tab == 'tab6':
+        _, _, _, _, _, fig6 = create_charts('Bold',default_country)
+        return dcc.Graph(figure=fig6)
 
 
 @app.callback(
@@ -152,9 +171,17 @@ def update_tab_content(selected_tab):
     [Input('attribute-dropdown', 'value')]
 )
 def update_column_graph(selected_column):
+    default_country = unique_countries[0]
     _, _, fig3, _ = create_charts(selected_column)
     return dcc.Graph(figure=fig3) 
 
+@app.callback(
+    Output('pie-chart', 'figure'),
+    [Input('country-dropdown', 'value')]
+)
+def update_pie_chart(selected_country):
+    _, _, _, _, fig5, _ = create_charts('Bold', selected_country)
+    return fig5
 
 
 if __name__ == '__main__':
