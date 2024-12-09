@@ -10,20 +10,31 @@ app = Dash(__name__, suppress_callback_exceptions=True)
 # Load dataset
 df = pd.read_csv("updated_wine.csv")
 
+df['Country'] = df['Country'].str.strip().str.title()
+#food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
+#unique_countries = df['Country'].unique()
+
 # Precompute correlation coefficients
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
 correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
 # Columns for dropdown
 columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
+unique_countries = df['Country'].unique()
 
 
-def create_charts(selected_column):
+def create_charts(selected_column, selected_country):
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
     avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
     avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
+    filtered_df = df[df['Country'] == selected_country]
 
-    fig1 = px.line(
+    food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
+    food_counts = filtered_df[food_columns].sum().reset_index()
+    food_counts.columns = ['Food Pairing', 'Count']
+    food_counts = food_counts[food_counts['Count'] > 0]
+
+    fig1 = px.bar(
         avg_price_by_year,
         x='Year',
         y='Price',
@@ -38,7 +49,32 @@ def create_charts(selected_column):
         line=dict(color='#048ce0', width=2)
     ))
 
-    return fig1
+    fig2 = px.scatter(
+        df,
+        x='Price',
+        y='Rating',
+        title='Average Price vs Rating',
+        color='Year'
+    )
+
+    fig2.add_annotation(
+        x=max(df['Price']),
+        y=max(df['Rating']),
+        text=f"Correlation: {correlation_fig2:.2f}",
+        showarrow=False,
+        font=dict(size=12)
+    )
+
+    fig3 = px.bar(
+        avg_rating_by_flavour,
+        x='Rating',
+        y=selected_column,
+        color_discrete_sequence=['#07e03d'],
+        title=f"Average Wine Rating by {selected_column}",
+        labels={'Rating': 'Wine Rating', selected_column: selected_column}
+    )
+
+    return fig1, fig2, fig3
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
@@ -46,9 +82,12 @@ app.layout = html.Div([
     dcc.Tabs(id="tabs", value='tab1', children=[
         dcc.Tab(label='Price vs Year', value='tab1'),
         dcc.Tab(label='Price vs Rating', value='tab2'),
+        dcc.Tab(label='Rating vs Flavour', value='tab3'),
+        dcc.Tab(label='Rating vs Alcohol Content', value='tab4'),
     ]),
 
-    html.Div(id='tabs-content')
+    html.Div(id='tabs-content'),
+    html.Div(id='dynamic-content')
 ])
 
 @app.callback(
