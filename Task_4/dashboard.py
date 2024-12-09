@@ -74,7 +74,40 @@ def create_charts(selected_column, selected_country):
         labels={'Rating': 'Wine Rating', selected_column: selected_column}
     )
 
-    return fig1, fig2, fig3
+    fig4 = px.scatter(
+        avg_rating_by_alcohol,
+        x='Alcohol content',
+        y='Rating',
+        color='Rating',
+        title='Rating vs Alcohol Content',
+        labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'}
+    )
+
+    fig4.add_annotation(
+        x=max(avg_rating_by_alcohol['Alcohol content']),
+        y=max(avg_rating_by_alcohol['Rating']),
+        text=f"Correlation: {correlation_fig4:.2f}",
+        showarrow=False,
+        font=dict(size=12)
+    )
+
+    fig5 = px.pie(
+        food_counts,
+        names='Food Pairing',
+        values='Count',
+        title=f'Most Common Food Pairings in {selected_country}',
+        hole=0.3
+    )
+
+    fig6 = px.histogram(
+        df,
+        x = 'Rating',
+        title='Distrinution of Ratings',
+        nbins = 60,
+        color_discrete_sequence=['#11ad74']
+    )
+
+    return fig1, fig2, fig3, fig4, fig5, fig6
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
