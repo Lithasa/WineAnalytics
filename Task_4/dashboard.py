@@ -9,18 +9,28 @@ app = Dash(__name__, suppress_callback_exceptions=True)
 # Load dataset
 df = pd.read_csv("updated_wine.csv")
 
+
+df['Country'] = df['Country'].str.strip().str.title()
+
 # Precompute correlation coefficients
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
 correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
 # Columns for dropdown
 columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
+unique_countries = df['Country'].unique()
 
-
-def create_charts(selected_column):
+def create_charts(selected_column, selected_country):
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
     avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
     avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
+
+    filtered_df = df[df['Country'] == selected_country]
+
+    food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
+    food_counts = filtered_df[food_columns].sum().reset_index()
+    food_counts.columns = ['Food Pairing','Count']
+    food_counts = food_counts[food_counts['Count'] > 0]
 
     fig1 = px.bar(
         avg_price_by_year,
@@ -76,8 +86,24 @@ def create_charts(selected_column):
         showarrow=False,
         font=dict(size=12)
     )
+    fig5 = px.pie(
+        food_counts,
+        names='Food Pairing',
+        values='Count',
+        title=f'Most Common Food Pairings in {selected_country}',
+        hole=0.3
+    )
 
-    return fig1, fig2, fig3, fig4
+    
+    fig6 = px.histogram(
+        df,
+        x = 'Rating',
+        title='Distrinution of Ratings',
+        nbins = 60,
+        color_discrete_sequence=['#11ad74']
+    )
+
+    return fig1, fig2, fig3, fig4, fig5, fig6
 
 
 app.layout = html.Div([
