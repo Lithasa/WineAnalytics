@@ -8,7 +8,7 @@ grouped_df = df.groupby('talks_about').size().reset_index(name='frequency')
 print(grouped_df)
 
 fig, ax = plt.subplots()
-ax.pie(grouped_df['frequency'], labels=grouped_df['talks_about'], autopct='%1.1f%%')
+ax.pie(grouped_df['frequency'], labels=grouped_df['talks_about'], autopct='%1.2f%%')
 
 plt.title('Distribution of Review Categories')
 plt.show()
