@@ -7,23 +7,14 @@ import numpy as np
 
 app = Dash(__name__, suppress_callback_exceptions=True)
 
-# Load dataset
 df = pd.read_csv("updated_wine.csv")
 
-# Precompute correlation coefficients
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
-correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
-# Columns for dropdown
-columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
-
-
-def create_charts(selected_column):
+def create_charts():
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
-    avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
-    avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
 
-    fig1 = px.line(
+    fig1 = px.bar(
         avg_price_by_year,
         x='Year',
         y='Price',
@@ -38,7 +29,22 @@ def create_charts(selected_column):
         line=dict(color='#048ce0', width=2)
     ))
 
-    return fig1
+    fig2 = px.scatter(
+        df,
+        x='Price',
+        y='Rating',
+        title='Average Price vs Rating',
+        color='Year'
+    )
+    fig2.add_annotation(
+        x=max(df['Price']),
+        y=max(df['Rating']),
+        text=f"Correlation: {correlation_fig2:.2f}",
+        showarrow=False,
+        font=dict(size=12)
+    )
+
+    return fig1, fig2
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
@@ -57,7 +63,12 @@ app.layout = html.Div([
 )
 
 def update_tab_content(selected_tab):
-    return dcc.Graph(figure=fig1)
+    if selected_tab == 'tab1':
+        fig1, _ = create_charts()  
+        return dcc.Graph(figure=fig1)
+    elif selected_tab == 'tab2':
+        _, fig2 = create_charts()  
+        return dcc.Graph(figure=fig2)
     
 if __name__ == '__main__':
     app.run_server(debug=True)
