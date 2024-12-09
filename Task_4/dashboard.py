@@ -23,7 +23,7 @@ def create_charts(selected_column):
     avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
     avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
 
-    fig1 = px.line(
+    fig1 = px.bar(
         avg_price_by_year,
         x='Year',
         y='Price',
@@ -62,9 +62,23 @@ def create_charts(selected_column):
         labels={'Rating': 'Wine Rating', selected_column: selected_column}
     )
 
-    
+    fig4 = px.scatter(
+        avg_rating_by_alcohol,
+        x='Alcohol content',
+        y='Rating',
+        color='Rating',
+        title='Rating vs Alcohol Content',
+        labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'}
+    )
+    fig4.add_annotation(
+        x=max(avg_rating_by_alcohol['Alcohol content']),
+        y=max(avg_rating_by_alcohol['Rating']),
+        text=f"Correlation: {correlation_fig4:.2f}",
+        showarrow=False,
+        font=dict(size=12)
+    )
 
-    return fig1, fig2, fig3
+    return fig1, fig2, fig3, fig4
 
 
 app.layout = html.Div([
@@ -103,7 +117,9 @@ def update_tab_content(selected_tab):
             ),
             html.Div(id='tab3-content')
         ])
-
+    elif selected_tab == 'tab4':
+        _, _, _, fig4 = create_charts('Bold')  
+        return dcc.Graph(figure=fig4)
 
 
 @app.callback(
