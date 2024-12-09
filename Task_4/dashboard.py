@@ -81,7 +81,7 @@ def create_charts(selected_column):
 
 
 app.layout = html.Div([
-    html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
+    html.H1("Wine Data Analysis", id="heading"),
 
     dcc.Tabs(id="tabs", value='tab1', children=[
         dcc.Tab(label='Price vs Year', value='tab1'),
