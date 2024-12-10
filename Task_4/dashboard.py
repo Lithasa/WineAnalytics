@@ -184,7 +184,13 @@ def render_tab_content(selected_tab):
         'textAlign': 'center'
     },
         ) 
-        return dcc.Graph(figure=fig1),table
+
+        description = html.P(
+        "This graph represents the variation of wine prices over the years. "
+        "The line chart superimposed on the bar graph indicates the price trend over time.",
+        className="description-text"
+    )
+        return html.Div([dcc.Graph(figure=fig1),table,description])
     elif selected_tab == 'tab2':
         _, fig2, _, _ , _, _, _, _= create_charts('Bold',default_country)  
         insights = [
@@ -204,6 +210,8 @@ def render_tab_content(selected_tab):
         'textAlign': 'center'
     },
         )
+        
+        
         return dcc.Graph(figure=fig2),table
     elif selected_tab == 'tab3':
         return html.Div([
