@@ -152,6 +152,22 @@ def create_charts(selected_column,selected_country):
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
+    html.Div(
+    
+        style={
+            'background-image': 'url(/assets/wine.png)',  
+            'background-size': 'cover',
+            'background-repeat': 'no-repeat',
+            'background-attachment': 'fixed',
+            'opacity': '0.5',  
+            'position': 'absolute',
+            'top': '0',
+            'left': '0',
+            'width': '100%',
+            'height': '100%',
+            'z-index': '-1'
+        }
+    ),
 
     dcc.Tabs(id="tabs", value='tab1', children=[
         dcc.Tab(label='Price vs Year', value='tab1'),
