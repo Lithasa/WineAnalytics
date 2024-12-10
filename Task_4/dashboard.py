@@ -33,9 +33,9 @@ def create_charts(selected_column,selected_country):
     filtered_df = df[df['Country'] == selected_country]
 
     avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
-    #avg_rating_country.columns = [col.strip() for col in avg_rating_country.columns]
+    avg_rating_country.columns = [col.strip() for col in avg_rating_country.columns]
 
-    #top_styles = df['Wine style'].value_counts().head(10).reset_index()
+    top_styles = df['Wine style'].value_counts().head(10).reset_index()
 
     
 
@@ -45,7 +45,6 @@ def create_charts(selected_column,selected_country):
     food_counts.columns = ['Food Pairing','Count']
     food_counts = food_counts[food_counts['Count'] > 0]
 
-    # Modified section for Top 10 Wine Styles by Country
     top_styles_country = (
         filtered_df.groupby('Wine style')
         .agg(Count=('Wine style', 'size'), Avg_Rating=('Rating', 'mean'))
@@ -53,9 +52,7 @@ def create_charts(selected_column,selected_country):
         .sort_values(by='Count', ascending=False)
         .head(10)
     )
-    
-    
-    
+      
     fig1 = px.bar(
         avg_price_by_year,
         x='Year',
@@ -63,17 +60,16 @@ def create_charts(selected_column,selected_country):
         title='Variation of Price Over Years',
         labels={'Year': 'Manufactured Year', 'Price': 'Wine Price'}
     )
-
-    
     fig1.add_trace(go.Scatter(
         x=avg_price_by_year['Year'],
         y=avg_price_by_year['Price'],
-        mode='lines',
+        mode='lines+markers',  
         name='Price Trend',
-        line=dict(color='#048ce0', width=2)
+        line=dict(color='#6A0DAD', width=3), 
+        marker=dict(size=8, color='#6A0DAD', symbol='circle') 
     ))
 
-    
+  
     fig2 = px.scatter(
         df,
         x='Price',
@@ -81,8 +77,7 @@ def create_charts(selected_column,selected_country):
         title='Average Price vs Rating',
         color='Year'
     )
-
-   
+ 
     fig2.add_annotation(
         x=max(df['Price']),
         y=max(df['Rating']),
@@ -90,15 +85,15 @@ def create_charts(selected_column,selected_country):
         showarrow=False,
         font=dict(size=12)
     )
-
-   
+  
     fig3 = px.bar(
         avg_rating_by_flavour,
         x='Rating',
         y=selected_column,
-        color_discrete_sequence=['#07e03d'],
+        color='Rating',
         title=f"Average Wine Rating by {selected_column}",
-        labels={'Rating': 'Wine Rating', selected_column: selected_column}
+        labels={'Rating': 'Wine Rating', selected_column: selected_column},
+        color_continuous_scale=px.colors.sequential.Inferno
     )
 
     
@@ -110,8 +105,7 @@ def create_charts(selected_column,selected_country):
         title='Rating vs Alcohol Content',
         labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'}
     )
-
-    
+ 
     fig4.add_annotation(
         x=max(avg_rating_by_alcohol['Alcohol content']),
         y=max(avg_rating_by_alcohol['Rating']),
