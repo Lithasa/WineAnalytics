@@ -30,7 +30,7 @@ def create_charts(selected_column,selected_country):
     filtered_df = df[df['Country'] == selected_country]
     avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
     avg_rating_country.columns = [col.strip() for col in avg_rating_country.columns]
-    top_styles = df['Wine style'].value_counts().head(10).reset_index()
+    #top_styles = df['Wine style'].value_counts().head(10).reset_index()
     
     food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
     food_counts = filtered_df[food_columns].sum().reset_index()
@@ -61,7 +61,6 @@ def create_charts(selected_column,selected_country):
         marker=dict(size=8, color='#6A0DAD', symbol='circle') 
     ))
 
-  
     fig2 = px.scatter(
         df,
         x='Price',
@@ -88,7 +87,6 @@ def create_charts(selected_column,selected_country):
         color_continuous_scale=px.colors.sequential.Inferno
     )
 
-    
     fig4 = px.scatter(
         avg_rating_by_alcohol,
         x='Alcohol content',
@@ -106,7 +104,6 @@ def create_charts(selected_column,selected_country):
         font=dict(size=12)
     )
 
-    
     fig5 = px.pie(
         food_counts,
         names='Food Pairing',
@@ -240,8 +237,7 @@ def render_tab_content(selected_tab):
             ),
             html.Div(id='tab8-content')
         ])
-        _, _, _, _, _, _, _,fig8 = create_charts('Bold',default_country) 
-        return dcc.Graph(figure=fig8)
+        
 
 @app.callback(
     Output('tab3-content', 'children'),
