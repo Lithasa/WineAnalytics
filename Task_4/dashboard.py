@@ -1,4 +1,5 @@
 import pandas as pd
+import dash
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
@@ -6,17 +7,15 @@ import numpy as np
 
 app = Dash(__name__, suppress_callback_exceptions=True)
 
-# Load dataset
 df = pd.read_csv("updated_wine.csv")
 
-
 df['Country'] = df['Country'].str.strip().str.title()
+#food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
+#unique_countries = df['Country'].unique()
 
-# Precompute correlation coefficients
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
 correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
-# Columns for dropdown
 columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
 unique_countries = df['Country'].unique()
 
@@ -24,12 +23,11 @@ def create_charts(selected_column, selected_country):
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
     avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
     avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
-
     filtered_df = df[df['Country'] == selected_country]
 
     food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
     food_counts = filtered_df[food_columns].sum().reset_index()
-    food_counts.columns = ['Food Pairing','Count']
+    food_counts.columns = ['Food Pairing', 'Count']
     food_counts = food_counts[food_counts['Count'] > 0]
 
     fig1 = px.bar(
@@ -86,6 +84,7 @@ def create_charts(selected_column, selected_country):
         showarrow=False,
         font=dict(size=12)
     )
+
     fig5 = px.pie(
         food_counts,
         names='Food Pairing',
@@ -94,7 +93,6 @@ def create_charts(selected_column, selected_country):
         hole=0.3
     )
 
-    
     fig6 = px.histogram(
         df,
         x = 'Rating',
@@ -105,9 +103,8 @@ def create_charts(selected_column, selected_country):
 
     return fig1, fig2, fig3, fig4, fig5, fig6
 
-
 app.layout = html.Div([
-    html.H1("Wine Data Analysis", id="heading"),
+    html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
 
     dcc.Tabs(id="tabs", value='tab1', children=[
         dcc.Tab(label='Price vs Year', value='tab1'),
@@ -115,24 +112,24 @@ app.layout = html.Div([
         dcc.Tab(label='Rating vs Flavour', value='tab3'),
         dcc.Tab(label='Rating vs Alcohol Content', value='tab4'),
         dcc.Tab(label='Wine Food pairing analysis',value='tab5'),
-        dcc.Tab(label='Distribution of Ratings',value='tab6')
+        dcc.Tab(label='Distribution of Ratings',value='tab6'),
     ]),
 
-    html.Div(id='tabs-content')
+    html.Div(id='tabs-content'),
     html.Div(id='dynamic-content')
 ])
-
 
 @app.callback(
     Output('tabs-content', 'children'),
     [Input('tabs', 'value')]
 )
-def update_tab_content(selected_tab):
+def render_tab_content(selected_tab):
+    default_country = unique_countries[0]
     if selected_tab == 'tab1':
-        fig1, _, _, _ = create_charts('Bold')  
+        fig1, _, _, _, _, _= create_charts('Bold',default_country)  
         return dcc.Graph(figure=fig1)
     elif selected_tab == 'tab2':
-        _, fig2, _, _ = create_charts('Bold')  
+        _, fig2, _, _ ,  _, _= create_charts('Bold',default_country)  
         return dcc.Graph(figure=fig2)
     elif selected_tab == 'tab3':
         return html.Div([
@@ -146,7 +143,7 @@ def update_tab_content(selected_tab):
             html.Div(id='tab3-content')
         ])
     elif selected_tab == 'tab4':
-        _, _, _, fig4 = create_charts('Bold')  
+        _, _, _, fig4,  _, _ = create_charts('Bold',default_country)  
         return dcc.Graph(figure=fig4)
     elif selected_tab == 'tab5':
         return html.Div([
@@ -165,15 +162,14 @@ def update_tab_content(selected_tab):
         _, _, _, _, _, fig6 = create_charts('Bold',default_country)
         return dcc.Graph(figure=fig6)
 
-
 @app.callback(
     Output('tab3-content', 'children'),
     [Input('attribute-dropdown', 'value')]
 )
 def update_column_graph(selected_column):
     default_country = unique_countries[0]
-    _, _, fig3, _ = create_charts(selected_column)
-    return dcc.Graph(figure=fig3) 
+    _, _, fig3, _, _, _ = create_charts(selected_column,default_country )
+    return dcc.Graph(figure=fig3)  
 
 @app.callback(
     Output('pie-chart', 'figure'),
@@ -182,8 +178,6 @@ def update_column_graph(selected_column):
 def update_pie_chart(selected_country):
     _, _, _, _, fig5, _ = create_charts('Bold', selected_country)
     return fig5
-
-
+    
 if __name__ == '__main__':
     app.run_server(debug=True)
-
