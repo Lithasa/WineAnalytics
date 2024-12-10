@@ -20,6 +20,7 @@ body {
     height: 101vh;
     z-index: -1;
     -webkit-filter: blur(4px);
+    filter: blur(4px); 
 }
 
 .dropdown-container {
@@ -66,4 +67,11 @@ body {
 .tab:hover {
     background-color: rgb(240, 238, 238);
     box-shadow: 5px 10px 13px 2px rgb(100, 100, 100);
+}
+
+.description-text {
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
 }
