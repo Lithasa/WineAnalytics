@@ -185,7 +185,7 @@ def render_tab_content(selected_tab):
     },
         ) 
 
-        description = html.P(
+        description = html.P(children=
     [
         "Interpretation for Average Wine Price vs Manufacture Year",
         html.Br(),
@@ -234,7 +234,7 @@ def render_tab_content(selected_tab):
     },
         )
 
-        description = html.P(
+        description = html.P(children=
             [
 
             "Interpretation of Average Price vs Ratings",
@@ -270,7 +270,7 @@ def render_tab_content(selected_tab):
         ]),
         html.Div(id='tab3-content'),
 
-        html.P(
+        html.P(children=
             [
                 "Interpretation for Average Wine Rating by the Flavour",
                 html.Br(),
@@ -310,7 +310,7 @@ def render_tab_content(selected_tab):
     },
         ) 
 
-        description = html.P(
+        description = html.P(children=
             [
 
             "Interpretation for Average Variation of Rating Corresponding to Alcohol Content",
@@ -352,7 +352,7 @@ def render_tab_content(selected_tab):
             ]),
             dcc.Graph(id="pie-chart"),
 
-            html.P(
+            html.P(children=
                 [
 
                 "The pie chart titled ""Most Common Food Pairings in Australia"" depicts the distribution of various food types paired with meals in Australia. Here's a detailed breakdown of the chart:",
@@ -390,7 +390,7 @@ def render_tab_content(selected_tab):
     },
         )
 
-        description = html.P(
+        description = html.P(children=
             [
 
             "The chart reveals that the most common ratings, 3.8 and 3.9, each received just over 1000 votes, indicating that these ratings are reliable due to the high number of votes. As the rating increases beyond 4.0, the count of votes decreases, suggesting fewer products achieve higher average ratings. ",
@@ -429,7 +429,7 @@ def render_tab_content(selected_tab):
     },
         ) 
 
-        description = html.P(
+        description = html.P(children=
             [
 
             "Interpretation for Average Rating by Country",
@@ -468,7 +468,7 @@ def render_tab_content(selected_tab):
             ]),
             html.Div(id='tab8-content'),
 
-            html.P(
+            html.P(children=
                 [
 
                 "Interpretation for Top 10 Wine Styles",
