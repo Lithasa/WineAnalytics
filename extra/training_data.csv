@@ -1,0 +1,102 @@
+cleaned_reviews,talks about food combinations,talks about taste,talks about value for money ,other
+"['easily', 'best', 'sauvignon', 'blanc', 'ive', 'date', 'beautiful', 'array', 'flavor', 'nose', 'lemon', 'apple', 'honey', 'peach', 'citrus', 'great', 'balance', 'acidity', 'slight', 'buttery', 'flavor', 'mid', 'palate', 'smooth', 'medium', 'finish', 'definitely', 'worth']",0,1,1,0
+"['excellent', 'mockingbird', 'inn']",0,0,0,1
+"['absolutely', 'incredible', 'one', 'best', 'sauvignon', 'blanc', 'ive', 'ever', 'pleasure', 'taste']",0,1,0,0
+"['reported', 'nytimes', 'try']",0,0,0,1
+"['great', 'much', 'different', 'sauv', 'blanc', 'since', 'aged', 'oak', 'day', 'open', 'fridge', 'way', 'better']",0,0,0,1
+"['nice', 'balanced', 'svb', 'enough', 'apple', 'citrus', 'light', 'grass', 'enough', 'flavor', 'enjoy']",0,1,0,0
+"['oak', 'stone', 'first', 'followed', 'little', 'peach', 'finish', 'apricot', 'green', 'apple', 'good', 'bottle', 'price']",0,1,1,0
+"['stunning', 'delicious', 'sophisticated', 'incomparable', 'sb', 'welcome', 'addition', 'wonderful', 'world', 'sb']",0,1,0,1
+"['fantastic', 'expression', 'napa', 'sav', 'blanc', 'incredible', 'peach', 'undertone', 'went', 'well', 'grilled', 'peach', 'avo', 'salad']",1,0,0,0
+"['think', 'first', 'cali', 'sauvignon', 'blanc', 'fruity', 'honeysuckle', 'maybe', 'little', 'oily', 'slightly', 'sweet']",0,1,0,0
+"['one', 'best', 'sauv', 'blanc', 'made', 'accolade', 'smooth', 'crisp', 'front', 'memorable', 'finish']",0,1,0,0
+"['another', 'bottle', 'another', 'great', 'dinner', 'soft', 'shell', 'crab', 'drink', 'wine', 'great', 'balance', 'fruit', 'verve']",1,0,0,0
+"['clean', 'pear', 'front', 'beautiful', 'subtle', 'butter', 'spicy', 'finish', 'one', 'better', 'sav', 'blanc']",0,1,0,0
+"['smooth', 'slightly', 'sweet', 'pear', 'apple', 'mango', 'note', 'medium', 'bodied', 'well', 'balanced', 'pair', 'well', 'cheese']",1,0,0,0
+"['honey', 'pear', 'grilled', 'pineapple', 'nose', 'earthy', 'palate', 'pear', 'mild', 'grapefruit', 'green', 'apple']",0,0,0,1
+"['one', 'better', 'sauvignon', 'blanc', 'ive', 'tasted', 'pear', 'apple', 'palate', 'good', 'mix', 'minerality', 'butter']",1,1,0,0
+"['dry', 'high', 'acidity', 'high', 'alcohol', 'medium', 'bodied', 'grass', 'vanilla', 'liquorice', 'palate', 'good', 'quality']",1,1,0,0
+"['crisp', 'tart', 'flavor', 'upfront', 'nice', 'sweet', 'pear', 'finish', 'aroma', 'wild', 'flower', 'honey', 'suckle', 'exceptional', 'wine']",0,0,0,1
+"['dry', 'fruit', 'forward', 'bad', 'linger', 'palate', 'bought', 'bottle', 'tasting', 'enjoy', 'much']",0,1,0,0
+"['love', 'wine', 'medium', 'full', 'bodied', 'low', 'sweetness', 'medium', 'high', 'acidity', 'melon', 'citrus', 'mmmm']",0,1,0,0
+"['still', 'favorite', 'deep', 'color', 'pleasant', 'tone', 'pear', 'good', 'enough', 'match', 'spicy', 'pork', 'dish', 'melon']",1,1,0,0
+"['mainly', 'honeydew', 'melon', 'pear', 'overtone', 'enjoyable', 'substantial', 'popular', 'sauv', 'blanc']",0,1,0,0
+"['grapefruit', 'lime', 'mineral', 'note', 'lite', 'residual', 'sugar', 'mild', 'smooth', 'med', 'plus', 'acid', 'med', 'complexity', 'easy', 'drinking', 'good', 'food', 'wine']",0,1,0,0
+"['gorgeous', 'strong', 'gooseberry', 'nose', 'oh', 'ripeness', 'fruit', 'show', 'peach', 'tropical', 'fruit', 'excellent']",0,1,0,0
+"['pear', 'melon', 'clean', 'drink', 'almost', 'like', 'german', 'white', 'remember', 'maybe', 'pepper', 'finish', 'id', 'drink']",0,1,0,0
+"['simply', 'lovely', 'wine', 'thank', 'kelly', 'kyle', 'thoughtfully', 'providing', 'well', 'worth', 'trying']",0,0,0,1
+"['super', 'sweet', 'kiwi', 'pineapple', 'white', 'peach', 'super', 'easy', 'drinking', 'delish', 'refreshing', 'lovely']",0,1,0,0
+"['candied', 'apricot', 'give', 'way', 'peach', 'finish', 'absolutely', 'delightfully', 'delicious', 'bacon', 'wrapped', 'sea', 'scallop']",1,1,0,0
+"['amazing', 'fruit', 'note', 'apple', 'nose', 'french', 'oak', 'give', 'little', 'twist', 'texture', 'merry', 'never', 'disappoints']",0,1,0,0
+"['great', 'sauv', 'blanc', 'price', 'smooth', 'well', 'balanced', 'banana', 'apple', 'hint', 'seems', 'lower', 'acidity']",0,1,0,0
+"['crisp', 'hint', 'minerality', 'cream', 'flavor', 'citrus', 'peach', 'flower', 'nose', 'nice', 'wine']",0,1,0,0
+"['wow', 'awesome', 'wine', 'passion', 'fruit', 'vanilla', 'incredibly', 'soft', 'tongue', 'paid', '33', 'well', 'worth']",0,1,1,0
+"['fruity', 'creamy', 'smooth', 'hint', 'pear', 'sweet', 'apple', 'paired', 'really', 'well', 'japanese', 'food', 'enjoyed', 'much']",1,1,0,0
+"['floral', 'nose', 'sweet', 'peach', 'soft', 'mouth', 'bought', 'vineyard', 'educational', 'tasting']",0,1,1,0
+"['delicious', 'kind', 'syrupy', 'sweet', 'strong', 'grape', 'flavor', 'unlike', 'new', 'zealand', 'sauvignon', 'blanca']",0,1,0,0
+"['golden', 'color', 'floral', 'green', 'apple', 'aroma', 'fruity', 'little', 'creamy', 'taste', 'honey', 'hint', 'caramel', 'nice']",0,1,0,0
+"['delicious', 'complex', 'nice', 'crisp', 'apple', 'long', 'finish', 'obama', 'case', 'maybe', 'inauguration']",0,1,0,0
+"['love', 'pineapple', 'pear', 'set', 'smooth', 'butter', 'fantastic', 'expression', 'sauvignon', 'blanc', 'welcome', 'departure', 'acid', 'bomb']",0,1,0,0
+"['great', 'sauvignon', 'blanc', 'one', 'best', 'ive', 'tasted', 'green', 'apple', 'honey', 'flavor', 'palate']",0,1,0,0
+"['frutier', 'side', 'sb', 'great', 'taste', 'melon', 'fill', 'mouth', 'awesome', 'bottle', 'design', 'well']",0,1,0,1
+"['pale', 'pale', 'straw', 'pear', 'sweetness', 'nose', 'continues', 'palate', 'almost', 'taste', 'like', 'late', 'harvest']",0,1,0,0
+"['saw', 'creamy', 'pear', 'comment', 'feel', 'like', 'spot', 'description', 'good', 'first', 'impression', '40']",0,1,1,0
+"['wine', 'balanced', 'smooth', 'beautiful', 'round', 'melon', 'mineral', 'pear', 'delicious', 'perfect', 'sauvignon', 'blanc']",0,1,0,0
+"['definitely', 'tropical', 'fruit', 'forward', 'flavorful', 'sb', 'full', 'body', 'concentration', 'stand', 'rich', 'shrimp', 'lobster']",1,1,0,0
+"['pleasant', 'scent', 'light', 'pear', 'nose', 'pear', 'hint', 'earth', 'finish', 'green', 'apple', 'tongue', 'light', 'mildly', 'bright']",0,0,0,1
+"['strange', 'sauv', 'blanc', 'creamy', 'rich', 'peppery', 'finish', 'hint', 'sweetness', 'would', 'sworn', 'viognier']",0,1,0,0
+"['good', 'sauvignon', 'blanc', 'american', 'style', 'fuller', 'fruitier', 'european', 'balance', 'good', 'though']",0,1,0,0
+"['dream', 'almost', 'creamy', 'finish', 'depth', 'one', 'would', 'expect', 'sauv', 'could', 'drink', 'day']",0,1,0,0
+"['hot', 'vintage', 'light', 'colour', 'golden', 'green', 'fleck', 'nose', 'white', 'pineapple', 'stick', 'nose', 'viscous', 'lemon', 'oil', 'way', 'savoury', 'mixed', 'green', 'herb', 'grilled', 'peach', 'palate', 'equally', 'complex', 'attack', 'melon', 'creamy', 'kiwi', 'finish', 'salty', 'mineral', 'focused', 'slight', 'sweet', 'lift', 'mouth', 'feel', 'particularly', 'nose', 'grow', 'breadth', 'weight', 'open', 'truly', 'sublime', 'pairing', 'grilled', 'asparagus', 'sauce', 'gribiche', 'ham', 'parmesan', 'lemon', 'oil']",0,1,0,1
+"['house', 'nicely', 'balanced', 'feel', 'like', 'oak', 'perhaps', 'lee', 'honeydew', 'melon', 'honey', 'rosemary', 'papaya', 'complex', 'fruit', 'forward', 'lower', 'acid', 'probably', 'would', 'guessed', 'sauvignon', 'blanc', 'bubblegum', 'refreshing', 'thirstquenching']",0,1,0,0
+"['scott', 'white', 'recommendation', 'scott', 'steered', 'great', 'wine', 'whispering', 'angel', 'ro', 'honig', 'sb', 'cringed', 'bit', 'price', 'said', 'im', 'worth', 'glad', 'lot', 'tropical', 'citrus', 'flavor', 'touch', 'oak', 'peach', 'finish', '90', 'point', 'wine', 'enthusiast']",0,1,1,0
+"['bottle', 'seven', 'year', 'old', 'saved', 'wanted', 'see', 'might', 'age', 'still', 'gorgeous', 'one', 'favorite', 'white', 'softer', 'rounder', 'fuller', 'ripe', 'asian', 'pear', 'peach', 'honey', 'bit', 'butter', 'caramel', 'oak', 'well', 'citrus', 'still', 'tangerine', 'grapefruit', 'background']",0,1,0,0
+"['love', 'spicy', 'note', 'sitting', 'top', 'gooseberry', 'awesome', 'sauvignon', 'blanc', 'californian', 'expect', 'nothing', 'less', 'merry', 'course']",0,1,0,0
+"['fantastic', 'sonoma', 'sauvignon', 'blanc', 'complex', 'profile', 'flavor', 'white', 'peach', 'tangerine', 'lemon', 'grass', 'guava', 'pineapple', 'coconut', 'vanilla', 'hint', 'minerality', 'oak', 'barrel', 'fermentation', 'give', 'softer', 'acidity', 'add', 'character', 'creamy', 'texture']",0,1,0,1
+"['found', 'back', 'cellar', 'thought', 'maybe', '4', 'year', 'past', 'prime', 'surprised', 'still', 'lot', 'life', 'left', 'sweet', 'palate', 'note', 'pink', 'grapefruit', 'mon', 'zest', 'mouthfeel', 'creamy', 'bright', 'mellowed', 'acidity']",0,1,0,0
+"['stop', 'one', 'better', 'lail', 'cuvasion', 'california', 'sav', 'blanc', 'measure', 'near', 'perfect', 'wine', 'pale', 'straw', 'color', 'note', 'tropical', 'fruit', 'lemon', 'zest', 'light', 'bodied', 'crisp', 'fruit', 'expression', 'acidity', 'come', 'wave', 'harmonious', 'blend', 'fruit', 'making', 'finish', 'clean', 'dry', 'palate', 'white', 'peach', 'honey', 'crisp', 'apple', 'hint', 'lime', 'tart', 'kiwi', '95pts']",0,1,0,0
+"['impress', 'premium', 'sauvignon', 'blanc', 'isnt', 'overly', 'fruity', 'way', 'like', 'lot', 'others', 'mellow', 'cornucopia', 'fruit', 'melon', 'strawberry', 'honey', 'dew', 'blueberry', 'name', 'got', 'little', 'crispy', 'little', 'soft', 'oaky', 'excellent']",0,1,0,0
+"['medium', 'plus', 'body', 'sb', 'round', 'showing', 'oak', 'note', 'lee', 'stone', 'fruit', 'tropical', 'high', 'alcohol', 'concentrated', 'quite', 'long']",0,1,0,0
+"['benchmark', 'cali', 'sauv', 'b', 'balanced', 'wine', 'fruit', 'ripe', 'overly']",0,1,0,0
+"['awaesome', 'white', 'enjoy', 'friend']",0,0,0,1
+"['oaked', 'sauvignon', 'blanc', 'really', 'awesome', 'combination']",0,0,0,1
+"['different', 'sauv', 'blanc', 'crisp', 'richer', 'normal', 'good']",0,1,0,0
+"['even', 'better', 'drinking', 'sonoma']",0,0,0,1
+"['great', 'sauvignon', 'blanc', 'aroma', 'melon', 'pear', 'mineral', 'high', 'acidityfreshness', 'mouth']",0,0,0,1
+"['wow', 'impressive', 'robust', 'sauvignon', 'blanc', 'green', 'apple', 'pear', 'cotton', 'mineral', 'lime', 'beautiful']",0,1,0,0
+['hold'],0,0,0,1
+"['really', 'nice', 'cab', 'sauv']",0,0,0,1
+"['nice', 'light']",0,0,0,1
+"['citrus', 'oak', 'pear', 'peach', 'melon', 'cream', 'butter', 'lemon', 'apple', 'honey']",0,1,0,0
+"['served', 'wine', 'wedding', 'really', 'lovely', 'wine', 'ill', 'drinking', 'year', 'come']",0,0,0,1
+"['citrus', 'oak', 'pear', 'lemon', 'mineral', 'stone', 'grass', 'straw', 'banana']",0,1,0,0
+"['many', 'tropical', 'flavor', 'clear', 'oak', 'usage', 'provide', 'complexity', 'pale', 'lemon', 'color', 'grass', 'pear', 'grapefruit', 'green', 'apple', 'skin', 'pineapple', 'white', 'blossom', 'nectarine', 'nose', 'dry', 'high', 'acidity', 'cream', 'pineapple', 'lychee', 'vanilla', 'lime', 'zest']",0,1,0,0
+"['light', 'golden', 'color', 'nose', 'pear', 'pineapple', 'cotton', 'candy', 'bit', 'sage', 'mouth', 'pineapple', 'pear', 'modest', 'residual', 'sugar', 'medium', 'acid', 'hint', 'bitterness', 'long', 'pear', 'sage', 'finish', 'abv', '14', 'think', 'maefield', 'estate', 'vineyard', 'varietal', 'sauvignon', 'blanc', 'shenandoah', 'clone', '1', '67', 'sauvignon', 'musque', '33', '5', 'mo', 'french', 'oak', '18', 'new', 'batonnage', '2xwk', 'definitely', 'better', 'least', 'hour', 'slowox', 'wine', 'spectator', '95']",0,1,0,1
+"['color', 'light', 'yellow', 'viscosity', 'high', 'aroma', 'mango', 'tropical', 'guava', 'honey', 'pineapple', 'mineral', 'melon', 'tannin', 'none', 'acidity', 'medium', 'alcohol', '140', 'grape', 'varietal', '100', 'sauvignon', 'blanc', 'impression', 'much', 'herbaceousness', 'typical', 'sauvignon', 'blanc', 'tropical', 'easy', 'drink']",0,0,0,1
+"['sauvignon', 'blanc', 'russian', 'river', 'sonoma', 'acknowledge', 'wine', 'good', 'complexity', 'intense', 'oaky', 'aromasflavors', 'overwhelming', 'reminds', 'oaky', 'chardonnay', 'fullbodied', 'acidity']",0,0,0,1
+"['bare', 'naked', 'lady', '4th', 'vintage', 'today', 'hot', 'midoctober', 'mid', '80sf', '30c', 'sb', 'helped', 'structured', 'complex', 'aromatic', 'vintage', 'ive', 'enjoyed', 'far', 'pale', 'yellow', 'aroma', 'elderflower', 'pineapple', 'melon', 'citrus', 'zest', 'barest', 'hint', 'green', 'herb', 'dry', 'ripe', 'round', 'lush', 'palate', 'medfull', 'body', '14', 'balanced', 'crisp', 'medacidity', 'unctuous', 'palate', 'white', 'peach', 'quince', 'lychee', 'vanilla', 'sprinkle', 'white', 'pepper', 'mid', 'chalky', 'slate', 'finish', 'saline', 'edge']",0,1,0,1
+"['pale', 'color', 'nose', 'citrus', 'pear', 'peach', 'oak', 'tropical', 'lemon', 'melon', 'pineapple', 'cream', 'butter', 'green', 'apple', 'stone', 'fruit', 'honeyamazing', 'nose', 'mouth', 'pair', 'nose', 'oak', 'citrus', 'cream', 'toasted', 'coconut', 'mediumfull', 'body', 'sauvignon', 'blanc', 'medium', 'acidity', 'mediumlong', 'finish', 'good', 'wine']",0,1,0,1
+"['sb', 'think', 'chardonnay', 'great', 'matter', 'fact', 'chardonnay', 'least', 'killer', 'white', 'bordeaux', 'blend', 'top', 'notch', 'somms', 'would', 'swear', 'chard', 'leafy', 'vegetable', 'wow', 'yum', 'guy', 'cheap', 'mind', 'goooood', 'love', 'balance', 'balance', 'balance', 'delicious', 'white', 'wine', 'ty']",0,1,1,1
+"['barrel', 'fermented', 'lee', 'stiring', 'open', 'quite', 'grassy', 'evolves', 'white', 'peach', 'floral', 'frangipani', 'corn', 'touch', 'vanilla', 'palate', 'moderate', 'acidity', 'good', 'concentration', 'firm', 'texture', 'slightly', 'warming', 'alcohol', 'touch', 'bitterness', 'good', 'length', 'really', 'benefit', 'aeration', 'became', 'lot', 'aromatic', 'gained', 'weight', 'drinking', 'well', 'evolve', 'bottle', 'another', '23years']",0,1,0,1
+"['pale', 'lemon', 'color', 'youthful', 'medium', 'plus', 'intensity', 'nose', 'citrus', 'oak', 'peach', 'pear', 'tropical', 'fruit', 'melon', 'cream', 'dry', 'medium', 'plus', 'acid', 'full', 'bodied', 'high', 'alcohol', 'medium', 'plus', 'intensity', 'body', 'long', 'finish', 'oak', 'cream', 'vanilla', 'citrus', 'lemon', 'tropical', 'fruit', 'wine', 'definitely', 'see', 'oak', 'aging', 'nz', 'zippy', 'sauv', 'blanc', 'mineral', 'outstanding', 'quality', 'wine', 'drink', 'suitable', 'aging']",0,1,0,0
+"['163584282abbey', 'wei', 'blinded', 'appearance', 'pale', 'lemongreen', 'rim', 'variation', 'nose', 'med', 'intensity', 'white', 'blossom', 'honeysuckle', 'green', 'apple', 'yellow', 'apple', 'something', 'metallic', 'white', 'peach', 'bruised', 'apple', 'candied', 'oil', 'tropical', 'palate', 'dry', 'exactly', 'heavy', 'fruit', 'medium', 'acid', 'med', 'body', 'luscious', 'mouthfeel', 'high', 'alcohol', 'med', 'flavor', 'intensity', 'minerality', 'white', 'pepper', 'spice', 'oak', 'peach', 'banana', 'bitter', 'acidity', 'red', 'apple', 'ripe', 'fruit', 'finish', 'med', 'med', 'bitter', 'acidity', 'guessed', 'ny', 'riesling', 'good']",0,1,0,1
+"['elegant', 'medium', 'intensity', 'aroma', 'flavor', 'apple', 'pineapple', 'apricot', 'white', 'peach', 'nectarine', 'elderflower', 'brioche', 'clove', 'vanilla', 'smoke', 'hint', 'dried', 'apricot', 'honey', 'good', 'quality', 'balancing', 'aromatics', 'hint', 'oak', 'interesting', 'style', 'batonnage', '18', 'new', 'french', 'oak']",0,1,0,1
+"['41pts', 'merry', 'edward', 'sauvignon', 'blanc', '2022', 'first', 'time', 'taste', 'beautiful', 'sauvignon', 'blanc', 'merry', 'edward', 'winery', 'founded', '1997', 'one', 'california', 'first', 'highly', 'successful', 'female', 'winemaker', 'winery', 'vineyard', 'influenced', 'pacific', 'ocean', 'cooling', 'fog', 'sandy', 'soil', 'attribute', 'lead', 'production', 'rich', 'ageable', 'wine', 'silky', 'smooth', 'bright', 'acidity', 'complex', 'balanced', 'aroma', 'lemon', 'pineapple', 'lime', 'zest', 'acacia', 'melon', 'vanilla', 'mineral']",0,0,0,1
+"['absolutely', 'amazing', 'sauvignon', 'blanc', 'fruity', 'soft', 'mostly', 'citrus', 'maybe', 'green', 'apple', 'well', 'built', 'quilibrated', 'soft', 'flavorful', 'pair', 'well', 'light', 'seafood', 'like', 'scallop']",0,1,0,0
+"['wonderful', 'peach', 'full', 'sweet', 'sauv', 'b']",0,1,0,0
+"['buttery', 'pear', 'good', 'amount', 'sweetness', 'refreshing', 'pair', 'well', 'fish']",1,0,0,0
+"['time', 'favorite', 'sauvignon', 'blanc', 'beautiful', 'honeysuckle', 'floral', 'note', 'cant', 'describe', 'magic', 'tongue', 'amazing']",0,1,0,0
+"['got', 'yummy', 'mouth']",0,1,0,0
+"['light', 'slightly', 'dry', 'mildly', 'acidic', 'note', 'melon', 'peach', 'citrus', 'caramel', 'butter', 'oak']",0,1,0,0
+"['tropical', 'yet', 'fresh']",0,1,0,0
+"['2019', 'didnt', 'disappoint', 'pear', 'forward', 'hint', 'melon', 'slightly', 'citrus', 'finish', 'balanced', 'perfectly', 'boiled', 'lobster']",0,1,0,0
+"['beautiful', 'wine', 'agree', 'ws94', 'note']",0,0,0,1
+"['big', 'canyon', 'wine', 'tasting']",0,0,0,1
+"['smokyand', 'smooth', 'sultry', 'enjoy']",0,0,0,1
+"['fabulous', 'balanced', 'near', 'perfect', 'wine']",0,0,0,1
+"['omg', 'grape', 'pressed', 'service', 'better', 'dying', 'vine']",0,0,0,1
+"['sauvignon', 'blanc', 'sophisticated', 'rounded', 'average', 'blanc', 'reaaal', 'good', 'never', 'disappoints', 'bit', 'expensive', 'bottle', 'white', 'wine', 'isnt']",0,0,1,0
+"['john', 'gails', 'incredibly', 'light', 'yummy']",0,1,0,1
+"['citrus', 'oak', 'peach', 'pear', 'tropical', 'melon']",0,1,0,0
+"['soft', 'smooth', 'acidic', 'sauvignon', 'blanc', 'chardonnay', 'lover']",0,0,0,1
+"['pear', 'nose', 'palette', 'floral', 'light', 'honey', 'melon', 'touch', 'butter', 'sweeter', 'side', 'crisp', 'acidity', 'heavier', 'body', 'almost', 'jammy', 'complex', 'refreshing', 'delightful']",0,1,0,1
