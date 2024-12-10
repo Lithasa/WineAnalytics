@@ -93,8 +93,7 @@ for index, row in wine_df.iterrows():
 wine_df.drop(columns=['Food pairings', 'Region', 'Grapes'], inplace=True)
 
 wine_df['Year'] = wine_df['Name'].str.extract(r'(\b\d{4}\b)')
-wine_df['Year'] = pd.to_numeric(wine_df['Year'], errors='coerce')
+wine_df['Year'] = wine_df['Year'].str.strip()
 wine_df['Year'] = wine_df['Year'].fillna('n.v.')
-
 
 wine_df.to_csv('wine.csv', index=False)
