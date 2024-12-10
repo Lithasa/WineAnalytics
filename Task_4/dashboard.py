@@ -25,20 +25,12 @@ unique_countries = df['Country'].unique()
 def create_charts(selected_column,selected_country):
 
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
-
     avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
-
     avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
-
     filtered_df = df[df['Country'] == selected_country]
-
     avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
     avg_rating_country.columns = [col.strip() for col in avg_rating_country.columns]
-
     top_styles = df['Wine style'].value_counts().head(10).reset_index()
-
-    
-
     
     food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
     food_counts = filtered_df[food_columns].sum().reset_index()
@@ -105,7 +97,6 @@ def create_charts(selected_column,selected_country):
         title='Rating vs Alcohol Content',
         labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'}
     )
- 
     fig4.add_annotation(
         x=max(avg_rating_by_alcohol['Alcohol content']),
         y=max(avg_rating_by_alcohol['Rating']),
@@ -123,7 +114,6 @@ def create_charts(selected_column,selected_country):
         hole=0.3
     )
 
-    
     fig6 = px.histogram(
         df,
         x = 'Rating',
@@ -132,8 +122,8 @@ def create_charts(selected_column,selected_country):
         color_discrete_sequence=['#11ad74']
     )
 
-    
     avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
+
     fig7 = px.bar(
         avg_rating_country,
         x='Rating',
@@ -150,12 +140,9 @@ def create_charts(selected_column,selected_country):
         title=f'Top 10 Wine Styles in {selected_country}',
         labels={'Wine style': 'Wine Style', 'Avg_Rating': 'Average Rating'},
         color_continuous_scale=px.colors.sequential.Reds
-
     )
 
-
     return fig1, fig2, fig3, fig4,fig5, fig6,fig7,fig8
-
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
@@ -168,19 +155,12 @@ app.layout = html.Div([
         dcc.Tab(label='Wine Food pairing analysis',value='tab5'),
         dcc.Tab(label='Distribution of Ratings',value='tab6'),
         dcc.Tab(label='Average Rating by Country', value= 'tab7'),
-        dcc.Tab(label='Top 10 Wine Styles', value= 'tab8')
-        
+        dcc.Tab(label='Top 10 Wine Styles', value= 'tab8')  
     ]),
 
     html.Div(id='tabs-content'),
     html.Div(id='dynamic-content'),
-
-
-
 ])
-
-
-
 
 @app.callback(
     Output('tabs-content', 'children'),
@@ -214,8 +194,7 @@ def render_tab_content(selected_tab):
             dcc.Dropdown(
                 id="country-dropdown",
                 options=[{"label": country, "value": country} for country in unique_countries],
-                value=default_country,
-                
+                value=default_country,  
             ),
             dcc.Graph(id="pie-chart")
 
@@ -241,8 +220,6 @@ def render_tab_content(selected_tab):
         ])
         #_, _, _, _, _, _, _,fig8 = create_charts('Bold',default_country) 
         #return dcc.Graph(figure=fig8)
-
-
 
 @app.callback(
     Output('tab3-content', 'children'),
