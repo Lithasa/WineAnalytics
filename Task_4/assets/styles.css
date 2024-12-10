@@ -8,8 +8,7 @@ body {
 }
 
 #background-image {
-    background-image: url('./wine.png');
-    background-color: green;
+    background-image: url('wine.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

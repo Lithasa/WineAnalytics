@@ -137,7 +137,7 @@ def create_charts(selected_column,selected_country):
     return fig1, fig2, fig3, fig4,fig5, fig6,fig7,fig8
 
 app.layout = html.Div([
-    html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
+    html.H1("Wine Data Analysis", style={'textAlign': 'center', 'color':'white'}),
     html.Div(
         id='background-image',
     ),
