@@ -1,5 +1,4 @@
 import pandas as pd
-import dash
 from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
@@ -7,31 +6,24 @@ import numpy as np
 
 app = Dash(__name__, suppress_callback_exceptions=True) 
 
-
 df = pd.read_csv("updated_wine.csv")
 
 df['Country'] = df['Country'].str.strip().str.title()
 food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
 unique_countries = df['Country'].unique()
+columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
+unique_countries = df['Country'].unique()
 
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
 correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
-
-columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
-unique_countries = df['Country'].unique()
-
-
 def create_charts(selected_column,selected_country):
-
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
     avg_rating_by_flavour = df.groupby('Rating', as_index=False)[selected_column].mean()
     avg_rating_by_alcohol = df.groupby('Alcohol content')['Rating'].mean().reset_index()
+    avg_rating_by_country = df.groupby('Country')['Rating'].mean().reset_index()
+    avg_rating_by_country.columns = [col.strip() for col in avg_rating_by_country.columns]
     filtered_df = df[df['Country'] == selected_country]
-    avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
-    avg_rating_country.columns = [col.strip() for col in avg_rating_country.columns]
-    #top_styles = df['Wine style'].value_counts().head(10).reset_index()
-    
     food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
     food_counts = filtered_df[food_columns].sum().reset_index()
     food_counts.columns = ['Food Pairing','Count']
@@ -68,7 +60,6 @@ def create_charts(selected_column,selected_country):
         title='Average Price vs Rating',
         color='Year'
     )
- 
     fig2.add_annotation(
         x=max(df['Price']),
         y=max(df['Rating']),
@@ -119,10 +110,9 @@ def create_charts(selected_column,selected_country):
         nbins = 20,
         color_discrete_sequence=['#BB3754']
     )
-
-    avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
+    
     fig7 = px.bar(
-        avg_rating_country,
+        avg_rating_by_country,
         x='Rating',
         y='Country',
         color='Rating',
@@ -139,42 +129,28 @@ def create_charts(selected_column,selected_country):
         title=f'Top 10 Wine Styles in {selected_country}',
         labels={'Wine style': 'Wine Style', 'Avg_Rating': 'Average Rating'},
         color_continuous_scale=px.colors.sequential.Viridis
-
     )
     fig8.update_layout(
-    bargap=0.4
-)
+        bargap=0.4
+    )
 
     return fig1, fig2, fig3, fig4,fig5, fig6,fig7,fig8
 
 app.layout = html.Div([
     html.H1("Wine Data Analysis", style={'textAlign': 'center'}),
     html.Div(
-    
-        style={
-            'background-image': 'url(/assets/wine.png)',  
-            'background-size': 'cover',
-            'background-repeat': 'no-repeat',
-            'background-attachment': 'fixed',
-            'opacity': '0.5',  
-            'position': 'absolute',
-            'top': '0',
-            'left': '0',
-            'width': '100%',
-            'height': '100%',
-            'z-index': '-1'
-        }
+        id='background-image',
     ),
 
-    dcc.Tabs(id="tabs", value='tab1', children=[
-        dcc.Tab(label='Price vs Year', value='tab1'),
-        dcc.Tab(label='Price vs Rating', value='tab2'),
-        dcc.Tab(label='Rating vs Flavour', value='tab3'),
-        dcc.Tab(label='Rating vs Alcohol Content', value='tab4'),
-        dcc.Tab(label='Wine Food pairing analysis',value='tab5'),
-        dcc.Tab(label='Distribution of Ratings',value='tab6'),
-        dcc.Tab(label='Average Rating by Country', value= 'tab7'),
-        dcc.Tab(label='Top 10 Wine Styles', value= 'tab8')  
+    dcc.Tabs(id="tab-container", value='tab1', children=[
+        dcc.Tab(label='Price vs Year', value='tab1', className='tab'),
+        dcc.Tab(label='Price vs Rating', value='tab2', className='tab'),
+        dcc.Tab(label='Rating vs Flavour', value='tab3', className='tab'),
+        dcc.Tab(label='Rating vs Alcohol Content', value='tab4', className='tab'),
+        dcc.Tab(label='Wine Food pairing analysis',value='tab5', className='tab'),
+        dcc.Tab(label='Distribution of Ratings',value='tab6', className='tab'),
+        dcc.Tab(label='Average Rating by Country', value= 'tab7', className='tab'),
+        dcc.Tab(label='Top 10 Wine Styles', value= 'tab8', className='tab')  
     ]),
 
     html.Div(id='tabs-content'),
@@ -183,7 +159,7 @@ app.layout = html.Div([
 
 @app.callback(
     Output('tabs-content', 'children'),
-    [Input('tabs', 'value')]
+    [Input('tab-container', 'value')]
 )
 def render_tab_content(selected_tab):
     default_country = unique_countries[0]
@@ -195,13 +171,16 @@ def render_tab_content(selected_tab):
         return dcc.Graph(figure=fig2)
     elif selected_tab == 'tab3':
         return html.Div([
-            html.Label("Select Attribute:", style={'margin-top': '20px'}),
-            dcc.Dropdown(
-                id="attribute-dropdown",
-                options=[{"label": col, "value": col} for col in columns_to_plot],
-                value=columns_to_plot[0],  
-                clearable=False
-            ),
+            html.Div(className='dropdown-container', children=[
+                html.Label("Select Attribute : ", className='dropdown-text'),
+                dcc.Dropdown(
+                    id="attribute-dropdown",
+                    options=[{"label": col, "value": col} for col in columns_to_plot],
+                    value=columns_to_plot[0],  
+                    clearable=False,
+                    className='dropdown-menu'
+                )
+            ]),
             html.Div(id='tab3-content')
         ])
     elif selected_tab == 'tab4':
@@ -209,17 +188,19 @@ def render_tab_content(selected_tab):
         return dcc.Graph(figure=fig4)
     elif selected_tab == 'tab5':
         return html.Div([
-            html.Label("Select Country:", style={'margin-top': '20px'}),
-            dcc.Dropdown(
-                id="country-dropdown",
-                options=[{"label": country, "value": country} for country in unique_countries],
-                value=default_country,  
-            ),
+            html.Div(className='dropdown-container', children=[
+                html.Label("Select Country : ", className='dropdown-text'),
+                dcc.Dropdown(
+                    id="country-dropdown",
+                    options=[{"label": country, "value": country} for country in unique_countries],
+                    value=default_country, 
+                    clearable=False,
+                    className='dropdown-menu' 
+                )
+            ]),
             dcc.Graph(id="pie-chart")
-
         ])
     
-        return dcc.Graph(id="pie-chart", figure=fig5), dropdown
     elif selected_tab == 'tab6':
         _, _, _, _, _, fig6, _, _ = create_charts('Bold',default_country)
         return dcc.Graph(figure=fig6)
@@ -228,14 +209,17 @@ def render_tab_content(selected_tab):
         return dcc.Graph(figure=fig7)
     elif selected_tab =='tab8':
         return html.Div([
-            html.Label("Select the Country:", style={'margin-top': '20px'}),
-            dcc.Dropdown(
-                id="country-dropdown",
-                options=[{"label":country, "value": country} for country in unique_countries],
-                value=unique_countries[0],
-                clearable=False
-            ),
-            html.Div(id='tab8-content')
+            html.Div(className='dropdown-container', children=[
+                html.Label("Select the Country : ", className='dropdown-text'),
+                dcc.Dropdown(
+                    id="country-dropdown",
+                    options=[{"label": country, "value": country} for country in unique_countries],
+                    value=unique_countries[0],
+                    clearable=False,
+                    className='dropdown-menu' 
+                )
+            ]),
+            html.Div(id='tab8-content'),
         ])
         
 
