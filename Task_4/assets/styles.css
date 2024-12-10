@@ -20,6 +20,7 @@ body {
     height: 101vh;
     z-index: -1;
     -webkit-filter: blur(4px);
+    filter: blur(4px); 
 }
 
 .dropdown-container {
