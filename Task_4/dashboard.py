@@ -7,21 +7,17 @@ import numpy as np
 
 app = Dash(__name__, suppress_callback_exceptions=True)
 
-# Load dataset
 df = pd.read_csv("updated_wine.csv")
 
 df['Country'] = df['Country'].str.strip().str.title()
 #food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
 #unique_countries = df['Country'].unique()
 
-# Precompute correlation coefficients
 correlation_fig2 = np.corrcoef(df['Price'], df['Rating'])[0, 1]
 correlation_fig4 = np.corrcoef(df['Alcohol content'], df['Rating'])[0, 1]
 
-# Columns for dropdown
 columns_to_plot = ['Bold', 'Tannin', 'Sweet', 'Acidic']
 unique_countries = df['Country'].unique()
-
 
 def create_charts(selected_column, selected_country):
     avg_price_by_year = df.groupby('Year')['Price'].mean().reset_index()
@@ -56,7 +52,6 @@ def create_charts(selected_column, selected_country):
         title='Average Price vs Rating',
         color='Year'
     )
-
     fig2.add_annotation(
         x=max(df['Price']),
         y=max(df['Rating']),
@@ -82,7 +77,6 @@ def create_charts(selected_column, selected_country):
         title='Rating vs Alcohol Content',
         labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'}
     )
-
     fig4.add_annotation(
         x=max(avg_rating_by_alcohol['Alcohol content']),
         y=max(avg_rating_by_alcohol['Rating']),
