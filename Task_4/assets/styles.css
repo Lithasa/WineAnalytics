@@ -5,3 +5,14 @@ body {
 #heading {
     text-align: center;
 }
+.dash-table-container .dash-spreadsheet td {
+    text-align: left; 
+    padding: 10px;    
+    font-size: 14px;  
+}
+
+.dash-table-container .dash-spreadsheet th {
+    text-align: center;
+    background-color: lightgrey;
+    font-weight: bold;
+}

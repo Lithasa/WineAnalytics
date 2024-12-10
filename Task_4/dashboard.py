@@ -1,6 +1,6 @@
 import pandas as pd
 import dash
-from dash import Dash, dcc, html, Input, Output
+from dash import Dash, dcc, html, Input, Output, dash_table
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
@@ -188,11 +188,47 @@ app.layout = html.Div([
 def render_tab_content(selected_tab):
     default_country = unique_countries[0]
     if selected_tab == 'tab1':
-        fig1, _, _, _, _, _, _, _= create_charts('Bold',default_country)  
-        return dcc.Graph(figure=fig1)
+        fig1, _, _, _, _, _, _, _= create_charts('Bold',default_country) 
+        insights = [
+            {"Metric": "Mean Price", "Value": round(df['Price'].mean(), 2)},
+            {"Metric": "Max Price", "Value": round(df['Price'].max(), 2)},
+            {"Metric": "Min Price", "Value": round(df['Price'].min(), 2)},
+        ]
+        table = dash_table.DataTable(
+            columns=[{"name": i, "id": i} for i in ["Metric", "Value"]],
+            data=insights,
+             style_cell={
+        'textAlign': 'left', 
+        'padding': '10px',
+        'fontSize': '14px',
+    },
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'textAlign': 'center'
+    },
+        ) 
+        return dcc.Graph(figure=fig1),table
     elif selected_tab == 'tab2':
         _, fig2, _, _ , _, _, _, _= create_charts('Bold',default_country)  
-        return dcc.Graph(figure=fig2)
+        insights = [
+            {"Metric": "Correlation (Price & Rating)", "Value": round(correlation_fig2, 2)}
+        ]
+        table = dash_table.DataTable(
+            columns=[{"name": i, "id": i} for i in ["Metric", "Value"]],
+            data=insights,
+            style_cell={
+        'textAlign': 'left', 
+        'padding': '10px',
+        'fontSize': '14px',
+    },
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'textAlign': 'center'
+    },
+        )
+        return dcc.Graph(figure=fig2),table
     elif selected_tab == 'tab3':
         return html.Div([
             html.Label("Select Attribute:", style={'margin-top': '20px'}),
@@ -205,8 +241,25 @@ def render_tab_content(selected_tab):
             html.Div(id='tab3-content')
         ])
     elif selected_tab == 'tab4':
-        _, _, _, fig4, _, _, _, _ = create_charts('Bold',default_country)  
-        return dcc.Graph(figure=fig4)
+        _, _, _, fig4, _, _, _, _ = create_charts('Bold',default_country)
+        insights = [
+            {"Metric": "Correlation (Alcohol & Rating)", "Value": round(correlation_fig4, 2)}
+        ]
+        table = dash_table.DataTable(
+            columns=[{"name": i, "id": i} for i in ["Metric", "Value"]],
+            data=insights,
+            style_cell={
+        'textAlign': 'left', 
+        'padding': '10px',
+        'fontSize': '14px',
+    },
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'textAlign': 'center'
+    },
+        )  
+        return dcc.Graph(figure=fig4),table
     elif selected_tab == 'tab5':
         return html.Div([
             html.Label("Select Country:", style={'margin-top': '20px'}),
@@ -222,10 +275,48 @@ def render_tab_content(selected_tab):
         return dcc.Graph(id="pie-chart", figure=fig5), dropdown
     elif selected_tab == 'tab6':
         _, _, _, _, _, fig6, _, _ = create_charts('Bold',default_country)
-        return dcc.Graph(figure=fig6)
+        insights = [
+            {"Metric": "Mean Rating", "Value": round(df['Rating'].mean(), 2)},
+            {"Metric": "Most Common Rating", "Value": df['Rating'].mode()[0]}
+        ]
+        table = dash_table.DataTable(
+            columns=[{"name": i, "id": i} for i in ["Metric", "Value"]],
+            data=insights,
+            style_cell={
+        'textAlign': 'left', 
+        'padding': '10px',
+        'fontSize': '14px',
+    },
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'textAlign': 'center'
+    },
+        )
+        return dcc.Graph(figure=fig6),table
     elif selected_tab =='tab7':
-        _, _, _, _, _, _, fig7, _ = create_charts('Bold',default_country)  
-        return dcc.Graph(figure=fig7)
+        _, _, _, _, _, _, fig7, _ = create_charts('Bold',default_country)
+        avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
+        top_country = avg_rating_country.loc[avg_rating_country['Rating'].idxmax(), 'Country']
+        insights = [
+            {"Metric": "Top Country", "Value": top_country},
+            {"Metric": "Average Rating", "Value": round(avg_rating_country['Rating'].mean(), 2)}
+        ]
+        table = dash_table.DataTable(
+            columns=[{"name": i, "id": i} for i in ["Metric", "Value"]],
+            data=insights,
+            style_cell={
+        'textAlign': 'left', 
+        'padding': '10px',
+        'fontSize': '14px',
+    },
+    style_header={
+        'backgroundColor': 'lightgrey',
+        'fontWeight': 'bold',
+        'textAlign': 'center'
+    },
+        )  
+        return dcc.Graph(figure=fig7),table
     elif selected_tab =='tab8':
         return html.Div([
             html.Label("Select the Country:", style={'margin-top': '20px'}),
