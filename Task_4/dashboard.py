@@ -95,7 +95,8 @@ def create_charts(selected_column,selected_country):
         y='Rating',
         color='Rating',
         title='Rating vs Alcohol Content',
-        labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'}
+        labels={'Alcohol content': 'Alcohol Content', 'Rating': 'Rating'},
+        color_continuous_scale=px.colors.sequential.Turbo
     )
     fig4.add_annotation(
         x=max(avg_rating_by_alcohol['Alcohol content']),
@@ -118,20 +119,21 @@ def create_charts(selected_column,selected_country):
         df,
         x = 'Rating',
         title='Distrinution of Ratings',
-        nbins = 60,
-        color_discrete_sequence=['#11ad74']
+        nbins = 20,
+        color_discrete_sequence=['#BB3754']
     )
 
     avg_rating_country = df.groupby('Country')['Rating'].mean().reset_index()
-
     fig7 = px.bar(
         avg_rating_country,
         x='Rating',
         y='Country',
+        color='Rating',
         orientation='h', 
         title='Average Rating by Country', 
-        color_discrete_sequence=['#F46A25'])
-    
+        color_continuous_scale=px.colors.sequential.Greens
+    )
+
     fig8 = px.bar(
         top_styles_country,
         x='Wine style',
@@ -139,8 +141,12 @@ def create_charts(selected_column,selected_country):
         color='Count',
         title=f'Top 10 Wine Styles in {selected_country}',
         labels={'Wine style': 'Wine Style', 'Avg_Rating': 'Average Rating'},
-        color_continuous_scale=px.colors.sequential.Reds
+        color_continuous_scale=px.colors.sequential.Viridis
+
     )
+    fig8.update_layout(
+    bargap=0.4
+)
 
     return fig1, fig2, fig3, fig4,fig5, fig6,fig7,fig8
 
@@ -218,8 +224,8 @@ def render_tab_content(selected_tab):
             ),
             html.Div(id='tab8-content')
         ])
-        #_, _, _, _, _, _, _,fig8 = create_charts('Bold',default_country) 
-        #return dcc.Graph(figure=fig8)
+        _, _, _, _, _, _, _,fig8 = create_charts('Bold',default_country) 
+        return dcc.Graph(figure=fig8)
 
 @app.callback(
     Output('tab3-content', 'children'),
