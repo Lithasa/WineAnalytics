@@ -240,17 +240,6 @@ def render_tab_content(selected_tab):
     
     elif selected_tab == 'tab3':
         return html.Div([
-            html.P(
-                
-                "Interpretation for Average Wine Rating by the Flavour"
-                "For Example - Boldness"
-                "Type of Chart: Bar Chart"
-                "Purpose: The chart shows how the average wine rating varies according to the boldness of the wine."
-                "Description:"
-	                "•	In this bar chart, wines with a boldness level of 3.7 have the highest average rating of 81.83."
-	                "•	Wines with a boldness level of 4.2 have the lowest average rating, which is 53.64767.",
-                    className="description-text"
-            ),
             html.Div(className='dropdown-container', children=[
                 html.Label("Select Attribute : ", className='dropdown-text'),
                 dcc.Dropdown(
@@ -261,7 +250,18 @@ def render_tab_content(selected_tab):
                     className='dropdown-menu'
                 )
             ]),
-            html.Div(id='tab3-content')
+            html.Div(id='tab3-content'),
+
+            html.P(
+                "Interpretation for Average Wine Rating by the Flavour"
+                "For Example - Boldness"
+                "Type of Chart: Bar Chart"
+                "Purpose: The chart shows how the average wine rating varies according to the boldness of the wine."
+                "Description:"
+                "•	In this bar chart, wines with a boldness level of 3.7 have the highest average rating of 81.83."
+                "•	Wines with a boldness level of 4.2 have the lowest average rating, which is 53.64767.",
+                className="description-text"
+            )
         ])
     elif selected_tab == 'tab4':
         _, _, _, fig4, _, _, _, _ = create_charts('Bold',default_country)
@@ -302,16 +302,6 @@ def render_tab_content(selected_tab):
     
     elif selected_tab == 'tab5':
         return html.Div([
-
-            html.P(
-
-                "The pie chart titled ""//Most Common Food Pairings in Australia"" depicts the distribution of various food types paired with meals in Australia. Here's a detailed breakdown of the chart:"
-                    "Beef (21.4%): The largest segment of the chart shows that beef is the most common food pairing in Australia, making up 21.4% of the total food pairings."
-                    "Poultry (21.3%): Following closely behind, poultry constitutes 21.3% of the food pairings, indicating its popularity in Australian cuisine."
-                    "Lamb (21.1%): Lamb is another major component, accounting for 21.1% of the food pairings, highlighting its significance in Australian diets. etc...",
-                    className="description-text"
-            ),
-
             html.Div(className='dropdown-container', children=[
                 html.Label("Select Country : ", className='dropdown-text'),
                 dcc.Dropdown(
@@ -321,8 +311,19 @@ def render_tab_content(selected_tab):
                     clearable=False,
                     className='dropdown-menu' 
                 )
+            
             ]),
-            dcc.Graph(id="pie-chart")
+            dcc.Graph(id="pie-chart"),
+
+            html.P(
+
+                "The pie chart titled ""//Most Common Food Pairings in Australia"" depicts the distribution of various food types paired with meals in Australia. Here's a detailed breakdown of the chart:"
+                    "Beef (21.4%): The largest segment of the chart shows that beef is the most common food pairing in Australia, making up 21.4% of the total food pairings."
+                    "Poultry (21.3%): Following closely behind, poultry constitutes 21.3% of the food pairings, indicating its popularity in Australian cuisine."
+                    "Lamb (21.1%): Lamb is another major component, accounting for 21.1% of the food pairings, highlighting its significance in Australian diets. etc...",
+
+                    className="description-text"
+            )
         ])
     
     elif selected_tab == 'tab6':
@@ -398,18 +399,6 @@ def render_tab_content(selected_tab):
     elif selected_tab =='tab8':
         return html.Div([
 
-            html.P(
-
-                "Interpretation for Top 10 Wine Styles"
-                "Type of Chart: Vertical Bar Chart"
-                "Purpose:"
-                "To identify and compare the popularity of the top 10 wine styles based on their frequency."
-                "Description:"
-	                "•	According to the vertical bar chart, Tuscan Red is the most popular wine style with the highest count."
-	                "•	Australian Shiraz, Southern Italy Red, and Northern Italy Red are also highly preferred.",
-                    className="description-text"
-            ),
-
             html.Div(className='dropdown-container', children=[
                 html.Label("Select the Country : ", className='dropdown-text'),
                 dcc.Dropdown(
@@ -421,6 +410,18 @@ def render_tab_content(selected_tab):
                 )
             ]),
             html.Div(id='tab8-content'),
+
+            html.P(
+
+                "Interpretation for Top 10 Wine Styles"
+                "Type of Chart: Vertical Bar Chart"
+                "Purpose:"
+                "To identify and compare the popularity of the top 10 wine styles based on their frequency."
+                "Description:"
+	                "•	According to the vertical bar chart, Tuscan Red is the most popular wine style with the highest count."
+	                "•	Australian Shiraz, Southern Italy Red, and Northern Italy Red are also highly preferred.",
+                    className="description-text"
+            )
         ])
         
 
