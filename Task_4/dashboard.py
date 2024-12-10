@@ -24,7 +24,7 @@ def create_charts(selected_column,selected_country):
     avg_rating_by_country = df.groupby('Country')['Rating'].mean().reset_index()
     avg_rating_by_country.columns = [col.strip() for col in avg_rating_by_country.columns]
     filtered_df = df[df['Country'] == selected_country]
-    food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
+    food_columns = df.loc[:, 'Poultry':'Aperitif'].columns
     food_counts = filtered_df[food_columns].sum().reset_index()
     food_counts.columns = ['Food Pairing','Count']
     food_counts = food_counts[food_counts['Count'] > 0]
