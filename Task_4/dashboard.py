@@ -186,21 +186,32 @@ def render_tab_content(selected_tab):
         ) 
 
         description = html.P(
+    [
+        "Interpretation for Average Wine Price vs Manufacture Year",
+        html.Br(),
+        "Type of Chart: Trends over time.",
+        html.Br(),
+        "Purpose: The chart illustrates the variation in average price due to the manufacture year.",
+        html.Br(),
+        "Timeframe: This chart shows data from 1988 to 2022.",
+        html.Br(),
+        "Description: According to the time series chart:",
+        html.Br(),
+        "• From 1988 to 1993, prices increased steadily.",
+        html.Br(),
+        "• From 1993 to 2003, we see that average prices were still increasing each year.",
+        html.Br(),
+        "• From 2003 to 2022, prices decreased over time.",
+        html.Br(),
+        "• Highest price: The highest price of a bottle was in 2003, and its price was $55.97.",
+        html.Br(),
+        "• Lowest price: The lowest price of a bottle was in 2022, and its price was $19.99.",
+        html.Br(),
+        "• nv - Non vintage, these wine bottles don't show a manufactured year.",
+    ],
+    className="description-text"
+)
 
-            "Interpretation for Average Wine Price vs Manufacture Year"
-            "Type of Chart: Trends over time."
-            "Purpose: The chart illustrates the variation in average price due to the manufacture year."
-            "Timeframe: This chart shows data from 1988 to 2022."
-            "Description: According to the time series chart:"
-	           " •	From 1988 to 1993, prices increased steadily."
-	            "•	From 1993 to 2003, we see that average prices were still increasing each year."
-	            "•	From 2003 to 2022, prices decreased over time."
-	            "•	Highest price: The highest price of a bottle was in 2003, and its price was $55.97."
-	            "•	Lowest price: The lowest price of a bottle was in 2022, and its price was $19.99."
-                " nv - Non vintage , these wine bottles doesn't shows a manufactured year",
-
-        className="description-text"
-    )
         return html.Div([dcc.Graph(figure=fig1),table,description])
     
     elif selected_tab == 'tab2':
@@ -224,45 +235,61 @@ def render_tab_content(selected_tab):
         )
 
         description = html.P(
+            [
 
-            "Interpretation of Average Price vs Ratings"
-            "Type of Chart: Scatter Plot."
-            "Purpose: The chart displays the relationship between wine ratings and their prices."
-            "Description:"
-	            "•	According to the scatter plot, there is a moderate positive linear correlation. This means that, in general, as the price of wine increases, the wine rating also increases."
-	            "•	Most wine prices are below average, with the majority of ratings close to 4."
+            "Interpretation of Average Price vs Ratings",
+            html.Br(),
+            "Type of Chart: Scatter Plot.",
+            html.Br(),
+            "Purpose: The chart displays the relationship between wine ratings and their prices.",
+            html.Br(),
+            "Description:",
+            html.Br(),
+	            "•	According to the scatter plot, there is a moderate positive linear correlation. This means that, in general, as the price of wine increases, the wine rating also increases.",
+                html.Br(),
+	            "•	Most wine prices are below average, with the majority of ratings close to 4.",
+                html.Br(),
 	            "•	There are some outliers in the plot, but in general, higher wine prices tend to have higher ratings, though the variation is significant.",
-
+            ],
                 className="description-text"
         )
         
         return html.Div([dcc.Graph(figure=fig2),table,description])
     
     elif selected_tab == 'tab3':
-        return html.Div([
-            html.Div(className='dropdown-container', children=[
-                html.Label("Select Attribute : ", className='dropdown-text'),
-                dcc.Dropdown(
-                    id="attribute-dropdown",
-                    options=[{"label": col, "value": col} for col in columns_to_plot],
-                    value=columns_to_plot[0],  
-                    clearable=False,
-                    className='dropdown-menu'
-                )
-            ]),
-            html.Div(id='tab3-content'),
-
-            html.P(
-                "Interpretation for Average Wine Rating by the Flavour"
-                "For Example - Boldness"
-                "Type of Chart: Bar Chart"
-                "Purpose: The chart shows how the average wine rating varies according to the boldness of the wine."
-                "Description:"
-                "•	In this bar chart, wines with a boldness level of 3.7 have the highest average rating of 81.83."
-                "•	Wines with a boldness level of 4.2 have the lowest average rating, which is 53.64767.",
-                className="description-text"
+         return html.Div([
+        html.Div(className='dropdown-container', children=[
+            html.Label("Select Attribute : ", className='dropdown-text'),
+            dcc.Dropdown(
+                id="attribute-dropdown",
+                options=[{"label": col, "value": col} for col in columns_to_plot],
+                value=columns_to_plot[0],  
+                clearable=False,
+                className='dropdown-menu'
             )
-        ])
+        ]),
+        html.Div(id='tab3-content'),
+
+        html.P(
+            [
+                "Interpretation for Average Wine Rating by the Flavour",
+                html.Br(),
+                "For Example - Boldness",
+                html.Br(),
+                "Type of Chart: Bar Chart",
+                html.Br(),
+                "Purpose: The chart shows how the average wine rating varies according to the boldness of the wine.",
+                html.Br(),
+                "Description:",
+                html.Br(),
+                "• In this bar chart, wines with a boldness level of 3.7 have the highest average rating of 81.83.",
+                html.Br(),
+                "• Wines with a boldness level of 4.2 have the lowest average rating, which is 53.64767."
+            ],
+            className="description-text"
+        )
+    ])
+
     elif selected_tab == 'tab4':
         _, _, _, fig4, _, _, _, _ = create_charts('Bold',default_country)
         insights = [
@@ -284,16 +311,26 @@ def render_tab_content(selected_tab):
         ) 
 
         description = html.P(
+            [
 
-            "Interpretation for Average Variation of Rating Corresponding to Alcohol Content"
-            "Type of Chart: Scatter Plot"
-            "Purpose:"
-            "The chart represents the variation in wine ratings corresponding to alcohol content."
-            "Description:"
-	            "•	Based on the scatter plot, there is a weak positive linear correlation."
-	            "•	This means that alcohol content does not appear to significantly influence the ratings."
-	            "•	Most wines are rated between 3.8 and 4.2, regardless of their alcohol content."
+            "Interpretation for Average Variation of Rating Corresponding to Alcohol Content",
+            html.Br(),
+            "Type of Chart: Scatter Plot",
+            html.Br(),
+            "Purpose:",
+            html.Br(),
+            "The chart represents the variation in wine ratings corresponding to alcohol content.",
+            html.Br(),
+            "Description:",
+            html.Br(),
+	            "•	Based on the scatter plot, there is a weak positive linear correlation.",
+                html.Br(),
+	            "•	This means that alcohol content does not appear to significantly influence the ratings.",
+                html.Br(),
+	            "•	Most wines are rated between 3.8 and 4.2, regardless of their alcohol content.",
+                html.Br(),
 	            "•	The alcohol content of the wines ranges from 4% to approximately 20%.",
+            ],
 
                 className="description-text"
         )
@@ -316,11 +353,17 @@ def render_tab_content(selected_tab):
             dcc.Graph(id="pie-chart"),
 
             html.P(
+                [
 
-                "The pie chart titled ""//Most Common Food Pairings in Australia"" depicts the distribution of various food types paired with meals in Australia. Here's a detailed breakdown of the chart:"
-                    "Beef (21.4%): The largest segment of the chart shows that beef is the most common food pairing in Australia, making up 21.4% of the total food pairings."
-                    "Poultry (21.3%): Following closely behind, poultry constitutes 21.3% of the food pairings, indicating its popularity in Australian cuisine."
-                    "Lamb (21.1%): Lamb is another major component, accounting for 21.1% of the food pairings, highlighting its significance in Australian diets. etc...",
+                "The pie chart titled ""Most Common Food Pairings in Australia"" depicts the distribution of various food types paired with meals in Australia. Here's a detailed breakdown of the chart:",
+                html.Br(),
+                    "• Beef (21.4%): The largest segment of the chart shows that beef is the most common food pairing in Australia, making up 21.4% of the total food pairings.",
+                    html.Br(),
+                    "• Poultry (21.3%): Following closely behind, poultry constitutes 21.3% of the food pairings, indicating its popularity in Australian cuisine.",
+                    html.Br(),
+                    "• Lamb (21.1%): Lamb is another major component, accounting for 21.1% of the food pairings, highlighting its significance in Australian diets. etc...",
+                    html.Br(),
+                ],
 
                     className="description-text"
             )
@@ -348,10 +391,15 @@ def render_tab_content(selected_tab):
         )
 
         description = html.P(
+            [
 
-            "The chart reveals that the most common ratings, 3.8 and 3.9, each received just over 1000 votes, indicating that these ratings are reliable due to the high number of votes. As the rating increases beyond 4.0, the count of votes decreases, suggesting fewer products achieve higher average ratings. "
-            "This distribution implies that while a good number of products are rated favorably, achieving higher ratings (above 4.3) is less common and likely reflects higher consumer satisfaction levels but fewer products meeting that threshold. Conversely, lower ratings (3.7) are rare, indicating that most products are at least satisfactory to the voters."
+            "The chart reveals that the most common ratings, 3.8 and 3.9, each received just over 1000 votes, indicating that these ratings are reliable due to the high number of votes. As the rating increases beyond 4.0, the count of votes decreases, suggesting fewer products achieve higher average ratings. ",
+            html.Br(),
+            "This distribution implies that while a good number of products are rated favorably, achieving higher ratings (above 4.3) is less common and likely reflects higher consumer satisfaction levels but fewer products meeting that threshold.",
+            html.Br(),
+            "Conversely, lower ratings (3.7) are rare, indicating that most products are at least satisfactory to the voters."
             "Therefore, the high number of votes for ratings 3.8 and 3.9 suggests these ratings are the most reliable, representing a significant portion of voter opinions. Products with these average ratings can be considered dependably reviewed by a larger audience, giving a more accurate representation of their quality.",
+            ],
 
                 className="description-text"
         )
@@ -382,14 +430,23 @@ def render_tab_content(selected_tab):
         ) 
 
         description = html.P(
+            [
 
-            "Interpretation for Average Rating by Country"
-                "Type of Chart: Horizontal Bar Chart"
-                "Purpose:"
-                "The chart reflects the variation in average wine ratings across different countries."
-                "Description:"
-	                "•	According to the horizontal bar chart, most countries have an average rating close to 4, indicating consistently high-quality wines across these regions."
+            "Interpretation for Average Rating by Country",
+            html.Br(),
+                "Type of Chart: Horizontal Bar Chart",
+                html.Br(),
+                "Purpose:",
+                html.Br(),
+                "The chart reflects the variation in average wine ratings across different countries.",
+                html.Br(),
+                "Description:",
+                html.Br(),
+	                "•	According to the horizontal bar chart, most countries have an average rating close to 4, indicating consistently high-quality wines across these regions.",
+                    html.Br(),
 	                "•	Countries like Valtellina and Valpolicella Ripasso Classico appear to have slightly higher average ratings compared to others.",
+                    html.Br(),
+            ],
 
                 className="description-text"
         ) 
@@ -412,14 +469,23 @@ def render_tab_content(selected_tab):
             html.Div(id='tab8-content'),
 
             html.P(
+                [
 
-                "Interpretation for Top 10 Wine Styles"
-                "Type of Chart: Vertical Bar Chart"
-                "Purpose:"
-                "To identify and compare the popularity of the top 10 wine styles based on their frequency."
-                "Description:"
-	                "•	According to the vertical bar chart, Tuscan Red is the most popular wine style with the highest count."
+                "Interpretation for Top 10 Wine Styles",
+                html.Br(),
+                "Type of Chart: Vertical Bar Chart",
+                html.Br(),
+                "Purpose:",
+                html.Br(),
+                "To identify and compare the popularity of the top 10 wine styles based on their frequency.",
+                html.Br(),
+                "Description:",
+                html.Br(),
+	                "•	According to the vertical bar chart, Tuscan Red is the most popular wine style with the highest count.",
+                    html.Br(),
 	                "•	Australian Shiraz, Southern Italy Red, and Northern Italy Red are also highly preferred.",
+                    html.Br(),
+                ],
                     className="description-text"
             )
         ])
