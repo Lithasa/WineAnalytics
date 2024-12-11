@@ -65,6 +65,7 @@ body {
 
 .tab:hover {
     background-color: rgb(240, 238, 238);
+    border-radius: 15px;
     box-shadow: 5px 10px 13px 2px rgb(100, 100, 100);
 }
 
@@ -73,4 +74,7 @@ body {
     padding: 5px;
     margin-top: 5px;
     background-color: white;
+    padding: 20px;
+    line-height: 20px;
+    text-align: justify;
 }
