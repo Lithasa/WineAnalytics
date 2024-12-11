@@ -91,4 +91,5 @@ for index, row in wine_df.iterrows():
     wine_df.at[index, food] = True
 
 wine_df.drop(columns=['Food pairings', 'Region', 'Grapes'], inplace=True)
+
 wine_df.to_csv('wine.csv', index=False)
