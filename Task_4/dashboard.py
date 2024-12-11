@@ -8,7 +8,7 @@ import numpy as np
 app = Dash(__name__, suppress_callback_exceptions=True) 
 
 
-df = pd.read_csv("updated_wine.csv")
+df = pd.read_csv("wine_copy.csv")
 
 df['Country'] = df['Country'].str.strip().str.title()
 food_columns = df.loc[:, 'Lamb':'Aperitif'].columns
